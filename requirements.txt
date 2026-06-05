@@ -1,0 +1,40 @@
+# ═══════════════════════════════════════════════════════════
+#  HYPERION V10 — Dépendances Python
+#  Testé : Python 3.11+ — Juin 2026
+# ═══════════════════════════════════════════════════════════
+
+# ── Gemini AI (nouveau SDK GA, remplace google-generativeai) ──
+google-genai>=1.0.0
+
+# ── Firebase Admin ─────────────────────────────────────────
+firebase-admin>=7.1.0
+
+# ── HTTP / Scraping ────────────────────────────────────────
+requests>=2.31.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+# ── Science / Stats ────────────────────────────────────────
+numpy>=1.26.0
+
+# ── Configuration ──────────────────────────────────────────
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# ── Utilitaires ────────────────────────────────────────────
+python-dateutil>=2.8.2
+pytz>=2024.1
+
+# ── Tests ──────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ═══════════════════════════════════════════════════════════
+# NOTES :
+# - google-generativeai (ancien SDK) : NE PAS INSTALLER
+#   Déprécié 30/11/2025, mort. Utiliser google-genai.
+# - gemini-2.0-flash : retiré le 01/06/2026
+#   Utiliser gemini-2.5-flash (défaut config.yaml)
+# - firebase-admin 7.1.0 : dernière version fév 2026
+# ═══════════════════════════════════════════════════════════
