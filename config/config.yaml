@@ -1,0 +1,174 @@
+# ═══════════════════════════════════════════════════════════
+#  HYPERION AI STUDIO V10 — Configuration principale
+#  Marché : LONAB / Burkina Faso
+#  Mise à jour : juin 2026
+# ═══════════════════════════════════════════════════════════
+
+hyperion:
+  version: "10.0.0"
+  market: "LONAB"
+  country: "Burkina Faso"
+  timezone: "Africa/Ouagadougou"
+
+# ─── Gemini (nouveau SDK google-genai) ────────────────────
+gemini:
+  # Modèle principal — gemini-2.5-flash actif en juin 2026
+  model_primary: "gemini-2.5-flash"
+  # Fallback si quota clé 1 ET clé 2 épuisé
+  model_fallback: "gemini-2.5-flash"
+  # Paramètres extraction PDF
+  extraction:
+    temperature: 0.1
+    max_output_tokens: 16000
+  # Paramètres rapport narratif
+  report:
+    temperature: 0.6
+    max_output_tokens: 3000
+  # Rate limiting conservateur (free tier ~10 RPM instable)
+  rate_limit:
+    requests_per_minute: 8
+    retry_after_seconds: 10
+    max_retries: 3
+
+# ─── Scraping ─────────────────────────────────────────────
+scraper:
+  lonab_index_url: "https://lonab.bf/programme-pmub"
+  lonab_base_url: "https://lonab.bf"
+  timeout_seconds: 30
+  retry_attempts: 3
+  retry_delay_seconds: 8
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+  cache_dir: "data/cache"
+
+# ─── Filtrage préalable ────────────────────────────────────
+filter:
+  min_chevaux_retenus: 5
+  force_keep_top_by_cote: 5
+  elimination:
+    gains_min: 10000
+    derniere_place_max: 8
+    nb_courses_forme_check: 3
+    cote_implicite_max: 50.0
+
+# ─── Scoring multicritère ─────────────────────────────────
+scoring:
+  # Poids nominaux — ajustés automatiquement si backtesting < 25% top1
+  weights:
+    historique: 0.35
+    forme_recente: 0.25
+    terrain_distance: 0.20
+    handicap: 0.10
+    fraicheur: 0.10
+  # Paramètres forme
+  forme:
+    position_1: 10.0
+    position_2: 8.5
+    position_3: 7.0
+    position_4: 5.5
+    position_5: 4.0
+    position_6: 2.5
+    position_sup_6: 1.5
+  handicap:
+    poids_reference: 58.0
+    penalite_par_kg: 0.4
+  fraicheur:
+    age_ideal_min: 4
+    age_ideal_max: 6
+    score_ideal: 7.5
+    score_3_ans: 6.5
+    score_7_ans: 6.0
+    degressif_apres_7: 0.5
+
+# ─── Monte Carlo ──────────────────────────────────────────
+monte_carlo:
+  # 10 000 sims × 5 seeds = 50 000 totales, vectorisé NumPy
+  nb_simulations: 10000
+  seeds: [42, 43, 44, 45, 46]
+  variance_std: 0.25
+  deterministic: true
+  # Seuil robustesse : top3 identique dans >= 4/5 seeds
+  robustesse_threshold: 0.80
+
+# ─── Consensus ────────────────────────────────────────────
+consensus:
+  internal:
+    nb_variantes: 3
+    variation_weights_pct: 0.05
+    borda:
+      points_position_1: 5
+      points_position_2: 4
+      points_position_3: 3
+      points_position_4: 2
+      points_position_5: 1
+  external:
+    max_sources: 7
+    timeout_seconds: 45
+    gemini_search_enabled: true
+  meta_fusion:
+    weight_internal: 0.55
+    weight_external: 0.45
+    threshold_robuste: 0.80
+    use_pairwise: true
+
+# ─── HADES ────────────────────────────────────────────────
+hades:
+  enabled: true
+  # Mode test J1→J30 : alertes loggées sans blocage
+  mode_test: true
+  cote_deviation_threshold_pct: 0.20
+  artificial_favorite:
+    prob_internal_max: 0.10
+    freq_external_min: 0.50
+
+# ─── Finance EV/Kelly ─────────────────────────────────────
+finance:
+  ev:
+    bookmaker_margin: 0.15
+    threshold_value_bet: 0.05
+  kelly:
+    fraction: 0.25
+    max_bet_pct: 0.05
+  capital_references: [1000, 10000]
+  risk_levels:
+    faible: 0.75
+    modere: 0.45
+
+# ─── Pipeline ─────────────────────────────────────────────
+pipeline:
+  max_courses_par_jour: 1
+  use_external_consensus: true
+  generate_rapport_gemini: true
+  use_social_analyzer: false  # Désactivé par défaut (pas de clé API sociale)
+
+# ─── Telegram ─────────────────────────────────────────────
+telegram:
+  max_message_length: 4096
+  retry_attempts: 3
+
+# ─── Database ─────────────────────────────────────────────
+database:
+  sqlite:
+    path: "data/hyperion_v10.db"
+    echo: false
+  backup:
+    local_backup_dir: "data/backups"
+    retention_days: 90
+
+# ─── Auto-évaluation J/30 ─────────────────────────────────
+evaluation:
+  enabled: true
+  # Seuils succès
+  seuils:
+    top1_minimum: 0.25
+    top3_minimum: 0.55
+    top1_bon: 0.35
+    top1_excellent: 0.45
+  # Résultats PMU.fr
+  resultats_url: "https://www.pmu.fr/turf/today/resultats"
+
+# ─── Logging ──────────────────────────────────────────────
+logging:
+  level: "INFO"
+  file: "logs/hyperion_v10.log"
+  max_bytes: 10485760
+  backup_count: 5
