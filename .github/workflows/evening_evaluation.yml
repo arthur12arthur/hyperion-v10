@@ -1,0 +1,98 @@
+# ═══════════════════════════════════════════════════════════════
+#  HYPERION V10 — Pipeline Évaluation Soir (GitHub Actions)
+#  Déclenchement : 20h00 UTC (= 20h00 heure Burkina Faso UTC+0)
+#  Runner : ubuntu-latest | Python 3.11
+# ═══════════════════════════════════════════════════════════════
+
+name: Hyperion V10 — Évaluation Soir
+
+on:
+  schedule:
+    # 0  20  *  *  * → 20h00 UTC chaque jour
+    - cron: "0 20 * * *"
+
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Date à évaluer (YYYY-MM-DD, vide = aujourd'hui)"
+        required: false
+        default: ""
+
+env:
+  PYTHON_VERSION: "3.11"
+  TZ: "UTC"
+
+jobs:
+  evening_evaluation:
+    name: Évaluation AgentH
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      # ── 1. Checkout ───────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Setup Python ───────────────────────────────────
+      - name: Setup Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"
+
+      # ── 3. Installation des dépendances ───────────────────
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ── 4. Création des répertoires ───────────────────────
+      - name: Create required directories
+        run: |
+          mkdir -p data/backups logs backup/telegram
+
+      # ── 5. Lancement de l'évaluation soir ─────────────────
+      - name: Run evening evaluation (AgentH)
+        env:
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.target_date }}" ]; then
+            ARGS="--date ${{ github.event.inputs.target_date }}"
+          fi
+          echo "📊 Lancement : python evening_eval.py $ARGS"
+          python evening_eval.py $ARGS
+
+      # ── 6. Upload artefacts ───────────────────────────────
+      - name: Upload evaluation artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyperion-evening-${{ github.run_id }}
+          path: |
+            logs/
+            backup/
+          retention-days: 30
+
+      # ── 7. Notification d'échec ───────────────────────────
+      - name: Notify failure via Telegram
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
+            DATE=$(date '+%d/%m/%Y %H:%M UTC')
+            MESSAGE="❌ <b>HYPERION V10 — ÉCHEC ÉVALUATION SOIR</b>%0A"
+            MESSAGE="${MESSAGE}📅 ${DATE}%0A"
+            MESSAGE="${MESSAGE}🔗 <a href='${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'>Voir les logs</a>"
+            curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+              -d "chat_id=${TELEGRAM_CHAT_ID}" \
+              -d "parse_mode=HTML" \
+              -d "text=${MESSAGE}" \
+              -d "disable_web_page_preview=true" || true
+          fi
