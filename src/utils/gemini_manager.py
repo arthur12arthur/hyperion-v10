@@ -344,6 +344,5 @@ class GeminiManager:
             time.sleep(wait)
 
 
-# Instance globale
-gemini_manager = GeminiManager.__new__(GeminiManager)
-gemini_manager._initialized = False
+# Instance globale unique
+gemini_manager = GeminiManager()
