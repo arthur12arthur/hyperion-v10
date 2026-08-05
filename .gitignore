@@ -1,0 +1,2 @@
+# Ignorer les fichiers locaux contenant des secrets
+.env
