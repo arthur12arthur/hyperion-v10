@@ -207,12 +207,13 @@ class GeminiManager:
                         time.sleep(wait)
 
                     else:
+                        # Erreur non-quota: retenter sur la même clé jusqu'à max_retries, puis abandonner ce modèle
                         log_error(f"[GeminiManager] Erreur inattendue ({key.key_id}) : {e}")
-                        # Erreur non-quota : ne pas tourner, juste retenter
                         if attempt < self._max_retries - 1:
                             time.sleep(self._retry_after)
-                        else:
-                            return None
+                            continue
+                        log_warning(f"[GeminiManager] Abandon du modèle '{target_model}' après erreurs inattendues; essai modèle suivant")
+                        break
 
             # fin boucle attempts pour un modèle donné
             logger.info(f"→ Modèle '{target_model}' épuisé ou indisponible, essai modèle suivant")
