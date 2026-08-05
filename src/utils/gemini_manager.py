@@ -9,7 +9,7 @@ Import : from google import genai
 import os
 import time
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any, Optional, List
 
 from .config import config
 from .logger import log_warning, log_error, logger
@@ -59,7 +59,25 @@ class GeminiManager:
             )
 
         self._current_idx: int = 0
+        # modèle primaire historique (compatibilité)
         self._model_primary: str = config.get("gemini.model_primary", "gemini-2.5-flash")
+        # Nouvelle configuration : liste de modèles à tester en cascade
+        env_list = os.environ.get("GEMINI_MODEL_LIST")
+        cfg_list = config.get("gemini.model_list")
+        models: List[str] = []
+        if env_list:
+            models = [m.strip() for m in env_list.split(",") if m.strip()]
+        elif cfg_list:
+            # config peut être une string CSV ou une liste
+            if isinstance(cfg_list, str):
+                models = [m.strip() for m in cfg_list.split(",") if m.strip()]
+            elif isinstance(cfg_list, list):
+                models = [m for m in cfg_list if isinstance(m, str) and m.strip()]
+        # Si rien configuré, tomber sur le modèle primaire historique
+        if not models:
+            models = [self._model_primary]
+        self._model_list: List[str] = models
+
         self._rpm: int = config.get("gemini.rate_limit.requests_per_minute", 8)
         self._max_retries: int = config.get("gemini.rate_limit.max_retries", 3)
         self._retry_after: int = config.get("gemini.rate_limit.retry_after_seconds", 10)
@@ -77,7 +95,7 @@ class GeminiManager:
                 "Exécutez : pip install google-genai"
             )
 
-        logger.info(f"✅ GeminiManager initialisé — {len(self._keys)} clé(s) — modèle : {self._model_primary}")
+        logger.info(f"✅ GeminiManager initialisé — {len(self._keys)} clé(s) — modèles: {self._model_list}")
 
     # ── Propriétés ────────────────────────────────────────────
 
@@ -128,59 +146,79 @@ class GeminiManager:
         Returns:
             Texte de la réponse ou None si échec complet
         """
-        target_model = model or self._model_primary
+        # Construire la liste de modèles candidates : priorité argument > env/cfg list
+        if model:
+            candidate_models = [model]
+        else:
+            candidate_models = list(self._model_list)
 
-        for attempt in range(self._max_retries * len(self._keys)):
-            key = self._current_key
+        # Tenter chaque modèle en cascade
+        for target_model in candidate_models:
+            logger.info(f"🔄 Tentative d'appel avec le modèle '{target_model}'")
 
-            if not key.active:
-                if not self._switch_key("Clé désactivée"):
-                    break
-                continue
+            for attempt in range(self._max_retries * len(self._keys)):
+                key = self._current_key
 
-            try:
-                self._rate_limit_wait()
-                result = self._do_call(
-                    key=key,
-                    prompt=prompt,
-                    model=target_model,
-                    temperature=temperature,
-                    max_output_tokens=max_output_tokens,
-                    extra_contents=extra_contents,
-                    use_search=use_search,
-                )
-                key.calls_today += 1
-                self._last_call_time = time.time()
-                return result
+                if not key.active:
+                    if not self._switch_key("Clé désactivée"):
+                        break
+                    continue
 
-            except Exception as e:
-                err_str = str(e)
-                is_quota = "429" in err_str or "RESOURCE_EXHAUSTED" in err_str
-                is_unavailable = "503" in err_str or "UNAVAILABLE" in err_str
+                try:
+                    self._rate_limit_wait()
+                    result = self._do_call(
+                        key=key,
+                        prompt=prompt,
+                        model=target_model,
+                        temperature=temperature,
+                        max_output_tokens=max_output_tokens,
+                        extra_contents=extra_contents,
+                        use_search=use_search,
+                    )
+                    key.calls_today += 1
+                    self._last_call_time = time.time()
+                    return result
 
-                if is_quota:
-                    log_warning(f"[GeminiManager] Quota épuisé sur {key.key_id}")
-                    key.active = False
-                    key.last_error = "QUOTA_EXHAUSTED"
-                    key.last_error_time = time.time()
+                except Exception as e:
+                    err_str = str(e)
+                    is_quota = "429" in err_str or "RESOURCE_EXHAUSTED" in err_str
+                    is_unavailable = "503" in err_str or "UNAVAILABLE" in err_str
+                    is_not_found = "404" in err_str or "no longer available" in err_str or "not found" in err_str
 
-                    if not self._switch_key("Quota épuisé"):
-                        log_error("[GeminiManager] Toutes les clés épuisées — mode statique")
-                        return None
+                    if is_quota:
+                        log_warning(f"[GeminiManager] Quota épuisé sur {key.key_id}")
+                        key.active = False
+                        key.last_error = "QUOTA_EXHAUSTED"
+                        key.last_error_time = time.time()
 
-                elif is_unavailable:
-                    wait = self._retry_after * (attempt + 1)
-                    log_warning(f"[GeminiManager] Service indisponible, attente {wait}s")
-                    time.sleep(wait)
+                        if not self._switch_key("Quota épuisé"):
+                            log_error("[GeminiManager] Toutes les clés épuisées — mode statique")
+                            return None
 
-                else:
-                    log_error(f"[GeminiManager] Erreur inattendue ({key.key_id}) : {e}")
-                    # Erreur non-quota : ne pas tourner, juste retenter
-                    if attempt < self._max_retries - 1:
-                        time.sleep(self._retry_after)
+                    elif is_not_found:
+                        # Modèle non disponible pour le compte/clé. Passer au modèle suivant.
+                        log_warning(f"[GeminiManager] Modèle '{target_model}' non disponible (404). Passage au modèle suivant.")
+                        # Ne marquer aucune clé comme KO ici ; on suppose que le problème vient du modèle
+                        break  # sortir de la boucle attempts et essayer le modèle suivant
+
+                    elif is_unavailable:
+                        wait = self._retry_after * (attempt + 1)
+                        log_warning(f"[GeminiManager] Service indisponible, attente {wait}s")
+                        time.sleep(wait)
+
                     else:
-                        return None
+                        log_error(f"[GeminiManager] Erreur inattendue ({key.key_id}) : {e}")
+                        # Erreur non-quota : ne pas tourner, juste retenter
+                        if attempt < self._max_retries - 1:
+                            time.sleep(self._retry_after)
+                        else:
+                            return None
 
+            # fin boucle attempts pour un modèle donné
+            logger.info(f"→ Modèle '{target_model}' épuisé ou indisponible, essai modèle suivant")
+
+        # Après avoir essayé tous les modèles
+        log_error("[GeminiManager] Extraction échouée — aucun modèle utilisable trouvé")
         return None
 
     def _do_call(
