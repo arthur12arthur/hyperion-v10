@@ -1,4 +1,7 @@
 fastapi>=0.95
 uvicorn[standard]>=0.22
+# Bibliothèque officielle Google GenAI (SDK Python)
+google-genai
+# Garder requests en fallback si nécessaire
 requests>=2.31
 python-dotenv>=1.1
