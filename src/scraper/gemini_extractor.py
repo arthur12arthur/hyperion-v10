@@ -32,6 +32,12 @@ INSTRUCTIONS CRITIQUES :
 7. Les gains en FCFA
 8. Extrais TOUS les partants sans exception
 9. JSON complet jusqu'au dernier partant et la fermeture des accolades
+10. Le programme indique généralement la réunion et la course officielles
+    PMU sous une forme comme "R1C1", "R1 / C3", "Réunion 1 - Course 3",
+    parfois juste "Quinté+" (qui correspond presque toujours à R1C1).
+    Si tu trouves cette information sur le document, extrais les deux
+    nombres séparément dans "numero_reunion" et "numero_course". Si tu
+    ne la trouves nulle part, mets null pour les deux — n'invente rien.
 
 FORMAT JSON ATTENDU :
 {
@@ -43,7 +49,9 @@ FORMAT JSON ATTENDU :
     "distance": 2700,
     "terrain": "BON|SOUPLE|LOURD|PSF",
     "discipline": "TROT|GALOP|ATTELE|MONTE",
-    "nb_partants": 12
+    "nb_partants": 12,
+    "numero_reunion": 1,
+    "numero_course": 1
   },
   "partants": [
     {
