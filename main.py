@@ -370,6 +370,8 @@ class HyperionV10Pipeline:
             "nb_partants": len(chevaux),
             "chevaux": chevaux,
             "is_lonab": True,
+            "numero_reunion": course_meta.get("numero_reunion"),
+            "numero_course": course_meta.get("numero_course"),
         }
 
         return [course]
