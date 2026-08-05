@@ -12,10 +12,12 @@ hyperion:
 
 # ─── Gemini (nouveau SDK google-genai) ────────────────────
 gemini:
-  # Modèle principal — gemini-2.5-flash actif en juin 2026
-  model_primary: "gemini-2.5-flash"
-  # Fallback si quota clé 1 ET clé 2 épuisé
-  model_fallback: "gemini-2.5-flash"
+  model_primary: "gemini-3.5-flash-lite"
+  model_list:
+    - "gemini-3.5-flash-lite"
+    - "gemini-2.5-flash"
+    - "gemini-2.5-flash-lite"
+  model_fallback: "gemini-2.5-flash-lite"
   # Paramètres extraction PDF
   extraction:
     temperature: 0.1
