@@ -86,6 +86,8 @@ class FirebaseManager:
             "date": date_str,
             "course_id": course_id,
             "hippodrome": course_info.get("hippodrome", "?"),
+            "numero_reunion": course_info.get("numero_reunion"),
+            "numero_course": course_info.get("numero_course"),
             "is_lonab": course_info.get("is_lonab", True),
             "predicted_top5": [ch.get("numero") for ch in top5_final],
             "predicted_winner": top5_final[0].get("numero") if top5_final else None,
