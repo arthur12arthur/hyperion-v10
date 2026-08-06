@@ -85,11 +85,13 @@ class FirebaseManager:
         hades_result: dict[str, Any],
         ev_kelly_data: dict[str, Any],
         course_info: dict[str, Any],
+        external_aggregation: Optional[dict[str, Any]] = None,
     ) -> bool:
         """
         Sauvegarde la prédiction du matin.
         Retourne True si succès (Firebase ou local).
         """
+        external_aggregation = external_aggregation or {}
         doc = {
             "date": date_str,
             "course_id": course_id,
@@ -111,6 +113,9 @@ class FirebaseManager:
             ],
             "hades_niveau": hades_result.get("niveau_global", "green"),
             "nb_value_bets": ev_kelly_data.get("nb_value_bets", 0),
+            # Pronostics bruts par source externe (pour affichage + évaluation du soir)
+            "external_sources": external_aggregation.get("sources_detail", []),
+            "consensus_externe": external_aggregation.get("consensus_externe", []),
             "generated_at": datetime.now().isoformat(),
         }
 
@@ -266,6 +271,38 @@ class FirebaseManager:
                 log_warning(f"Firebase write scores cumulés échoué : {e}")
 
         path = self._backup_dir / "running_scores.json"
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        return True
+
+    # ── Scores cumulés par source externe ─────────────────────
+
+    def load_running_external_scores(self) -> dict[str, Any]:
+        """Charge les scores de fiabilité cumulés, par source externe."""
+        if self._initialized and self._db:
+            try:
+                doc = self._db.collection("evaluations").document("_running_external_scores").get()
+                if doc.exists:
+                    return doc.to_dict() or {}
+            except Exception as e:
+                log_warning(f"Firebase read scores sources externes échoué : {e}")
+
+        path = self._backup_dir / "running_external_scores.json"
+        if path.exists():
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        return {}
+
+    def save_running_external_scores(self, data: dict[str, Any]) -> bool:
+        """Sauvegarde les scores de fiabilité cumulés, par source externe."""
+        if self._initialized and self._db:
+            try:
+                self._db.collection("evaluations").document("_running_external_scores").set(data)
+                return True
+            except Exception as e:
+                log_warning(f"Firebase write scores sources externes échoué : {e}")
+
+        path = self._backup_dir / "running_external_scores.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         return True
