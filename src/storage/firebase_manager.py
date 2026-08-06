@@ -34,7 +34,15 @@ class FirebaseManager:
         self._initialized = False
         self._backup_dir = config.get_path("backup")
         self._backup_dir.mkdir(parents=True, exist_ok=True)
-        self._try_init_firebase()
+        # Stockage : fichiers JSON commités dans le dépôt Git (backup/), pas
+        # de dépendance externe payante. Firestore nécessite désormais une
+        # carte bancaire (plan Blaze) même pour rester dans le quota gratuit,
+        # donc on ne l'utilise plus par défaut. Pour le réactiver un jour :
+        # mettre HYPERION_USE_FIREBASE=1 dans l'environnement.
+        if os.environ.get("HYPERION_USE_FIREBASE") == "1":
+            self._try_init_firebase()
+        else:
+            log_success("Stockage local (dépôt Git) — Firebase désactivé")
 
     def _try_init_firebase(self) -> None:
         """Tente l'initialisation Firebase. Passe en mode local si impossible."""
