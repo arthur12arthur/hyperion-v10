@@ -321,12 +321,14 @@ RÉSULTATS DE RECHERCHE :
         return {
             "chevaux_stats": stats,
             "consensus_externe": consensus_ext,
+            "sources_detail": sources,
         }
 
     def _empty_result(self) -> dict[str, Any]:
         return {
             "chevaux_stats": {},
             "consensus_externe": [],
+            "sources_detail": [],
             "nb_sources": 0,
             "qualite": "INDISPONIBLE",
         }
