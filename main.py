@@ -180,6 +180,7 @@ class HyperionV10Pipeline:
                             ev_kelly_data=result["ev_kelly"],
                             elimines=result["elimines"],
                             rapport_gemini=result.get("rapport_gemini"),
+                            external_aggregation=result.get("external_aggregation", {}),
                         )
                         self.telegram.send_messages_sync(messages)
 
@@ -191,6 +192,7 @@ class HyperionV10Pipeline:
                             hades_result=result["hades"],
                             ev_kelly_data=result["ev_kelly"],
                             course_info=course,
+                            external_aggregation=result.get("external_aggregation", {}),
                         )
 
             except Exception as e:
@@ -315,6 +317,7 @@ class HyperionV10Pipeline:
             "hades": hades_result,
             "ev_kelly": ev_kelly_data,
             "rapport_gemini": rapport_gemini,
+            "external_aggregation": external_aggregation,
             "mc_result": {
                 "is_robust": mc_result.get("is_robust"),
                 "stability": mc_result.get("stability"),
