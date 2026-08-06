@@ -52,17 +52,19 @@ class ReportGenerator:
         ev_kelly_data: dict[str, Any],
         elimines: list[dict[str, Any]],
         rapport_gemini: Optional[str] = None,
+        external_aggregation: Optional[dict[str, Any]] = None,
     ) -> list[str]:
         """
         Construit la liste de messages Telegram pour une course.
-        6 messages courts et thématiques (plus lisible sur mobile
+        7 messages courts et thématiques (plus lisible sur mobile
         qu'un message unique très long) :
         1. En-tête + Top5 détaillé + HADES
         2. Pourquoi ce classement (détail du scoring)
-        3. Chevaux éliminés et motifs
-        4. Analyse financière
-        5. Recommandation finale (toujours présente, sans dépendre de Gemini)
-        6. Analyse IA Gemini (commentaire, si disponible)
+        3. Pronostics des sources externes
+        4. Chevaux éliminés et motifs
+        5. Analyse financière
+        6. Recommandation finale (toujours présente, sans dépendre de Gemini)
+        7. Analyse IA Gemini (commentaire, si disponible)
 
         Returns:
             Liste de chaînes HTML, à envoyer séquentiellement
@@ -71,6 +73,7 @@ class ReportGenerator:
 
         messages.append(self._build_header(course, top5_final, hades_result))
         messages.append(self._build_scoring_explanation(top5_final))
+        messages.append(self._build_external_sources_message(external_aggregation or {}))
         messages.append(self._build_elimines_message(elimines))
         messages.append(self.ev_calc.format_summary(ev_kelly_data, top3_only=True))
         messages.append(self._build_recommendation(top5_final, hades_result, ev_kelly_data))
@@ -193,6 +196,41 @@ class ReportGenerator:
 
             if ch.get("robuste"):
                 lines.append("  🛡️ Classement stable sur la majorité des simulations Monte Carlo")
+
+        return "\n".join(lines)
+
+    # ── Pronostics des sources externes ─────────────────────────
+
+    def _build_external_sources_message(self, external_aggregation: dict[str, Any]) -> str:
+        lines = [
+            "🌐 <b>SOURCES EXTERNES</b>",
+            "━━━━━━━━━━━━━━━━━━━━━",
+        ]
+        sources = external_aggregation.get("sources_detail", [])
+        consensus_ext = external_aggregation.get("consensus_externe", [])
+
+        if not sources:
+            lines.append(
+                "Aucun pronostic externe exploitable trouvé aujourd'hui "
+                "(recherche infructueuse ou aucune source n'a publié de pronostic)."
+            )
+            return "\n".join(lines)
+
+        lines.append(f"{len(sources)} source(s) trouvée(s) :\n")
+        for s in sources:
+            nom = s.get("source", "?")
+            top5 = s.get("top5", [])
+            top5_str = " → ".join(f"N°{n}" for n in top5[:5])
+            lines.append(f"• <b>{nom}</b> : {top5_str}")
+
+        if consensus_ext:
+            consensus_str = " → ".join(f"N°{n}" for n in consensus_ext)
+            lines.append(f"\n📊 Consensus des sources externes : {consensus_str}")
+            lines.append(
+                "<i>Rappel : le classement final HYPERION reste basé sur le "
+                "consensus interne (Monte Carlo + Borda) — l'externe n'ajuste "
+                "que le niveau de confiance, pas l'ordre.</i>"
+            )
 
         return "\n".join(lines)
 
