@@ -8,10 +8,12 @@ Regroupe en un seul module :
 """
 
 import json
+import os
 import re
 from typing import Any, Optional
 
 import numpy as np
+import requests
 
 from ..utils.config import config
 from ..utils.logger import logger, log_success, log_warning, log_error, log_processing
@@ -90,20 +92,39 @@ class InternalConsensusBuilder:
 
 
 # ═══════════════════════════════════════════════════════════════
-# CONSENSUS EXTERNE — Gemini Search + pronostics experts
+# CONSENSUS EXTERNE — Zenserp (recherche réelle) + Gemini (extraction)
 # ═══════════════════════════════════════════════════════════════
 
 class ExternalConsensusBuilder:
-    """Collecte pronostics externes via Gemini Search."""
+    """
+    Collecte pronostics externes.
+
+    Le grounding Google Search de Gemini nécessite un compte facturé
+    (indisponible sur clé gratuite) — on utilise donc Zenserp pour la
+    recherche réelle, puis un appel Gemini classique (sans grounding,
+    donc compatible clé gratuite) pour structurer les extraits en JSON.
+    """
+
+    ZENSERP_URL = "https://app.zenserp.com/api/v2/search"
 
     def __init__(self):
         self.max_sources = config.get("consensus.external.max_sources", 7)
-        self.enabled = config.get("consensus.external.gemini_search_enabled", True)
+        self.zenserp_key = os.environ.get("ZENSERP_API_KEY")
+        self.enabled = bool(self.zenserp_key) and config.get(
+            "consensus.external.gemini_search_enabled", True
+        )
         sources_cfg = config.get_sources().get("press_sources", [])
         self.sources_names = [s["name"] for s in sources_cfg if s.get("enabled", True)]
+
+        if not self.zenserp_key:
+            log_warning(
+                "ExternalConsensusBuilder — ZENSERP_API_KEY absente : "
+                "consensus externe désactivé (secret manquant)"
+            )
+
         logger.info(
             f"✅ ExternalConsensusBuilder — {len(self.sources_names)} sources, "
-            f"Gemini Search {'activé' if self.enabled else 'désactivé'}"
+            f"Zenserp {'activé' if self.enabled else 'désactivé'}"
         )
 
     def collect(self, course_info: dict[str, Any]) -> dict[str, Any]:
@@ -128,10 +149,15 @@ class ExternalConsensusBuilder:
         log_processing(f"🌐 Recherche pronostics externes : {nom}")
 
         query = self._build_query(nom, hippodrome, date)
-        raw = self._call_gemini_search(query)
+        snippets = self._zenserp_search(query)
 
+        if not snippets:
+            log_warning("Zenserp : aucun résultat de recherche")
+            return self._empty_result()
+
+        raw = self._extract_via_gemini(snippets)
         if not raw:
-            log_warning("Aucun pronostic externe obtenu")
+            log_warning("Extraction Gemini des pronostics externes échouée")
             return self._empty_result()
 
         sources = self._parse(raw)
@@ -139,7 +165,7 @@ class ExternalConsensusBuilder:
             return self._empty_result()
 
         aggregation = self._aggregate(sources)
-        log_success(f"{len(sources)} sources externes collectées")
+        log_success(f"{len(sources)} sources externes collectées (via Zenserp)")
 
         aggregation["qualite"] = "DISPONIBLE"
         aggregation["nb_sources"] = len(sources)
@@ -155,25 +181,76 @@ class ExternalConsensusBuilder:
             date_fr = date
         return f"pronostic {nom_court} {hippodrome} {date_fr} turf PMU"
 
-    def _call_gemini_search(self, query: str) -> Optional[str]:
-        prompt = f"""Recherche les pronostics hippiques PMU pour : "{query}"
+    def _zenserp_search(self, query: str) -> list[dict[str, str]]:
+        """Recherche Google réelle via Zenserp. Retourne titre/url/extrait."""
+        try:
+            resp = requests.get(
+                self.ZENSERP_URL,
+                params={
+                    "apikey": self.zenserp_key,
+                    "q": query,
+                    "hl": "fr",
+                    "gl": "fr",
+                    "num": self.max_sources * 2,  # marge, tout ne sera pas exploitable
+                },
+                timeout=15,
+            )
+            if resp.status_code != 200:
+                log_warning(f"Zenserp HTTP {resp.status_code}")
+                return []
+            data = resp.json()
+        except Exception as e:
+            log_warning(f"Erreur appel Zenserp : {e}")
+            return []
 
-Sources prioritaires : {', '.join(self.sources_names)}
+        results = []
+        for r in data.get("organic", [])[: self.max_sources * 2]:
+            title = r.get("title", "")
+            snippet = r.get("description", "") or r.get("snippet", "")
+            url = r.get("url", "")
+            if title or snippet:
+                results.append({"title": title, "snippet": snippet, "url": url})
+        return results
+
+    def _extract_via_gemini(self, snippets: list[dict[str, str]]) -> Optional[str]:
+        """
+        Demande à Gemini de structurer les extraits de recherche Zenserp en
+        JSON. Appel SANS grounding (use_search=False) — compatible clé
+        gratuite, puisque Gemini se contente ici de lire le texte fourni.
+        """
+        extraits = "\n\n".join(
+            f"[{i+1}] {s['title']}\nURL: {s['url']}\nExtrait: {s['snippet']}"
+            for i, s in enumerate(snippets)
+        )
+
+        prompt = f"""Voici des résultats de recherche Google (via Zenserp) sur les pronostics
+hippiques PMU pour une course précise.
+
+Sources prioritaires si présentes : {', '.join(self.sources_names)}
+
+Pour chaque résultat qui contient un vrai pronostic (classement de chevaux
+par numéro, pas juste une page générique), extrais le nom du site et son
+top5 de numéros pronostiqués (dans l'ordre).
 
 RÈGLE ABSOLUE : réponds UNIQUEMENT avec le JSON suivant, rien d'autre.
 Commence ta réponse par {{ et termine par }}
 
 {{"sources":[{{"nom":"NomSite","url":"https://...","top5":[1,2,3,4,5]}}]}}
 
-Si aucun pronostic trouvé : {{"sources":[]}}
-Maximum {self.max_sources} sources. Les numéros dans top5 doivent être des entiers."""
+Si aucun résultat ne contient de pronostic exploitable : {{"sources":[]}}
+Maximum {self.max_sources} sources. Les numéros dans top5 doivent être des entiers.
+N'invente aucun numéro qui n'apparaît pas explicitement dans les extraits.
+
+RÉSULTATS DE RECHERCHE :
+{extraits}"""
 
         return gemini_manager.call(
             prompt=prompt,
             temperature=0.1,
             max_output_tokens=1000,
-            use_search=True,
+            use_search=False,
         )
+
 
     def _parse(self, text: str) -> list[dict[str, Any]]:
         """Parse la réponse JSON du consensus externe."""
