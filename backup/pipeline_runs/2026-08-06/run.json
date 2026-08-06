@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
-  "run_id": "20260806_112544",
-  "started_at": "2026-08-06T11:25:44.880129",
+  "run_id": "20260806_115049",
+  "started_at": "2026-08-06T11:50:49.469496",
   "nb_courses": 1,
   "nb_pronostics": 1,
   "errors": [],
@@ -439,7 +439,7 @@
         ],
         "nb_signaux": 5,
         "mode_test": true,
-        "detected_at": "2026-08-06T11:26:07.510331"
+        "detected_at": "2026-08-06T11:51:12.088286"
       },
       "ev_kelly": {
         "chevaux": {
@@ -547,28 +547,28 @@
         ],
         "nb_value_bets": 4
       },
-      "rapport_gemini": "[Rapport automatique — Gemini indisponible]\nFavori Hyperion : MUZE MAKER. Outsider à surveiller : MARS COBBA. Confiance globale : 74%.",
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2875 mètres d'Enghien place solidement le N°14 MUZE MAKER en tête avec un score net de 0.541 et une cote estimée à 6.0, s'appuyant sur une régularité exemplaire matérialisée par une musique très percutante. Derrière ce favori logique, le N°7 MARS COBBA apparaît comme un outsider séduisant à belle cote (13.0) pour dynamiter les rapports, tout comme le N°10 MY SAVE QUICK, capable de pimenter l'arrivée. L'indice de confiance s'établit à un solide 74%, bien que l'alerte HADES (RED avec 5 signaux) appelle à la vigilance face à des risques de faits de course. Dans ce contexte, la hiérarchie du Top 5 demeure globalement robuste mais invite à la prudence dans l'élaboration des jeux. Pour aborder cette course, on privilégiera un couplé plaçant le favori en base, élargi avec les outsiders mentionnés, ainsi qu'un trio combiné pour optimiser le rendement face aux turbulences annoncées par les indicateurs de risque.",
       "mc_result": {
         "is_robust": true,
         "stability": 1.0,
         "total_simulations": 50000
       },
-      "generated_at": "2026-08-06T11:26:07.510965"
+      "generated_at": "2026-08-06T11:51:21.074060"
     }
   ],
   "test_mode": false,
-  "duration_sec": 27.0,
-  "finished_at": "2026-08-06T11:26:11.885294",
+  "duration_sec": 35.5,
+  "finished_at": "2026-08-06T11:51:24.921438",
   "quota_status": {
     "KEY1": {
-      "calls_today": 2,
-      "active": false,
-      "last_error": "QUOTA_EXHAUSTED"
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
     },
     "KEY2": {
       "calls_today": 0,
-      "active": false,
-      "last_error": "QUOTA_EXHAUSTED"
+      "active": true,
+      "last_error": null
     }
   }
 }
