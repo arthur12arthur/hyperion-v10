@@ -21,6 +21,20 @@ from ..output.telegram_bot import TelegramBot
 
 
 @dataclass
+class ExternalSourceResult:
+    source: str
+    predicted_winner: Optional[int]
+    predicted_top5: list[int]
+    top1_correct: Optional[bool] = None
+    top3_score: int = 0  # 0-3
+
+    def compute(self, official_winner: Optional[int], official_top3: list[int]) -> None:
+        if self.predicted_winner and official_winner:
+            self.top1_correct = self.predicted_winner == official_winner
+        self.top3_score = len(set(self.predicted_top5[:3]) & set(official_top3))
+
+
+@dataclass
 class CourseEvaluation:
     course_id: str
     is_lonab: bool
@@ -30,6 +44,7 @@ class CourseEvaluation:
     official_top3: list[int]
     top1_correct: Optional[bool] = None
     top3_score: int = 0  # 0-3
+    external_results: list[ExternalSourceResult] = field(default_factory=list)
 
     def compute(self) -> None:
         if self.predicted_winner and self.official_winner:
@@ -137,8 +152,13 @@ class AgentH:
         }
         self.firebase.save_running_scores(new_running)
 
+        # 5bis. Scores cumulés par source externe
+        running_external = self.firebase.load_running_external_scores()
+        running_external = self._update_external_running_scores(day_eval, running_external)
+        self.firebase.save_running_external_scores(running_external)
+
         # 6. Rapport soir Telegram
-        msg = self._build_evening_report(day_eval)
+        msg = self._build_evening_report(day_eval, running_external)
         self.telegram.send_message_sync(msg)
 
         log_success(f"Évaluation J{day_number}/30 terminée")
@@ -346,6 +366,21 @@ class AgentH:
                 official_top3=official_top3,
             )
             ce.compute()
+
+            # Évaluation de chaque source externe pour cette course
+            for src in pred.get("external_sources", []):
+                nom = src.get("source")
+                top5 = src.get("top5", [])
+                if not nom or not top5:
+                    continue
+                esr = ExternalSourceResult(
+                    source=nom,
+                    predicted_winner=top5[0] if top5 else None,
+                    predicted_top5=top5,
+                )
+                esr.compute(official_winner, official_top3)
+                ce.external_results.append(esr)
+
             ev.courses.append(ce)
 
             nb += 1
@@ -382,9 +417,33 @@ class AgentH:
         )
         return ev
 
+    # ── Scores cumulés par source externe ──────────────────────
+
+    def _update_external_running_scores(
+        self, ev: DayEvaluation, running: dict[str, Any]
+    ) -> dict[str, Any]:
+        """
+        Met à jour, pour chaque source externe apparue aujourd'hui, son
+        compteur cumulé (jours évalués, top1 corrects, top3 cumulés).
+        """
+        running = dict(running)  # copie, on ne mute pas l'original
+
+        for ce in ev.courses:
+            for esr in ce.external_results:
+                stats = running.get(esr.source, {"jours": 0, "top1_ok": 0, "top3_sum": 0})
+                stats["jours"] += 1
+                if esr.top1_correct:
+                    stats["top1_ok"] += 1
+                stats["top3_sum"] += esr.top3_score
+                running[esr.source] = stats
+
+        return running
+
     # ── Rapport soir ──────────────────────────────────────────
 
-    def _build_evening_report(self, ev: DayEvaluation) -> str:
+    def _build_evening_report(
+        self, ev: DayEvaluation, running_external: Optional[dict[str, Any]] = None
+    ) -> str:
         """Construit le message Telegram du rapport soir."""
         seuils = config.get("evaluation.seuils", {})
         t_min = float(seuils.get("top1_minimum", 0.25))
@@ -435,6 +494,11 @@ class AgentH:
             f"  Tendance : {tendance}\n"
         )
 
+        # Section sources externes
+        ext_section = self._build_external_section(ev, running_external or {})
+        if ext_section:
+            msg += ext_section
+
         # Bilan final à J30
         if ev.day_number >= 30:
             verdict = (
@@ -459,6 +523,35 @@ class AgentH:
         )
         return msg
 
+    def _build_external_section(
+        self, ev: DayEvaluation, running_external: dict[str, Any]
+    ) -> str:
+        """Section du rapport soir listant le résultat de chaque source externe."""
+        # Toutes les évaluations de sources externes du jour, toutes courses confondues
+        all_results: list[ExternalSourceResult] = [
+            esr for ce in ev.courses for esr in ce.external_results
+        ]
+        if not all_results:
+            return ""
+
+        lines = [
+            "\n━━━━━━━━━━━━━━━━━━━━━",
+            "🌐 <b>SOURCES EXTERNES — DU JOUR</b>",
+        ]
+        for esr in sorted(all_results, key=lambda e: e.source):
+            icon = "✅" if esr.top1_correct else ("❌" if esr.top1_correct is False else "❓")
+            cumul = running_external.get(esr.source)
+            cumul_str = ""
+            if cumul and cumul.get("jours", 0) > 0:
+                pct = cumul["top1_ok"] / cumul["jours"]
+                cumul_str = f" | cumulé {pct:.0%} top1 sur {cumul['jours']}j"
+            lines.append(
+                f"• <b>{esr.source}</b> : {icon} "
+                f"prédit N°{esr.predicted_winner} — top3 {esr.top3_score}/3{cumul_str}"
+            )
+
+        return "\n".join(lines) + "\n"
+
     def _eval_to_dict(self, ce: CourseEvaluation) -> dict:
         return {
             "course_id": ce.course_id,
@@ -467,4 +560,13 @@ class AgentH:
             "official_winner": ce.official_winner,
             "top1_correct": ce.top1_correct,
             "top3_score": ce.top3_score,
+            "external_results": [
+                {
+                    "source": esr.source,
+                    "predicted_winner": esr.predicted_winner,
+                    "top1_correct": esr.top1_correct,
+                    "top3_score": esr.top3_score,
+                }
+                for esr in ce.external_results
+            ],
         }
