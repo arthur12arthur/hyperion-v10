@@ -1,7 +1,7 @@
 {
   "date": "2026-08-06",
-  "run_id": "20260806_115049",
-  "started_at": "2026-08-06T11:50:49.469496",
+  "run_id": "20260806_152442",
+  "started_at": "2026-08-06T15:24:42.537348",
   "nb_courses": 1,
   "nb_pronostics": 1,
   "errors": [],
@@ -439,7 +439,7 @@
         ],
         "nb_signaux": 5,
         "mode_test": true,
-        "detected_at": "2026-08-06T11:51:12.088286"
+        "detected_at": "2026-08-06T15:25:02.538262"
       },
       "ev_kelly": {
         "chevaux": {
@@ -547,21 +547,28 @@
         ],
         "nb_value_bets": 4
       },
-      "rapport_gemini": "L'analyse de cette épreuve sur les 2875 mètres d'Enghien place solidement le N°14 MUZE MAKER en tête avec un score net de 0.541 et une cote estimée à 6.0, s'appuyant sur une régularité exemplaire matérialisée par une musique très percutante. Derrière ce favori logique, le N°7 MARS COBBA apparaît comme un outsider séduisant à belle cote (13.0) pour dynamiter les rapports, tout comme le N°10 MY SAVE QUICK, capable de pimenter l'arrivée. L'indice de confiance s'établit à un solide 74%, bien que l'alerte HADES (RED avec 5 signaux) appelle à la vigilance face à des risques de faits de course. Dans ce contexte, la hiérarchie du Top 5 demeure globalement robuste mais invite à la prudence dans l'élaboration des jeux. Pour aborder cette course, on privilégiera un couplé plaçant le favori en base, élargi avec les outsiders mentionnés, ainsi qu'un trio combiné pour optimiser le rendement face aux turbulences annoncées par les indicateurs de risque.",
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2875 mètres d'Enghien place nettement le N°14 MUZE MAKER en tête avec un score de 0.541 et une cote estimée à 6.0, s'appuyant sur une régularité exemplaire (3.1.1.1.2) qui en fait le favori logique. Derrière cette base solide, le N°7 MARS COBBA (13.0) et le N°10 MY SAVE QUICK (15.0) constituent des outsiders très séduisants pour dynamiter les rapports. Bien que le modèle HYPERION V10 affiche un score de confiance solide de 74%, l'alerte HADES au rouge (5 signaux) invite à la prudence face à de possibles retournements de situation inhérents à ce type de parcours. Le classement s'avère donc globalement hiérarchisé mais sous haute surveillance tactique. Pour aborder cette course, il est conseillé de privilégier un couplé plaçant le favori en base, élargi avec les outsiders mentionnés, ou de tenter un trio spéculatif en combinant le 14 avec les numéros 7, 10, 5 et 4.",
+      "external_aggregation": {
+        "chevaux_stats": {},
+        "consensus_externe": [],
+        "sources_detail": [],
+        "nb_sources": 0,
+        "qualite": "INDISPONIBLE"
+      },
       "mc_result": {
         "is_robust": true,
         "stability": 1.0,
         "total_simulations": 50000
       },
-      "generated_at": "2026-08-06T11:51:21.074060"
+      "generated_at": "2026-08-06T15:25:07.442534"
     }
   ],
   "test_mode": false,
-  "duration_sec": 35.5,
-  "finished_at": "2026-08-06T11:51:24.921438",
+  "duration_sec": 30.5,
+  "finished_at": "2026-08-06T15:25:13.074552",
   "quota_status": {
     "KEY1": {
-      "calls_today": 4,
+      "calls_today": 3,
       "active": true,
       "last_error": null
     },
