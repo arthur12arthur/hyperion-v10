@@ -27,6 +27,8 @@ jobs:
     name: Évaluation AgentH
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     steps:
       # ── 1. Checkout ───────────────────────────────────────
@@ -66,6 +68,21 @@ jobs:
           fi
           echo "📊 Lancement : python evening_eval.py $ARGS"
           python evening_eval.py $ARGS
+
+      # ── 5bis. Sauvegarde des résultats/scores dans le dépôt ─
+      - name: Commit results to repo
+        if: always()
+        run: |
+          git config user.name "hyperion-bot"
+          git config user.email "hyperion-bot@users.noreply.github.com"
+          git add backup/
+          if git diff --cached --quiet; then
+            echo "ℹ️  Rien à commiter"
+          else
+            git commit -m "chore: résultats/évaluation du $(date -u '+%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       # ── 6. Upload artefacts ───────────────────────────────
       - name: Upload evaluation artifacts
