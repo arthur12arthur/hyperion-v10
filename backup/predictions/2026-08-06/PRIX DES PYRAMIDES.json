@@ -8,8 +8,8 @@
   "predicted_top5": [
     14,
     7,
-    10,
     5,
+    10,
     4
   ],
   "predicted_winner": 14,
@@ -17,36 +17,36 @@
     {
       "numero": 14,
       "nom": "MUZE MAKER",
-      "meta_score": 0.541,
-      "win_prob": 0.7976,
+      "meta_score": 0.549,
+      "win_prob": 0.9528,
       "robuste": false
     },
     {
       "numero": 7,
       "nom": "MARS COBBA",
-      "meta_score": 0.421,
-      "win_prob": 0.1255,
-      "robuste": false
-    },
-    {
-      "numero": 10,
-      "nom": "MY SAVE QUICK",
-      "meta_score": 0.29,
-      "win_prob": 0.0465,
+      "meta_score": 0.381,
+      "win_prob": 0.0222,
       "robuste": false
     },
     {
       "numero": 5,
       "nom": "MEYDAN VOIRONS",
-      "meta_score": 0.179,
+      "meta_score": 0.348,
       "win_prob": 0.0177,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "MY SAVE QUICK",
+      "meta_score": 0.232,
+      "win_prob": 0.0062,
       "robuste": false
     },
     {
       "numero": 4,
       "nom": "MOURILLON",
-      "meta_score": 0.108,
-      "win_prob": 0.0087,
+      "meta_score": 0.078,
+      "win_prob": 0.0008,
       "robuste": false
     }
   ],
@@ -54,5 +54,5 @@
   "nb_value_bets": 4,
   "external_sources": [],
   "consensus_externe": [],
-  "generated_at": "2026-08-06T15:25:13.074002"
+  "generated_at": "2026-08-06T22:15:20.751186"
 }
