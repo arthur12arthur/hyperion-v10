@@ -8,6 +8,7 @@ Regroupe en un seul module :
 """
 
 import json
+import time
 import os
 import re
 from typing import Any, Optional
@@ -183,24 +184,38 @@ class ExternalConsensusBuilder:
 
     def _zenserp_search(self, query: str) -> list[dict[str, str]]:
         """Recherche Google réelle via Zenserp. Retourne titre/url/extrait."""
-        try:
-            resp = requests.get(
-                self.ZENSERP_URL,
-                params={
-                    "apikey": self.zenserp_key,
-                    "q": query,
-                    "hl": "fr",
-                    "gl": "fr",
-                    "num": self.max_sources * 2,  # marge, tout ne sera pas exploitable
-                },
-                timeout=15,
+        params = {
+            "apikey": self.zenserp_key,
+            "q": query,
+            "hl": "fr",
+            "gl": "fr",
+            "num": 10,  # valeur standard — évite un num élevé mal supporté côté API
+        }
+
+        data = None
+        for attempt in range(1, 3):
+            try:
+                resp = requests.get(self.ZENSERP_URL, params=params, timeout=15)
+            except Exception as e:
+                log_warning(f"Erreur appel Zenserp (tentative {attempt}/2) : {e}")
+                continue
+
+            if resp.status_code == 200:
+                data = resp.json()
+                break
+
+            # On journalise le corps de la réponse pour diagnostiquer précisément
+            # la cause côté Zenserp (clé invalide, quota, requête mal formée...).
+            body_excerpt = resp.text[:300].replace("\n", " ")
+            log_warning(
+                f"Zenserp HTTP {resp.status_code} (tentative {attempt}/2) : {body_excerpt}"
             )
-            if resp.status_code != 200:
-                log_warning(f"Zenserp HTTP {resp.status_code}")
-                return []
-            data = resp.json()
-        except Exception as e:
-            log_warning(f"Erreur appel Zenserp : {e}")
+            if resp.status_code == 500 and attempt == 1:
+                time.sleep(5)  # 500 générique : souvent transitoire, on retente une fois
+                continue
+            break
+
+        if not data:
             return []
 
         results = []
