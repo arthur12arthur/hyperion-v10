@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-07",
+  "course_id": "PRIX BRUNO COQUATRIX",
+  "hippodrome": "CABOURG",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    9,
+    15,
+    12,
+    5,
+    7
+  ],
+  "predicted_winner": 9,
+  "top5_details": [
+    {
+      "numero": 9,
+      "nom": "JOKER D'AMARO",
+      "meta_score": 0.55,
+      "win_prob": 0.9622,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "JASMIN GEMA",
+      "meta_score": 0.46,
+      "win_prob": 0.0208,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "JOCELYNE",
+      "meta_score": 0.44,
+      "win_prob": 0.0159,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "IL MIO",
+      "meta_score": 0.121,
+      "win_prob": 0.0008,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "JAZERANE",
+      "meta_score": 0.066,
+      "win_prob": 0.0002,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-07T09:52:41.923711"
+}
