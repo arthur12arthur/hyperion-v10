@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-08",
+  "course_id": "PRIX DE BAYEUX",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    15,
+    9,
+    2,
+    5
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "SAXON VILLAGE",
+      "meta_score": 0.528,
+      "win_prob": 0.578,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "SWIFT FLIGHT",
+      "meta_score": 0.481,
+      "win_prob": 0.2652,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "HAYEJOHN",
+      "meta_score": 0.42,
+      "win_prob": 0.1397,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "AVENTINO",
+      "meta_score": 0.069,
+      "win_prob": 0.0062,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "AMIDARGENT",
+      "meta_score": 0.061,
+      "win_prob": 0.0051,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-08T09:28:59.709512"
+}
