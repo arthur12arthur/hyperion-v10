@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-10",
+  "course_id": "PRIX GENYBET SUPER TOP 5 (PRIX DE LA COTE DE NACRE)",
+  "hippodrome": "DEAUVILLE-CLAIREFONTAINE",
+  "numero_reunion": null,
+  "numero_course": 5,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    11,
+    2,
+    16,
+    12
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "BAHI",
+      "meta_score": 0.524,
+      "win_prob": 0.6916,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "ELUSIVE WAY",
+      "meta_score": 0.39,
+      "win_prob": 0.1631,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "SHAPESMITH",
+      "meta_score": 0.28,
+      "win_prob": 0.0778,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "SHAMBHALLA",
+      "meta_score": 0.158,
+      "win_prob": 0.0288,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "AL GHARIYA",
+      "meta_score": 0.155,
+      "win_prob": 0.0266,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-10T10:09:56.105588"
+}
