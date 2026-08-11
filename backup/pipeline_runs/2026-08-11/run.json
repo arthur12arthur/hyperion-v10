@@ -1,0 +1,660 @@
+{
+  "date": "2026-08-11",
+  "run_id": "20260811_095200",
+  "started_at": "2026-08-11T09:52:00.139343",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX DES COLLECTIVITES LOCALES",
+        "hippodrome": "DEAUVILLE-LA TOUQUES",
+        "date": "2026-08-11",
+        "heure": "16:30",
+        "distance": 1900,
+        "terrain": "PSF",
+        "discipline": "GALOP",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "CHAUMIERE DE PRE",
+            "age": 4,
+            "sexe": "H",
+            "poids": 61.0,
+            "corde": 10,
+            "forme": "0.6.1.1.5",
+            "gains_totaux": 100243,
+            "jockey": "PC.BOUDOT",
+            "entraineur": "G.BIETOLINI",
+            "proprietaire": "KL.RAMSEY",
+            "cote": 21.0
+          },
+          {
+            "numero": 2,
+            "nom": "ZELORO",
+            "age": 5,
+            "sexe": "H",
+            "poids": 60.5,
+            "corde": 16,
+            "forme": "1.4.4.2.1",
+            "gains_totaux": 80517,
+            "jockey": "M.GUYON",
+            "entraineur": "P&J.BRANDT",
+            "proprietaire": "STALL PERLEN AB",
+            "cote": 27.0
+          },
+          {
+            "numero": 3,
+            "nom": "DOUBLE UP",
+            "age": 4,
+            "sexe": "H",
+            "poids": 57.5,
+            "corde": 2,
+            "forme": "3.6.9.0.7",
+            "gains_totaux": 42755,
+            "jockey": "T.BACHELOT",
+            "entraineur": "S.WATTEL",
+            "proprietaire": "I.CORBANI",
+            "cote": 8.0
+          },
+          {
+            "numero": 4,
+            "nom": "SEONA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 56.5,
+            "corde": 3,
+            "forme": "5.4.4.0.2",
+            "gains_totaux": 98713,
+            "jockey": "C.DEMURO",
+            "entraineur": "FR.MONFORT",
+            "proprietaire": "A.GRAY",
+            "cote": 10.0
+          },
+          {
+            "numero": 5,
+            "nom": "ROI DE L'AIR",
+            "age": 6,
+            "sexe": "M",
+            "poids": 56.5,
+            "corde": 11,
+            "forme": "1.7.2.1.6",
+            "gains_totaux": 122827,
+            "jockey": "H.LEBOUC",
+            "entraineur": "J.BOISNARD",
+            "proprietaire": "G.BEN LASSIN",
+            "cote": 20.0
+          },
+          {
+            "numero": 6,
+            "nom": "FEARLESS CHEETAH",
+            "age": 6,
+            "sexe": "F",
+            "poids": 55.5,
+            "corde": 6,
+            "forme": "0.6.1.2.6",
+            "gains_totaux": 97439,
+            "jockey": "J.CLAUDIC",
+            "entraineur": "F.BRESSON",
+            "proprietaire": "F.F.BRESSON",
+            "cote": 14.0
+          },
+          {
+            "numero": 7,
+            "nom": "EVERSTAR",
+            "age": 5,
+            "sexe": "H",
+            "poids": 55.5,
+            "corde": 7,
+            "forme": "3.3.0.7.6",
+            "gains_totaux": 134334,
+            "jockey": "M.GRANDIN",
+            "entraineur": "L.GADBIN",
+            "proprietaire": "V.GADBIN",
+            "cote": 11.0
+          },
+          {
+            "numero": 8,
+            "nom": "SAINT AQUILIN",
+            "age": 5,
+            "sexe": "H",
+            "poids": 55.0,
+            "corde": 8,
+            "forme": "1.9.4.1.1",
+            "gains_totaux": 118675,
+            "jockey": "F.VERON",
+            "entraineur": "G.BRAEM",
+            "proprietaire": "REPRO-ZAMAN",
+            "cote": 28.0
+          },
+          {
+            "numero": 9,
+            "nom": "STANGHELI",
+            "age": 5,
+            "sexe": "H",
+            "poids": 54.5,
+            "corde": 13,
+            "forme": "2.0.5.0.0",
+            "gains_totaux": 124558,
+            "jockey": "A.POUCHIN",
+            "entraineur": "A&L.FABRE",
+            "proprietaire": "Y.BURRUS",
+            "cote": 12.0
+          },
+          {
+            "numero": 10,
+            "nom": "TRUE TEDESCO",
+            "age": 7,
+            "sexe": "H",
+            "poids": 54.0,
+            "corde": 4,
+            "forme": "8.0.7.0.0",
+            "gains_totaux": 135820,
+            "jockey": "B.MARIE",
+            "entraineur": "A.SUBORICS",
+            "proprietaire": "ST.MYDLINGHOVEN",
+            "cote": 22.0
+          },
+          {
+            "numero": 11,
+            "nom": "MEMPHIS TENNESSEE",
+            "age": 5,
+            "sexe": "M",
+            "poids": 54.0,
+            "corde": 12,
+            "forme": "6.9.0.0.0",
+            "gains_totaux": 78113,
+            "jockey": "D.PROVOST",
+            "entraineur": "Y.BONNEFOY",
+            "proprietaire": "LUGDUNUM RACING 3",
+            "cote": 36.0
+          },
+          {
+            "numero": 12,
+            "nom": "STRAKO",
+            "age": 6,
+            "sexe": "H",
+            "poids": 53.5,
+            "corde": 9,
+            "forme": "1.0.1.6.1",
+            "gains_totaux": 131467,
+            "jockey": "A.CRASTUS",
+            "entraineur": "A.WATTEL",
+            "proprietaire": "A.WATTEL",
+            "cote": 16.0
+          },
+          {
+            "numero": 13,
+            "nom": "VOLCANO",
+            "age": 4,
+            "sexe": "M",
+            "poids": 53.0,
+            "corde": 14,
+            "forme": "0.7.5.0.1",
+            "gains_totaux": 28821,
+            "jockey": "A.BADEL",
+            "entraineur": "A.SCHUTZ",
+            "proprietaire": "M.MOTSCHMANN",
+            "cote": 29.0
+          },
+          {
+            "numero": 14,
+            "nom": "ZACAPO",
+            "age": 7,
+            "sexe": "H",
+            "poids": 52.5,
+            "corde": 1,
+            "forme": "6.6.1.9.2",
+            "gains_totaux": 113956,
+            "jockey": "E.HARDOUIN",
+            "entraineur": "M.BOUTIN",
+            "proprietaire": "ECURIE NICOLATO",
+            "cote": 15.0
+          },
+          {
+            "numero": 15,
+            "nom": "MY QUEEN",
+            "age": 4,
+            "sexe": "F",
+            "poids": 52.5,
+            "corde": 15,
+            "forme": "0.3.6.3.2",
+            "gains_totaux": 50501,
+            "jockey": "T.TRULLIER",
+            "entraineur": "PIER.MENARD",
+            "proprietaire": "S.AKNIN",
+            "cote": 23.0
+          },
+          {
+            "numero": 16,
+            "nom": "AVANT NOUS",
+            "age": 4,
+            "sexe": "F",
+            "poids": 52.5,
+            "corde": 5,
+            "forme": "4.3.2.2.4",
+            "gains_totaux": 37609,
+            "jockey": "M.FAVRIAUX",
+            "entraineur": "S.SMRCZEK",
+            "proprietaire": "ST. BURG NANSTEIN",
+            "cote": 19.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 8
+      },
+      "top5_final": [
+        {
+          "numero": 4,
+          "nom": "SEONA",
+          "age": 4,
+          "sexe": "F",
+          "poids": 56.5,
+          "corde": 3,
+          "forme": "5.4.4.0.2",
+          "gains_totaux": 98713,
+          "jockey": "C.DEMURO",
+          "entraineur": "FR.MONFORT",
+          "proprietaire": "A.GRAY",
+          "cote": 10.0,
+          "score_historique": 4.88,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.8,
+          "score_fraicheur": 7.5,
+          "score_global": 5.668,
+          "win_prob": 0.3878,
+          "place_prob": 0.6634,
+          "top3_prob": 0.8343,
+          "confiance_mc": 0.834,
+          "score_pondere": 718352.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.909,
+          "score_mc": 0.834,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 3,
+          "nom": "DOUBLE UP",
+          "age": 4,
+          "sexe": "H",
+          "poids": 57.5,
+          "corde": 2,
+          "forme": "3.6.9.0.7",
+          "gains_totaux": 42755,
+          "jockey": "T.BACHELOT",
+          "entraineur": "S.WATTEL",
+          "proprietaire": "I.CORBANI",
+          "cote": 8.0,
+          "score_historique": 4.53,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.6,
+          "score_fraicheur": 7.5,
+          "score_global": 5.645,
+          "win_prob": 0.3504,
+          "place_prob": 0.631,
+          "top3_prob": 0.8121,
+          "confiance_mc": 0.812,
+          "score_pondere": 708713.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": true,
+          "meta_score": 0.897,
+          "score_mc": 0.812,
+          "score_externe": 1.0
+        },
+        {
+          "position": 3,
+          "numero": 1,
+          "nom": "Cheval 1",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 21.0,
+          "forme": "0.6.1.1.5",
+          "age": 4,
+          "poids": 61.0,
+          "jockey": "PC.BOUDOT"
+        },
+        {
+          "position": 4,
+          "numero": 2,
+          "nom": "Cheval 2",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 27.0,
+          "forme": "1.4.4.2.1",
+          "age": 5,
+          "poids": 60.5,
+          "jockey": "M.GUYON"
+        },
+        {
+          "numero": 14,
+          "nom": "ZACAPO",
+          "age": 7,
+          "sexe": "H",
+          "poids": 52.5,
+          "corde": 1,
+          "forme": "6.6.1.9.2",
+          "gains_totaux": 113956,
+          "jockey": "E.HARDOUIN",
+          "entraineur": "M.BOUTIN",
+          "proprietaire": "ECURIE NICOLATO",
+          "cote": 15.0,
+          "score_historique": 4.3,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 8.6,
+          "score_fraicheur": 6.0,
+          "score_global": 5.515,
+          "win_prob": 0.1717,
+          "place_prob": 0.3966,
+          "top3_prob": 0.6339,
+          "confiance_mc": 0.634,
+          "score_pondere": 631837.0,
+          "borda_rank": 3,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.349,
+          "score_mc": 0.634,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "DOUBLE UP",
+            "message": "N°3 DOUBLE UP : écart cote 181% (affichée 8.0, théorique 2.9) — surévalué",
+            "cote_affichee": 8.0,
+            "cote_theorique": 2.85,
+            "ecart_pct": 1.807
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 4,
+            "cheval_nom": "SEONA",
+            "message": "N°4 SEONA : écart cote 288% (affichée 10.0, théorique 2.6) — surévalué",
+            "cote_affichee": 10.0,
+            "cote_theorique": 2.58,
+            "ecart_pct": 2.876
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 6,
+            "cheval_nom": "FEARLESS CHEETAH",
+            "message": "N°6 FEARLESS CHEETAH : écart cote 74% (affichée 14.0, théorique 54.6) — sous-évalué",
+            "cote_affichee": 14.0,
+            "cote_theorique": 54.64,
+            "ecart_pct": 0.744
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 7,
+            "cheval_nom": "EVERSTAR",
+            "message": "N°7 EVERSTAR : écart cote 42% (affichée 11.0, théorique 18.9) — sous-évalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 18.9,
+            "ecart_pct": 0.418
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 14,
+            "cheval_nom": "ZACAPO",
+            "message": "N°14 ZACAPO : écart cote 158% (affichée 15.0, théorique 5.8) — surévalué",
+            "cote_affichee": 15.0,
+            "cote_theorique": 5.82,
+            "ecart_pct": 1.577
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 1,
+            "cheval_nom": "CHAUMIERE DE PRE",
+            "message": "N°1 CHAUMIERE DE PRE : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 2,
+            "cheval_nom": "ZELORO",
+            "message": "N°2 ZELORO : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 5,
+            "cheval_nom": "ROI DE L'AIR",
+            "message": "N°5 ROI DE L'AIR : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          14
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-08-11T09:52:24.226909"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "4": {
+            "numero": 4,
+            "nom": "SEONA",
+            "cote_affichee": 10.0,
+            "cote_theorique": 1.1,
+            "prob_reelle": 0.909,
+            "prob_implicite": 0.085,
+            "ev": 8.09,
+            "ev_pct": 809.0,
+            "kelly_raw": 0.8989,
+            "kelly_fractionne": 0.2247,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "DOUBLE UP",
+            "cote_affichee": 8.0,
+            "cote_theorique": 1.11,
+            "prob_reelle": 0.897,
+            "prob_implicite": 0.106,
+            "ev": 6.176,
+            "ev_pct": 617.6,
+            "kelly_raw": 0.8823,
+            "kelly_fractionne": 0.2206,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "1": {
+            "numero": 1,
+            "nom": "CHAUMIERE DE PRE",
+            "cote_affichee": 21.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.04,
+            "ev": 8.45,
+            "ev_pct": 845.0,
+            "kelly_raw": 0.4225,
+            "kelly_fractionne": 0.1056,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "ZELORO",
+            "cote_affichee": 27.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.031,
+            "ev": 11.15,
+            "ev_pct": 1115.0,
+            "kelly_raw": 0.4288,
+            "kelly_fractionne": 0.1072,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "14": {
+            "numero": 14,
+            "nom": "ZACAPO",
+            "cote_affichee": 15.0,
+            "cote_theorique": 2.87,
+            "prob_reelle": 0.349,
+            "prob_implicite": 0.057,
+            "ev": 4.235,
+            "ev_pct": 423.5,
+            "kelly_raw": 0.3025,
+            "kelly_fractionne": 0.0756,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          4,
+          3,
+          1,
+          2,
+          14
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "Ici l'analyste hippique en chef d'HYPERION V10 pour décrypter cette épreuve disputée sur les 1900 mètres de la fibre de Deauville-La Touques. Notre intelligence artificielle place le N°4 SEONA en tête de sa sélection avec un solide score de 0.909 et une cote attractive de 10/1, s'affirmant comme la base logique de la course malgré une forme récente en dents de scie. Pour pimenter les rapports, le N°3 DOUBLE UP (0.897) offre de sérieux arguments à 8/1, tout comme le N°14 ZACAPO qui guettera la moindre défaillance des favoris. Néanmoins, l'indice de confiance s'établit à un modeste 52% et le module HADES passe au rouge avec 8 signaux d'alerte, traduisant une incertitude marquée et un risque élevé de surprises dans le peloton. Dans ce contexte délicat où la hiérarchie demeure fragile, nous conseillons la plus grande prudence en privilégiant un couplé placé flexible autour de notre favori ou un petit trio enserré avec les chevaux les plus en vue, tout en gérant strictement vos mises.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "1": {
+            "numero": 1,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "5": {
+            "numero": 5,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "sources_detail": [
+          {
+            "source": "Turfoo",
+            "url": "https://www.turfoo.fr/programmes-courses/260811/reunion1-deauville/course8-prix-des-collectivites-locales/",
+            "top5": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-08-11T09:52:33.312898"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 38.9,
+  "finished_at": "2026-08-11T09:52:39.029888",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
