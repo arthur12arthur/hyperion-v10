@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-12",
+  "course_id": "PRIX DES GRANDES CARRIERES",
+  "hippodrome": "ENGHIEN",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    5,
+    12,
+    3,
+    13
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "L'AS DE SAINT JEAN",
+      "meta_score": 0.55,
+      "win_prob": 0.9741,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "LEONARDO DU DERBY",
+      "meta_score": 0.481,
+      "win_prob": 0.0242,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "LUCKY MESLOIS",
+      "meta_score": 0.181,
+      "win_prob": 0.0007,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "LEVEL ONE SYGA",
+      "meta_score": 0.131,
+      "win_prob": 0.0004,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "LITTLE ITALY",
+      "meta_score": 0.128,
+      "win_prob": 0.0004,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-12T09:54:26.523051"
+}
