@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-13",
+  "course_id": "SUMBE PRIX DES CHENETTES",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    16,
+    13,
+    8,
+    15
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "THING FOR THE HOT",
+      "meta_score": 0.457,
+      "win_prob": 0.5119,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "WARAMINI",
+      "meta_score": 0.321,
+      "win_prob": 0.2008,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "CITY SOLACE",
+      "meta_score": 0.134,
+      "win_prob": 0.0474,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "MODELE ABSOLU",
+      "meta_score": 0.166,
+      "win_prob": 0.0665,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "EGYPTIAN GLORY",
+      "meta_score": 0.144,
+      "win_prob": 0.0533,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-13T09:54:30.776381"
+}
