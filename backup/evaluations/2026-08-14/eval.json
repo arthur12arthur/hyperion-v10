@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-14",
+  "day_number": 4,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0,
+  "running_top3": 0.1667,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX FABIEN ROSSOLINI",
+        "is_lonab": true,
+        "predicted_winner": 10,
+        "official_winner": 5,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "Turfomania",
+            "predicted_winner": 4,
+            "top1_correct": false,
+            "top3_score": 2
+          },
+          {
+            "source": "Turfoo",
+            "predicted_winner": 4,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-08-14T20:34:15.888112"
+}
