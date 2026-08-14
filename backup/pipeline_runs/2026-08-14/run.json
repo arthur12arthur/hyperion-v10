@@ -1,0 +1,675 @@
+{
+  "date": "2026-08-14",
+  "run_id": "20260814_095158",
+  "started_at": "2026-08-14T09:51:58.171537",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX FABIEN ROSSOLINI",
+        "hippodrome": "CABOURG",
+        "date": "2026-08-14",
+        "heure": "18:15",
+        "distance": 2050,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 14,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "LOLITA TURGOT",
+            "age": 5,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "D.D.D.0.0",
+            "gains_totaux": 73105,
+            "jockey": "CEDRIC TERRY",
+            "entraineur": "F. TERRY",
+            "proprietaire": "EC.TURGOT",
+            "cote": 32.0
+          },
+          {
+            "numero": 2,
+            "nom": "LE POETE BOURBON",
+            "age": 5,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "D.1.0.D.D",
+            "gains_totaux": 73720,
+            "jockey": "T. OUVRIE",
+            "entraineur": "CH. DAGNICOURT",
+            "proprietaire": "D. LEROI",
+            "cote": 19.0
+          },
+          {
+            "numero": 3,
+            "nom": "MISTER CHARLY",
+            "age": 4,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "5.D.9.4.7",
+            "gains_totaux": 71545,
+            "jockey": "F. LAGADEUC",
+            "entraineur": "N. BRIDAULT",
+            "proprietaire": "EC. BCC RACING",
+            "cote": 11.0
+          },
+          {
+            "numero": 4,
+            "nom": "MY DARLING DU RIS",
+            "age": 4,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "4.2.6.6.D",
+            "gains_totaux": 73860,
+            "jockey": "GUILLAUME MARTIN",
+            "entraineur": "R. POJASEK",
+            "proprietaire": "EC.R.I.S",
+            "cote": 14.0
+          },
+          {
+            "numero": 5,
+            "nom": "LIVE YOUR DREAMS",
+            "age": 5,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "D.D.2.2.D",
+            "gains_totaux": 71310,
+            "jockey": "J.PH. DUBOIS",
+            "entraineur": "J.PH. DUBOIS",
+            "proprietaire": "EC.VICT. DREAMS",
+            "cote": 10.0
+          },
+          {
+            "numero": 6,
+            "nom": "LE JIBAY",
+            "age": 5,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.5.D.8.8",
+            "gains_totaux": 71215,
+            "jockey": "G. GERVAIS",
+            "entraineur": "N. DEVIGNE",
+            "proprietaire": "N. DEVIGNE",
+            "cote": 74.0
+          },
+          {
+            "numero": 7,
+            "nom": "L'INTOUCHABLE",
+            "age": 5,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "5.5.0.7.D",
+            "gains_totaux": 71655,
+            "jockey": "A. COLLETTE",
+            "entraineur": "T.DEVOUASSOUX",
+            "proprietaire": "F. CLAVET",
+            "cote": 47.0
+          },
+          {
+            "numero": 8,
+            "nom": "LUPIN DU HOULEY",
+            "age": 5,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.D.D.7.D",
+            "gains_totaux": 20255,
+            "jockey": "M. LEBREC",
+            "entraineur": "M. LEBREC",
+            "proprietaire": "C. LEHAIRE",
+            "cote": 84.0
+          },
+          {
+            "numero": 9,
+            "nom": "MIX CASH",
+            "age": 4,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "0.9.7.2.1",
+            "gains_totaux": 69650,
+            "jockey": "D. THOMAIN",
+            "entraineur": "F. LAMARE",
+            "proprietaire": "M. DUJARDIN",
+            "cote": 24.0
+          },
+          {
+            "numero": 10,
+            "nom": "MUST DREAM",
+            "age": 4,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.1.1.1.7",
+            "gains_totaux": 70265,
+            "jockey": "CL. DUVALDESTIN",
+            "entraineur": "TH. DUVALDESTIN",
+            "proprietaire": "D. DESMET",
+            "cote": 5.0
+          },
+          {
+            "numero": 11,
+            "nom": "MYSTIC D'AVE",
+            "age": 4,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.6.2.1.9",
+            "gains_totaux": 48090,
+            "jockey": "E. DE JESUS",
+            "entraineur": "St. PROVOOST",
+            "proprietaire": "EC. DANOVER",
+            "cote": 20.0
+          },
+          {
+            "numero": 12,
+            "nom": "MARVELOUS PIYA",
+            "age": 4,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "5.2.D.1.2",
+            "gains_totaux": 39030,
+            "jockey": "M. MOTTIER",
+            "entraineur": "N. VIEL-PIERRE",
+            "proprietaire": "N. VIEL-PIERRE",
+            "cote": 12.0
+          },
+          {
+            "numero": 13,
+            "nom": "MABELLISSIME",
+            "age": 4,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "4.5.D.6.D",
+            "gains_totaux": 70879,
+            "jockey": "G. GELORMINI",
+            "entraineur": "S.KAGEBRANT",
+            "proprietaire": "Stall COURANT",
+            "cote": 8.0
+          },
+          {
+            "numero": 14,
+            "nom": "MAYFLOWER",
+            "age": 4,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "8",
+            "gains_totaux": 0,
+            "jockey": "P.E. COLLARD",
+            "entraineur": "St. PROVOOST",
+            "proprietaire": "EC.DANOVER",
+            "cote": 81.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 4
+      },
+      "top5_final": [
+        {
+          "numero": 10,
+          "nom": "MUST DREAM",
+          "age": 4,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "7.1.1.1.7",
+          "gains_totaux": 70265,
+          "jockey": "CL. DUVALDESTIN",
+          "entraineur": "TH. DUVALDESTIN",
+          "proprietaire": "D. DESMET",
+          "cote": 5.0,
+          "score_historique": 5.27,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.3,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.655,
+          "win_prob": 0.9915,
+          "place_prob": 0.999,
+          "top3_prob": 0.9998,
+          "confiance_mc": 1.0,
+          "score_pondere": 649517.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 1.0,
+          "score_mc": 1.0,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 9,
+          "nom": "MIX CASH",
+          "age": 4,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "0.9.7.2.1",
+          "gains_totaux": 69650,
+          "jockey": "D. THOMAIN",
+          "entraineur": "F. LAMARE",
+          "proprietaire": "M. DUJARDIN",
+          "cote": 24.0,
+          "score_historique": 2.48,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.3,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 4.677,
+          "win_prob": 0.0025,
+          "place_prob": 0.2587,
+          "top3_prob": 0.4658,
+          "confiance_mc": 0.466,
+          "score_pondere": 406352.0,
+          "borda_rank": 3,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.481,
+          "score_mc": 0.466,
+          "score_externe": 0.5
+        },
+        {
+          "numero": 5,
+          "nom": "LIVE YOUR DREAMS",
+          "age": 5,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "D.D.2.2.D",
+          "gains_totaux": 71310,
+          "jockey": "J.PH. DUBOIS",
+          "entraineur": "J.PH. DUBOIS",
+          "proprietaire": "EC.VICT. DREAMS",
+          "cote": 10.0,
+          "score_historique": 4.13,
+          "score_forme": 1.5,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 4.619,
+          "win_prob": 0.0017,
+          "place_prob": 0.1838,
+          "top3_prob": 0.3636,
+          "confiance_mc": 0.364,
+          "score_pondere": 355313.0,
+          "borda_rank": 4,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.425,
+          "score_mc": 0.364,
+          "score_externe": 0.5
+        },
+        {
+          "position": 4,
+          "numero": 4,
+          "nom": "Cheval 4",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 14.0,
+          "forme": "4.2.6.6.D",
+          "age": 4,
+          "poids": null,
+          "jockey": "GUILLAUME MARTIN"
+        },
+        {
+          "numero": 3,
+          "nom": "MISTER CHARLY",
+          "age": 4,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "5.D.9.4.7",
+          "gains_totaux": 71545,
+          "jockey": "F. LAGADEUC",
+          "entraineur": "N. BRIDAULT",
+          "proprietaire": "EC. BCC RACING",
+          "cote": 11.0,
+          "score_historique": 4.34,
+          "score_forme": 1.5,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 4.692,
+          "win_prob": 0.003,
+          "place_prob": 0.2822,
+          "top3_prob": 0.4892,
+          "confiance_mc": 0.489,
+          "score_pondere": 418499.0,
+          "borda_rank": 2,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.494,
+          "score_mc": 0.489,
+          "score_externe": 0.5
+        }
+      ],
+      "elimines": [
+        {
+          "cheval": {
+            "numero": 8,
+            "nom": "LUPIN DU HOULEY",
+            "age": 5,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.D.D.7.D",
+            "gains_totaux": 20255,
+            "jockey": "M. LEBREC",
+            "entraineur": "M. LEBREC",
+            "proprietaire": "C. LEHAIRE",
+            "cote": 84.0
+          },
+          "motifs": [
+            "Cote > 50.0 (outsider extrême)",
+            "Forme catastrophique (toutes places > 10e)"
+          ],
+          "score": 3
+        }
+      ],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "LE POETE BOURBON",
+            "message": "N°2 LE POETE BOURBON : écart cote 99% (affichée 19.0, théorique 2500.0) — sous-évalué",
+            "cote_affichee": 19.0,
+            "cote_theorique": 2500.0,
+            "ecart_pct": 0.992
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "MISTER CHARLY",
+            "message": "N°3 MISTER CHARLY : écart cote 97% (affichée 11.0, théorique 333.3) — sous-évalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 333.33,
+            "ecart_pct": 0.967
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 5,
+            "cheval_nom": "LIVE YOUR DREAMS",
+            "message": "N°5 LIVE YOUR DREAMS : écart cote 98% (affichée 10.0, théorique 588.2) — sous-évalué",
+            "cote_affichee": 10.0,
+            "cote_theorique": 588.24,
+            "ecart_pct": 0.983
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 9,
+            "cheval_nom": "MIX CASH",
+            "message": "N°9 MIX CASH : écart cote 94% (affichée 24.0, théorique 400.0) — sous-évalué",
+            "cote_affichee": 24.0,
+            "cote_theorique": 400.0,
+            "ecart_pct": 0.94
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 10,
+            "cheval_nom": "MUST DREAM",
+            "message": "N°10 MUST DREAM : écart cote 395% (affichée 5.0, théorique 1.0) — surévalué",
+            "cote_affichee": 5.0,
+            "cote_theorique": 1.01,
+            "ecart_pct": 3.95
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "MY DARLING DU RIS",
+            "message": "N°4 MY DARLING DU RIS : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          3,
+          4,
+          5,
+          9,
+          10
+        ],
+        "nb_signaux": 6,
+        "mode_test": true,
+        "detected_at": "2026-08-14T09:52:21.558232"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "10": {
+            "numero": 10,
+            "nom": "MUST DREAM",
+            "cote_affichee": 5.0,
+            "cote_theorique": 1.0,
+            "prob_reelle": 1.0,
+            "prob_implicite": 0.17,
+            "ev": 4.0,
+            "ev_pct": 400.0,
+            "kelly_raw": 1.0,
+            "kelly_fractionne": 0.25,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "9": {
+            "numero": 9,
+            "nom": "MIX CASH",
+            "cote_affichee": 24.0,
+            "cote_theorique": 2.08,
+            "prob_reelle": 0.481,
+            "prob_implicite": 0.035,
+            "ev": 10.544,
+            "ev_pct": 1054.4,
+            "kelly_raw": 0.4584,
+            "kelly_fractionne": 0.1146,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "5": {
+            "numero": 5,
+            "nom": "LIVE YOUR DREAMS",
+            "cote_affichee": 10.0,
+            "cote_theorique": 2.35,
+            "prob_reelle": 0.425,
+            "prob_implicite": 0.085,
+            "ev": 3.25,
+            "ev_pct": 325.0,
+            "kelly_raw": 0.3611,
+            "kelly_fractionne": 0.0903,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "4": {
+            "numero": 4,
+            "nom": "MY DARLING DU RIS",
+            "cote_affichee": 14.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.061,
+            "ev": 5.3,
+            "ev_pct": 530.0,
+            "kelly_raw": 0.4077,
+            "kelly_fractionne": 0.1019,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "MISTER CHARLY",
+            "cote_affichee": 11.0,
+            "cote_theorique": 2.02,
+            "prob_reelle": 0.494,
+            "prob_implicite": 0.077,
+            "ev": 4.434,
+            "ev_pct": 443.4,
+            "kelly_raw": 0.4434,
+            "kelly_fractionne": 0.1108,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          10,
+          9,
+          5,
+          4,
+          3
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "En tant qu'analyste hippique en chef d'HYPERION V10, je vous propose l'étude de cette épreuve disputée sur les 2050 mètres de Cabourg. Le sommet de la hiérarchie est incontestablement occupé par le favori logique, le numéro 10 MUST DREAM, qui affiche un score maximal de 1.000 et s'appuie sur une musique récente extrêmement séduisante, ce qui en fait la base absolue de la course. Pour pimenter les rapports, le numéro 9 MIX CASH, malgré une cote spéculative de 24.0, présente un profil capable de surprendre, tout comme le numéro 3 MISTER CHARLY qui bénéficie d'une estimation mathématique très proche des secondes chances. Malgré un indice de confiance affiché à 100 %, l'alerte HADES au rouge avec 6 signaux détectés invite à la plus grande prudence quant à la stabilité de l'épreuve. Par conséquent, je vous conseille de privilégier un jeu simple gagnant-placé solide sur notre favori, tout en l'associant dans un couplé et un trio combiné élargi avec les numéros 9, 3 et 5 pour sécuriser vos rapports face à la volatilité ambiante.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 2,
+            "position_moyenne": 1.0
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 2,
+            "position_moyenne": 2.0
+          },
+          "5": {
+            "numero": 5,
+            "external_frequency": 0.5,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "13": {
+            "numero": 13,
+            "external_frequency": 0.5,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "9": {
+            "numero": 9,
+            "external_frequency": 0.5,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          },
+          "7": {
+            "numero": 7,
+            "external_frequency": 0.5,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 0.5,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          }
+        },
+        "consensus_externe": [
+          4,
+          10,
+          5,
+          7,
+          13
+        ],
+        "sources_detail": [
+          {
+            "source": "Turfomania",
+            "url": "https://www.turfomania.fr/pronostics/pronostics-vendredi-14-aout-2026-cabourg-prix-fabien-rossolini.html?idcourse=677308",
+            "top5": [
+              4,
+              10,
+              5,
+              13,
+              9
+            ]
+          },
+          {
+            "source": "Turfoo",
+            "url": "https://www.turfoo.fr/programmes-courses/260814/reunion1-cabourg/course4-prix-fabien-rossolini/pronostics-presse/",
+            "top5": [
+              4,
+              10,
+              7,
+              3
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 2
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-08-14T09:52:30.748529"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 37.9,
+  "finished_at": "2026-08-14T09:52:36.044848",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

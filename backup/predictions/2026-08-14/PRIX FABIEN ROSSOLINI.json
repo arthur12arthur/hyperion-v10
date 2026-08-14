@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-14",
+  "course_id": "PRIX FABIEN ROSSOLINI",
+  "hippodrome": "CABOURG",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    10,
+    9,
+    5,
+    4,
+    3
+  ],
+  "predicted_winner": 10,
+  "top5_details": [
+    {
+      "numero": 10,
+      "nom": "MUST DREAM",
+      "meta_score": 1.0,
+      "win_prob": 0.9915,
+      "robuste": true
+    },
+    {
+      "numero": 9,
+      "nom": "MIX CASH",
+      "meta_score": 0.481,
+      "win_prob": 0.0025,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "LIVE YOUR DREAMS",
+      "meta_score": 0.425,
+      "win_prob": 0.0017,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "Cheval 4",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "MISTER CHARLY",
+      "meta_score": 0.494,
+      "win_prob": 0.003,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfomania",
+      "url": "https://www.turfomania.fr/pronostics/pronostics-vendredi-14-aout-2026-cabourg-prix-fabien-rossolini.html?idcourse=677308",
+      "top5": [
+        4,
+        10,
+        5,
+        13,
+        9
+      ]
+    },
+    {
+      "source": "Turfoo",
+      "url": "https://www.turfoo.fr/programmes-courses/260814/reunion1-cabourg/course4-prix-fabien-rossolini/pronostics-presse/",
+      "top5": [
+        4,
+        10,
+        7,
+        3
+      ]
+    }
+  ],
+  "consensus_externe": [
+    4,
+    10,
+    5,
+    7,
+    13
+  ],
+  "generated_at": "2026-08-14T09:52:36.044177"
+}
