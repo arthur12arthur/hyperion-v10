@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-15",
+  "course_id": "PRIX DU CHAMP DURAND HONG KONG JOCKEY CLUB",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    10,
+    9,
+    6,
+    4
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "OSHIA",
+      "meta_score": 0.525,
+      "win_prob": 0.7026,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "MISS DE PANAME",
+      "meta_score": 0.336,
+      "win_prob": 0.114,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "NAY",
+      "meta_score": 0.338,
+      "win_prob": 0.1145,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MARBELLESA",
+      "meta_score": 0.144,
+      "win_prob": 0.026,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "ZAHARA",
+      "meta_score": 0.152,
+      "win_prob": 0.0275,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-15T09:17:41.210421"
+}
