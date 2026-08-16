@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-16",
+  "course_id": "PRIX FRANCOIS ANDRE",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    6,
+    4,
+    16,
+    7,
+    8
+  ],
+  "predicted_winner": 6,
+  "top5_details": [
+    {
+      "numero": 6,
+      "nom": "SALALAH",
+      "meta_score": 0.47,
+      "win_prob": 0.4713,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "OMICRONE",
+      "meta_score": 0.383,
+      "win_prob": 0.2338,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "ELUSIVE BELARDO",
+      "meta_score": 0.351,
+      "win_prob": 0.1853,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "LIKE LINDY",
+      "meta_score": 0.145,
+      "win_prob": 0.0412,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "THE SHADOW",
+      "meta_score": 0.153,
+      "win_prob": 0.0444,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-16T09:19:06.578698"
+}
