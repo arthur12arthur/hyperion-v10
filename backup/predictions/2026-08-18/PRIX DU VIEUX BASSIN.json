@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-18",
+  "course_id": "PRIX DU VIEUX BASSIN",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    9,
+    5,
+    12,
+    13,
+    7
+  ],
+  "predicted_winner": 9,
+  "top5_details": [
+    {
+      "numero": 9,
+      "nom": "PRINCESSE D'AMOUR",
+      "meta_score": 0.531,
+      "win_prob": 0.6584,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "DOURIANN",
+      "meta_score": 0.429,
+      "win_prob": 0.1756,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "MISTER GATZ",
+      "meta_score": 0.407,
+      "win_prob": 0.1405,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "GOLD PLAYER",
+      "meta_score": 0.113,
+      "win_prob": 0.0144,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "HASAPIKO",
+      "meta_score": 0.045,
+      "win_prob": 0.0038,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-18T09:24:02.098252"
+}
