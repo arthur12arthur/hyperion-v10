@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-19",
+  "day_number": 5,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0,
+  "running_top3": 0.1334,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DE BEAUNE",
+        "is_lonab": true,
+        "predicted_winner": 2,
+        "official_winner": 8,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": [
+          {
+            "source": "canalturf",
+            "predicted_winner": 14,
+            "top1_correct": false,
+            "top3_score": 0
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-08-19T20:32:05.405114"
+}
