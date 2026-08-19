@@ -1,0 +1,644 @@
+{
+  "date": "2026-08-19",
+  "run_id": "20260819_092349",
+  "started_at": "2026-08-19T09:23:49.648749",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX DE BEAUNE",
+        "hippodrome": "LAVAL",
+        "date": "2026-08-19",
+        "heure": "16:45",
+        "distance": 2850,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 15,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "VASTERBO IMTHEMAN",
+            "age": 11,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.4.2.9.9",
+            "gains_totaux": 109278,
+            "jockey": "J.B. LEMOINE",
+            "entraineur": "J.B. LEMOINE",
+            "proprietaire": "J. PARTANEN",
+            "cote": 99.0
+          },
+          {
+            "numero": 2,
+            "nom": "DIABEL",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "5.2.5.5.2",
+            "gains_totaux": 174070,
+            "jockey": "P.PH. PLOQUIN",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Scu.ZB SPORT",
+            "cote": 14.0
+          },
+          {
+            "numero": 3,
+            "nom": "JASON",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "8.0.5.3.5",
+            "gains_totaux": 175855,
+            "jockey": "P. LEVESQUE",
+            "entraineur": "P. LEVESQUE",
+            "proprietaire": "EC. Pierre LEVESQUE",
+            "cote": 78.0
+          },
+          {
+            "numero": 4,
+            "nom": "HEUREUX DE FLEUR",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.2.2.3.5",
+            "gains_totaux": 177579,
+            "jockey": "Y. LEBOURGEOIS",
+            "entraineur": "S. RAIMOND",
+            "proprietaire": "J.P. BESSY",
+            "cote": 16.0
+          },
+          {
+            "numero": 5,
+            "nom": "HAIDA SAUTONNE",
+            "age": 9,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.8.0.1.8",
+            "gains_totaux": 189531,
+            "jockey": "A. GENDROT",
+            "entraineur": "M. SASSIER",
+            "proprietaire": "EC.de SAUTONNE",
+            "cote": 38.0
+          },
+          {
+            "numero": 6,
+            "nom": "FREEDOM",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.1.0.4.3",
+            "gains_totaux": 191473,
+            "jockey": "O. RAFFIN",
+            "entraineur": "S. LEFORT",
+            "proprietaire": "S. LEFORT",
+            "cote": 98.0
+          },
+          {
+            "numero": 7,
+            "nom": "GAMIN DES ISLES",
+            "age": 10,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "5.2.4.5.3",
+            "gains_totaux": 193712,
+            "jockey": "E. DE JESUS",
+            "entraineur": "S. BOURLIER",
+            "proprietaire": "EC.Sté. BOURLIER",
+            "cote": 16.0
+          },
+          {
+            "numero": 8,
+            "nom": "IGO CLEA",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "9.3.7.4.4",
+            "gains_totaux": 194931,
+            "jockey": "D.F. GAUDIN",
+            "entraineur": "M. BEZIER",
+            "proprietaire": "Valentin DESBRIEL",
+            "cote": 149.0
+          },
+          {
+            "numero": 9,
+            "nom": "IMPERIAL DURABUTIN",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.6.3.4.2",
+            "gains_totaux": 198460,
+            "jockey": "A. ANDRE",
+            "entraineur": "J.R. DELLIAUX",
+            "proprietaire": "EC.du DAMIER",
+            "cote": 22.0
+          },
+          {
+            "numero": 10,
+            "nom": "IRIS DES ROSEAUX",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.3.1.9.D",
+            "gains_totaux": 198476,
+            "jockey": "CL. DUVALDESTIN",
+            "entraineur": "TH. DUVALDESTIN",
+            "proprietaire": "F. DUPONT",
+            "cote": 8.0
+          },
+          {
+            "numero": 11,
+            "nom": "HOLLYWOOD DU BOIS",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.8.0.8.0",
+            "gains_totaux": 203627,
+            "jockey": "M. MOTTIER",
+            "entraineur": "CL. BEILEARD",
+            "proprietaire": "CL. BEILEARD",
+            "cote": 26.0
+          },
+          {
+            "numero": 12,
+            "nom": "JASON GINYU",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "0.8.0.9.5",
+            "gains_totaux": 203837,
+            "jockey": "ARNAUD DESMOTTES",
+            "entraineur": "ARNAUD DESMOTTES",
+            "proprietaire": "Cath.EMELIN",
+            "cote": 19.0
+          },
+          {
+            "numero": 13,
+            "nom": "JOY DU CARNOIS",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "1.2.1.7.2",
+            "gains_totaux": 206583,
+            "jockey": "ALEXANDRE BODIN",
+            "entraineur": "CH. MOTTIER",
+            "proprietaire": "EC.SANG ET OR",
+            "cote": 9.0
+          },
+          {
+            "numero": 14,
+            "nom": "READLY LAVEC",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "1.4.D.2.1",
+            "gains_totaux": 207684,
+            "jockey": "B. ROCHARD",
+            "entraineur": "O.J. ANDERSSON",
+            "proprietaire": "EASY KB",
+            "cote": 6.0
+          },
+          {
+            "numero": 15,
+            "nom": "JUST A MIDI",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "7.D.0.2.7",
+            "gains_totaux": 208988,
+            "jockey": "E. RAFFIN",
+            "entraineur": "Sté. Ent. F. SOULOY",
+            "proprietaire": "Frédéric DUVIVIER",
+            "cote": 11.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 8
+      },
+      "top5_final": [
+        {
+          "numero": 2,
+          "nom": "DIABEL",
+          "age": 7,
+          "sexe": "F",
+          "poids": null,
+          "corde": null,
+          "forme": "5.2.5.5.2",
+          "gains_totaux": 174070,
+          "jockey": "P.PH. PLOQUIN",
+          "entraineur": "H.E. BONDO",
+          "proprietaire": "Scu.ZB SPORT",
+          "cote": 14.0,
+          "score_historique": 4.84,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.834,
+          "win_prob": 0.7041,
+          "place_prob": 0.8722,
+          "top3_prob": 0.9393,
+          "confiance_mc": 0.939,
+          "score_pondere": 716249.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.966,
+          "score_mc": 0.939,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 13,
+          "nom": "JOY DU CARNOIS",
+          "age": 7,
+          "sexe": "F",
+          "poids": null,
+          "corde": null,
+          "forme": "1.2.1.7.2",
+          "gains_totaux": 206583,
+          "jockey": "ALEXANDRE BODIN",
+          "entraineur": "CH. MOTTIER",
+          "proprietaire": "EC.SANG ET OR",
+          "cote": 9.0,
+          "score_historique": 4.64,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.405,
+          "win_prob": 0.0691,
+          "place_prob": 0.2493,
+          "top3_prob": 0.4273,
+          "confiance_mc": 0.427,
+          "score_pondere": 453402.0,
+          "borda_rank": 4,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.685,
+          "score_mc": 0.427,
+          "score_externe": 1.0
+        },
+        {
+          "position": 3,
+          "numero": 10,
+          "nom": "Cheval 10",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 8.0,
+          "forme": "4.3.1.9.D",
+          "age": 8,
+          "poids": null,
+          "jockey": "CL. DUVALDESTIN"
+        },
+        {
+          "position": 4,
+          "numero": 14,
+          "nom": "Cheval 14",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 6.0,
+          "forme": "1.4.D.2.1",
+          "age": 9,
+          "poids": null,
+          "jockey": "B. ROCHARD"
+        },
+        {
+          "numero": 3,
+          "nom": "JASON",
+          "age": 7,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "8.0.5.3.5",
+          "gains_totaux": 175855,
+          "jockey": "P. LEVESQUE",
+          "entraineur": "P. LEVESQUE",
+          "proprietaire": "EC. Pierre LEVESQUE",
+          "cote": 78.0,
+          "score_historique": 4.08,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.449,
+          "win_prob": 0.096,
+          "place_prob": 0.3197,
+          "top3_prob": 0.5066,
+          "confiance_mc": 0.507,
+          "score_pondere": 497567.0,
+          "borda_rank": 2,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.279,
+          "score_mc": 0.507,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "DIABEL",
+            "message": "N°2 DIABEL : écart cote 886% (affichée 14.0, théorique 1.4) — surévalué",
+            "cote_affichee": 14.0,
+            "cote_theorique": 1.42,
+            "ecart_pct": 8.859
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "JASON",
+            "message": "N°3 JASON : écart cote 649% (affichée 78.0, théorique 10.4) — surévalué",
+            "cote_affichee": 78.0,
+            "cote_theorique": 10.42,
+            "ecart_pct": 6.486
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 5,
+            "cheval_nom": "HAIDA SAUTONNE",
+            "message": "N°5 HAIDA SAUTONNE : écart cote 25% (affichée 38.0, théorique 50.5) — sous-évalué",
+            "cote_affichee": 38.0,
+            "cote_theorique": 50.51,
+            "ecart_pct": 0.248
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "JOY DU CARNOIS",
+            "message": "N°13 JOY DU CARNOIS : écart cote 38% (affichée 9.0, théorique 14.5) — sous-évalué",
+            "cote_affichee": 9.0,
+            "cote_theorique": 14.47,
+            "ecart_pct": 0.378
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 10,
+            "cheval_nom": "IRIS DES ROSEAUX",
+            "message": "N°10 IRIS DES ROSEAUX : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "JOY DU CARNOIS",
+            "message": "N°13 JOY DU CARNOIS : hype artificielle possible — prob. interne 7% mais 100% sources externes",
+            "prob_internal": 0.069,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 14,
+            "cheval_nom": "READLY LAVEC",
+            "message": "N°14 READLY LAVEC : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 15,
+            "cheval_nom": "JUST A MIDI",
+            "message": "N°15 JUST A MIDI : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          3,
+          5,
+          10,
+          13,
+          14,
+          15
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-08-19T09:24:25.834548"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "2": {
+            "numero": 2,
+            "nom": "DIABEL",
+            "cote_affichee": 14.0,
+            "cote_theorique": 1.04,
+            "prob_reelle": 0.966,
+            "prob_implicite": 0.061,
+            "ev": 12.524,
+            "ev_pct": 1252.4,
+            "kelly_raw": 0.9634,
+            "kelly_fractionne": 0.2408,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "13": {
+            "numero": 13,
+            "nom": "JOY DU CARNOIS",
+            "cote_affichee": 9.0,
+            "cote_theorique": 1.46,
+            "prob_reelle": 0.685,
+            "prob_implicite": 0.094,
+            "ev": 5.165,
+            "ev_pct": 516.5,
+            "kelly_raw": 0.6456,
+            "kelly_fractionne": 0.1614,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "10": {
+            "numero": 10,
+            "nom": "IRIS DES ROSEAUX",
+            "cote_affichee": 8.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.106,
+            "ev": 2.6,
+            "ev_pct": 260.0,
+            "kelly_raw": 0.3714,
+            "kelly_fractionne": 0.0929,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "14": {
+            "numero": 14,
+            "nom": "READLY LAVEC",
+            "cote_affichee": 6.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.142,
+            "ev": 1.7,
+            "ev_pct": 170.0,
+            "kelly_raw": 0.34,
+            "kelly_fractionne": 0.085,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "JASON",
+            "cote_affichee": 78.0,
+            "cote_theorique": 3.58,
+            "prob_reelle": 0.279,
+            "prob_implicite": 0.011,
+            "ev": 20.762,
+            "ev_pct": 2076.2,
+            "kelly_raw": 0.2696,
+            "kelly_fractionne": 0.0674,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          2,
+          13,
+          10,
+          14,
+          3
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette réunion à Laval sur le parcours exigent des 2850 mètres est totalement dominée par le N°2 DIABEL, qui se détache nettement en tête de notre sélection avec un impressionnant score HYPERION de 0.966 et une régularité exemplaire dans sa forme récente, faisant de lui un favori logique malgré une cote potentiellement attractive de 14.0. Pour pimenter les rapports, le N°13 JOY DU CARNOIS, affichant de sérieux atouts et une cote de 9.0, ainsi que le N°10 Cheval 10, s'imposent comme des outsiders très séduisants capables de venir pimenter l'arrivée. Bien que le modèle HYPERION accorde un score de confiance maximal de 100% à cette hiérarchie, l'indicateur HADES passe au rouge avec 8 signaux d'alerte, révélant une course piège aux non-dénouements imprévisibles. Dans ce contexte hautement spéculatif, nous conseillons de privilégier un couplé gagnant-placé audacieux autour de notre base solide, ou un trio élargi pour sécuriser les rapports face à la volatilité annoncée.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "14": {
+            "numero": 14,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "15": {
+            "numero": 15,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          14,
+          13,
+          10,
+          2,
+          15
+        ],
+        "sources_detail": [
+          {
+            "source": "canalturf",
+            "url": "https://www.canalturf.com/pronostics-PMU/2026-08-19/laval/415371_prix-de-beaune.html",
+            "top5": [
+              14,
+              13,
+              10,
+              2,
+              15
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-08-19T09:24:35.145219"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 50.0,
+  "finished_at": "2026-08-19T09:24:39.640769",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

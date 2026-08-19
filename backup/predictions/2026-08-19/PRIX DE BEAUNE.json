@@ -1,0 +1,76 @@
+{
+  "date": "2026-08-19",
+  "course_id": "PRIX DE BEAUNE",
+  "hippodrome": "LAVAL",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    13,
+    10,
+    14,
+    3
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "DIABEL",
+      "meta_score": 0.966,
+      "win_prob": 0.7041,
+      "robuste": true
+    },
+    {
+      "numero": 13,
+      "nom": "JOY DU CARNOIS",
+      "meta_score": 0.685,
+      "win_prob": 0.0691,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "Cheval 10",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "Cheval 14",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "JASON",
+      "meta_score": 0.279,
+      "win_prob": 0.096,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "canalturf",
+      "url": "https://www.canalturf.com/pronostics-PMU/2026-08-19/laval/415371_prix-de-beaune.html",
+      "top5": [
+        14,
+        13,
+        10,
+        2,
+        15
+      ]
+    }
+  ],
+  "consensus_externe": [
+    14,
+    13,
+    10,
+    2,
+    15
+  ],
+  "generated_at": "2026-08-19T09:24:39.640142"
+}
