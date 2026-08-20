@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-20",
+  "course_id": "PRIX DU HAVRE",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    16,
+    6,
+    12,
+    7
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "CHALDERO",
+      "meta_score": 0.512,
+      "win_prob": 0.7062,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "VERDANSK",
+      "meta_score": 0.259,
+      "win_prob": 0.0911,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MIKEY",
+      "meta_score": 0.211,
+      "win_prob": 0.0648,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "GALORD",
+      "meta_score": 0.15,
+      "win_prob": 0.0382,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "EVERSTAR",
+      "meta_score": 0.129,
+      "win_prob": 0.0298,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-20T09:24:57.616262"
+}
