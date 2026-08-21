@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-21",
+  "course_id": "PRIX D'ARGENTAN",
+  "hippodrome": "CABOURG",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    2,
+    8,
+    11,
+    3
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "KESITO D'URVILLE",
+      "meta_score": 0.548,
+      "win_prob": 0.9073,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "NELSON GREENWOOD",
+      "meta_score": 0.424,
+      "win_prob": 0.0696,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "KAISER",
+      "meta_score": 0.196,
+      "win_prob": 0.0089,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "EVERY TIME WINNER",
+      "meta_score": 0.135,
+      "win_prob": 0.0049,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "EXPRESS D'ARC",
+      "meta_score": 0.125,
+      "win_prob": 0.0048,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-21T09:27:23.069766"
+}
