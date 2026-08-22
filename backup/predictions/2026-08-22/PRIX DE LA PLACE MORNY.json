@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-22",
+  "course_id": "PRIX DE LA PLACE MORNY",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    7,
+    4,
+    10,
+    5
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "LESSLEPASSER",
+      "meta_score": 0.503,
+      "win_prob": 0.5643,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "ROYALWOOD",
+      "meta_score": 0.437,
+      "win_prob": 0.2882,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "MISTER CHANG",
+      "meta_score": 0.198,
+      "win_prob": 0.0512,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "MAJOR OAK",
+      "meta_score": 0.18,
+      "win_prob": 0.0452,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "GRAND SCOOP",
+      "meta_score": 0.133,
+      "win_prob": 0.0267,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-22T09:19:04.320688"
+}
