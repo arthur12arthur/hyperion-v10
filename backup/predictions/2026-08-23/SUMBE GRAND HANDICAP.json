@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-23",
+  "course_id": "SUMBE GRAND HANDICAP",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    12,
+    13,
+    6,
+    11
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "GERARD TER BORCH",
+      "meta_score": 0.544,
+      "win_prob": 0.8646,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "AMERICAN GLORY",
+      "meta_score": 0.375,
+      "win_prob": 0.0721,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "PRINCE DES VILLES",
+      "meta_score": 0.296,
+      "win_prob": 0.0397,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "JOHNNY HAMMER",
+      "meta_score": 0.112,
+      "win_prob": 0.0076,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "STARNBERG",
+      "meta_score": 0.13,
+      "win_prob": 0.0089,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-23T09:19:15.716234"
+}
