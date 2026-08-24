@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-24",
+  "course_id": "PRIX DE MORTAIN",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    13,
+    5,
+    3,
+    8,
+    1
+  ],
+  "predicted_winner": 13,
+  "top5_details": [
+    {
+      "numero": 13,
+      "nom": "HENRIQUE",
+      "meta_score": 0.306,
+      "win_prob": 0.2321,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "HERAKLION DESBOIS",
+      "meta_score": 0.284,
+      "win_prob": 0.2025,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "GENERAL DE CONNEE",
+      "meta_score": 0.219,
+      "win_prob": 0.1316,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "HIPPARIS",
+      "meta_score": 0.248,
+      "win_prob": 0.1591,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "HALTO MESSI",
+      "meta_score": 0.182,
+      "win_prob": 0.0981,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-24T09:37:26.112067"
+}
