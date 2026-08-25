@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-25",
+  "course_id": "MOROCCO CUP - HANDICAP DE LA MANCHE",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    11,
+    14,
+    12,
+    15,
+    16
+  ],
+  "predicted_winner": 11,
+  "top5_details": [
+    {
+      "numero": 11,
+      "nom": "MIGHTY BOY",
+      "meta_score": 0.526,
+      "win_prob": 0.7639,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "A BEAUREGARD",
+      "meta_score": 0.25,
+      "win_prob": 0.0664,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "ALMAGUER",
+      "meta_score": 0.193,
+      "win_prob": 0.0431,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "ACOTANGO",
+      "meta_score": 0.234,
+      "win_prob": 0.0576,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "DEMPY",
+      "meta_score": 0.153,
+      "win_prob": 0.0294,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-25T09:25:53.503567"
+}
