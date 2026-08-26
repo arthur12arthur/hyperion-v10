@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-26",
+  "course_id": "PRIX LATITUDE GPS (GRAND STEEPLE-CHASE DE LA VILLE DE DEAUVILLE)",
+  "hippodrome": "DEAUVILLE-CLAIREFONTAINE",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    4,
+    3,
+    2,
+    6
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "JOUR POLAIRE",
+      "meta_score": 0.529,
+      "win_prob": 0.6578,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "TANTE ZENA",
+      "meta_score": 0.412,
+      "win_prob": 0.1548,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "COUTE QUE COUTE",
+      "meta_score": 0.394,
+      "win_prob": 0.1346,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KAYO COCO",
+      "meta_score": 0.247,
+      "win_prob": 0.0482,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "BELIZE",
+      "meta_score": 0.053,
+      "win_prob": 0.0041,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-26T09:37:08.975242"
+}
