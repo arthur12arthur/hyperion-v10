@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-27",
+  "course_id": "PRIX DE LA VILLA LUCIE",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 8,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    11,
+    4,
+    9,
+    5
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "COLGAN SENORA",
+      "meta_score": 0.369,
+      "win_prob": 0.2802,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "MELBORA",
+      "meta_score": 0.383,
+      "win_prob": 0.3134,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "SEONA",
+      "meta_score": 0.288,
+      "win_prob": 0.1687,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "HERMES WOOD",
+      "meta_score": 0.241,
+      "win_prob": 0.1234,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "FEVE",
+      "meta_score": 0.118,
+      "win_prob": 0.0412,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-27T19:20:54.272401"
+}
