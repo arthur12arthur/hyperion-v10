@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-28",
+  "course_id": "PRIX DES AUBRIETES",
+  "hippodrome": "CABOURG",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    16,
+    7,
+    10,
+    14
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "KASIMIR DU BOIS",
+      "meta_score": 0.532,
+      "win_prob": 0.5636,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "KAPORAL CARISAIE",
+      "meta_score": 0.51,
+      "win_prob": 0.3591,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "KEIGHT BLESS",
+      "meta_score": 0.331,
+      "win_prob": 0.059,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "KOLMI DES EPINES",
+      "meta_score": 0.108,
+      "win_prob": 0.0078,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "KERLAZ D'AVE",
+      "meta_score": 0.102,
+      "win_prob": 0.0083,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-28T20:30:32.308086"
+}
