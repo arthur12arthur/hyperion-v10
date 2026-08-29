@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-29",
+  "course_id": "PRIX G. DE WAZIERES-CRITERIUM 4 ANS Q4",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    8,
+    12,
+    3,
+    4
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "MYSTIC DES FORGES",
+      "meta_score": 0.412,
+      "win_prob": 0.3288,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "MARINELLA VRIE",
+      "meta_score": 0.427,
+      "win_prob": 0.3655,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "MADRID HAUFOR",
+      "meta_score": 0.261,
+      "win_prob": 0.118,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "METIDJA",
+      "meta_score": 0.183,
+      "win_prob": 0.0635,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "MY QUALITA PIYA",
+      "meta_score": 0.183,
+      "win_prob": 0.068,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-29T14:07:24.225036"
+}
