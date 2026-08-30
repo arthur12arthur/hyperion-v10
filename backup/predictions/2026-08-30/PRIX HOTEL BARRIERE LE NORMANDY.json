@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-30",
+  "course_id": "PRIX HOTEL BARRIERE LE NORMANDY",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    10,
+    4,
+    12,
+    6,
+    1
+  ],
+  "predicted_winner": 10,
+  "top5_details": [
+    {
+      "numero": 10,
+      "nom": "CITY SOLACE",
+      "meta_score": 0.655,
+      "win_prob": 0.4312,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "FREERIDER",
+      "meta_score": 0.579,
+      "win_prob": 0.049,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "Cheval 12",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "HENDRIXX",
+      "meta_score": 0.359,
+      "win_prob": 0.2639,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "Cheval 1",
+      "meta_score": 0.225,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Zeturf",
+      "url": "https://www.zeturf.fr/fr/reunion-du-jour/2026-08-30/R1-deauville",
+      "top5": [
+        12,
+        4,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "source": "Paris-Turf",
+      "url": "https://www.paris-turf.com/actualites/france/302748898807-quinte-du-30-08-2026-a-deauville-prix-hotel-barriere-le-normandy-freerider-le-favori-de-notre-expert-thomas-guilmin",
+      "top5": [
+        4,
+        1,
+        16,
+        12,
+        9
+      ]
+    }
+  ],
+  "consensus_externe": [
+    4,
+    1,
+    12,
+    3,
+    16
+  ],
+  "generated_at": "2026-08-30T14:07:11.900866"
+}
