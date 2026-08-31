@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-31",
+  "day_number": 9,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0,
+  "running_top3": 0.1482,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DE SAINT-PAIR-DU-MONT",
+        "is_lonab": true,
+        "predicted_winner": 6,
+        "official_winner": 1,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-08-31T23:39:59.610467"
+}
