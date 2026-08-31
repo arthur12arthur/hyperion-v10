@@ -1,0 +1,58 @@
+{
+  "date": "2026-08-31",
+  "course_id": "PRIX DE SAINT-PAIR-DU-MONT",
+  "hippodrome": "SAINT-CLOUD",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    6,
+    11,
+    4,
+    9,
+    13
+  ],
+  "predicted_winner": 6,
+  "top5_details": [
+    {
+      "numero": 6,
+      "nom": "SHAPESMITH",
+      "meta_score": 0.461,
+      "win_prob": 0.5281,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "ELUSIVE WAY",
+      "meta_score": 0.228,
+      "win_prob": 0.1059,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "BASQUIAT",
+      "meta_score": 0.246,
+      "win_prob": 0.1174,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "ENTLEBUCH",
+      "meta_score": 0.191,
+      "win_prob": 0.0781,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "GOOD BYE DAVIER",
+      "meta_score": 0.173,
+      "win_prob": 0.0689,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-08-31T16:33:25.241769"
+}
