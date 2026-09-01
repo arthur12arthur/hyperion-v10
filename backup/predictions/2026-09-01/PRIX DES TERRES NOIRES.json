@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-01",
+  "course_id": "PRIX DES TERRES NOIRES",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    1,
+    5,
+    7,
+    3
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "OLYMPIC MESSAGE",
+      "meta_score": 0.522,
+      "win_prob": 0.6673,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "CALAS",
+      "meta_score": 0.403,
+      "win_prob": 0.1804,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "KRASKHOV",
+      "meta_score": 0.295,
+      "win_prob": 0.0846,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "NO LIMIT DREAM",
+      "meta_score": 0.198,
+      "win_prob": 0.0412,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "FELIX AUX ORMES",
+      "meta_score": 0.097,
+      "win_prob": 0.0137,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-01T13:50:19.959802"
+}
