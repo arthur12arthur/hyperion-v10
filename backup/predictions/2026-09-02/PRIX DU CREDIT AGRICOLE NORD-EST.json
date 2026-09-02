@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-02",
+  "course_id": "PRIX DU CREDIT AGRICOLE NORD-EST",
+  "hippodrome": "LA CAPELLE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    9,
+    2,
+    3,
+    4,
+    6
+  ],
+  "predicted_winner": 9,
+  "top5_details": [
+    {
+      "numero": 9,
+      "nom": "RUGER",
+      "meta_score": 0.549,
+      "win_prob": 0.9246,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "ILIO MANNETOT",
+      "meta_score": 0.436,
+      "win_prob": 0.0526,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "HERMES D'ECROVILLE",
+      "meta_score": 0.293,
+      "win_prob": 0.0139,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "HORIZON D'EYMY",
+      "meta_score": 0.187,
+      "win_prob": 0.006,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "JALIMEDE",
+      "meta_score": 0.079,
+      "win_prob": 0.0015,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-02T13:06:29.736824"
+}
