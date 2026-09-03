@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-03",
+  "day_number": 11,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0909,
+  "running_top3": 0.1818,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DE LONGCHAMP",
+        "is_lonab": true,
+        "predicted_winner": 13,
+        "official_winner": 14,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "Zeturf",
+            "predicted_winner": 3,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-03T22:24:45.949238"
+}
