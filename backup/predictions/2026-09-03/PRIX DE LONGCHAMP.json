@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-03",
+  "course_id": "PRIX DE LONGCHAMP",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    13,
+    3,
+    1,
+    14,
+    9
+  ],
+  "predicted_winner": 13,
+  "top5_details": [
+    {
+      "numero": 13,
+      "nom": "MISTER BLACK",
+      "meta_score": 0.864,
+      "win_prob": 0.3796,
+      "robuste": true
+    },
+    {
+      "numero": 3,
+      "nom": "SHANOUR",
+      "meta_score": 0.682,
+      "win_prob": 0.1161,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "ZELZARA",
+      "meta_score": 0.627,
+      "win_prob": 0.0783,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "Cheval 14",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "LE LEGIONNAIRE",
+      "meta_score": 0.345,
+      "win_prob": 0.2471,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Zeturf",
+      "url": "https://www.zeturf.fr/fr/reunion-du-jour/2026-09-03/R1-paris-longchamp",
+      "top5": [
+        3,
+        13,
+        14,
+        1,
+        11
+      ]
+    }
+  ],
+  "consensus_externe": [
+    3,
+    13,
+    14,
+    1,
+    11
+  ],
+  "generated_at": "2026-09-03T13:08:19.762952"
+}
