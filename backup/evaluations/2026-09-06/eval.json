@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-06",
+  "day_number": 13,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0769,
+  "running_top3": 0.1538,
+  "details": {
+    "courses": [
+      {
+        "course_id": "QATAR PRIX DE LA REINE MARGUERITE",
+        "is_lonab": true,
+        "predicted_winner": 4,
+        "official_winner": 1,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": [
+          {
+            "source": "Turfomania",
+            "predicted_winner": 4,
+            "top1_correct": false,
+            "top3_score": 0
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-06T22:00:43.801893"
+}
