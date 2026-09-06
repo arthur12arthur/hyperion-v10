@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-06",
+  "course_id": "QATAR PRIX DE LA REINE MARGUERITE",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    8,
+    10,
+    12,
+    2
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "DIXMUDE",
+      "meta_score": 0.867,
+      "win_prob": 0.3708,
+      "robuste": true
+    },
+    {
+      "numero": 8,
+      "nom": "PRINCESSE D'AMOUR",
+      "meta_score": 0.727,
+      "win_prob": 0.148,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "Cheval 10",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "MONONOF",
+      "meta_score": 0.388,
+      "win_prob": 0.3011,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "REMBRAND TO GO",
+      "meta_score": 0.179,
+      "win_prob": 0.0701,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfomania",
+      "url": "https://www.turfomania.fr/pronostics/pronostics-dimanche-06-septembre-2026-longchamp-qatar-prix-de-la-reine-marguerite-presente-par-le-parisien.html?idcourse=680911",
+      "top5": [
+        4,
+        10,
+        8
+      ]
+    }
+  ],
+  "consensus_externe": [
+    4,
+    10,
+    8
+  ],
+  "generated_at": "2026-09-06T12:29:01.993103"
+}
