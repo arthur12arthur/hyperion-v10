@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-07",
+  "day_number": 14,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0714,
+  "running_top3": 0.1666,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX V AND B",
+        "is_lonab": true,
+        "predicted_winner": 3,
+        "official_winner": 13,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "CanalTurf",
+            "predicted_winner": 13,
+            "top1_correct": true,
+            "top3_score": 2
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-07T22:38:19.411560"
+}
