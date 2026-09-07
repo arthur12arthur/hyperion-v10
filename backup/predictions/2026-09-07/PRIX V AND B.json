@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-07",
+  "course_id": "PRIX V AND B",
+  "hippodrome": "CRAON",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    16,
+    10,
+    13,
+    14
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "KING DE L'OUEST",
+      "meta_score": 0.989,
+      "win_prob": 0.7887,
+      "robuste": true
+    },
+    {
+      "numero": 16,
+      "nom": "IDEAL DU ROCHER",
+      "meta_score": 0.83,
+      "win_prob": 0.0968,
+      "robuste": true
+    },
+    {
+      "numero": 10,
+      "nom": "Cheval 10",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "Cheval 13",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "KING OPERA",
+      "meta_score": 0.353,
+      "win_prob": 0.0786,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "CanalTurf",
+      "url": "https://www.canalturf.com/pronostics-PMU/2026-09-07/craon/417107_prix-v-and-b.html",
+      "top5": [
+        13,
+        16,
+        10,
+        3,
+        8
+      ]
+    }
+  ],
+  "consensus_externe": [
+    13,
+    16,
+    10,
+    3,
+    8
+  ],
+  "generated_at": "2026-09-07T14:37:00.759080"
+}

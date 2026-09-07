@@ -1,0 +1,669 @@
+{
+  "date": "2026-09-07",
+  "run_id": "20260907_143620",
+  "started_at": "2026-09-07T14:36:20.269548",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX V AND B",
+        "hippodrome": "CRAON",
+        "date": "2026-09-07",
+        "heure": "11:55",
+        "distance": 2775,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "JAMBIER D'OURVILLE",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.0.4.0.4",
+            "gains_totaux": 178475,
+            "jockey": "G. BLANDIN",
+            "entraineur": "E. PLANCHENAULT",
+            "proprietaire": "EC. SALLELOISE",
+            "cote": 108.0
+          },
+          {
+            "numero": 2,
+            "nom": "IDEAL DE SASSY",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.5.7.0.9",
+            "gains_totaux": 186895,
+            "jockey": "P.L. ROUSSEAU",
+            "entraineur": "P.L. ROUSSEAU",
+            "proprietaire": "P.L. ROUSSEAU",
+            "cote": 31.0
+          },
+          {
+            "numero": 3,
+            "nom": "KING DE L'OUEST",
+            "age": 6,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.1.7.5.3",
+            "gains_totaux": 211100,
+            "jockey": "A. BARRIER",
+            "entraineur": "S.G. DUPONT",
+            "proprietaire": "EC.G. RAUTUREAU",
+            "cote": 9.0
+          },
+          {
+            "numero": 4,
+            "nom": "GENERAL DU NORD",
+            "age": 10,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.6.2.0.0",
+            "gains_totaux": 259570,
+            "jockey": "M. GOETZ",
+            "entraineur": "R. KUIPER",
+            "proprietaire": "St. ESCAPADE AB",
+            "cote": 89.0
+          },
+          {
+            "numero": 5,
+            "nom": "GUMP DU PONCELET",
+            "age": 10,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.0.D.8.1",
+            "gains_totaux": 265040,
+            "jockey": "TH. DROMIGNY",
+            "entraineur": "D. KUMPEN",
+            "proprietaire": "D. KUMPEN",
+            "cote": 18.0
+          },
+          {
+            "numero": 6,
+            "nom": "ILEO PIERJI",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.4.5.5.D",
+            "gains_totaux": 283765,
+            "jockey": "A. COLLETTE",
+            "entraineur": "CH.A. MARY",
+            "proprietaire": "Ec. PIERRE JULIENNE",
+            "cote": 22.0
+          },
+          {
+            "numero": 7,
+            "nom": "HECTOR DE BASSIERE",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.3.6.0.6",
+            "gains_totaux": 284880,
+            "jockey": "A. ANDRE",
+            "entraineur": "P.L. DESAUNETTE",
+            "proprietaire": "EC.Eric LETOUZE",
+            "cote": 25.0
+          },
+          {
+            "numero": 8,
+            "nom": "INHERIT",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.5.A.7.0",
+            "gains_totaux": 285625,
+            "jockey": "E. RAFFIN",
+            "entraineur": "G. BEAUFILS",
+            "proprietaire": "EC.J.C.G. BEAUFILS",
+            "cote": 16.0
+          },
+          {
+            "numero": 9,
+            "nom": "IRIS FROM",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "2.0.0.7.4",
+            "gains_totaux": 286100,
+            "jockey": "C. HERIVAUX",
+            "entraineur": "W. BIGEON",
+            "proprietaire": "EC.William BIGEON",
+            "cote": 29.0
+          },
+          {
+            "numero": 10,
+            "nom": "JOYCE DELTO",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "6.3.8.1.5",
+            "gains_totaux": 292955,
+            "jockey": "A. THOMAS",
+            "entraineur": "A. THOMAS",
+            "proprietaire": "EC. DELTO",
+            "cote": 14.0
+          },
+          {
+            "numero": 11,
+            "nom": "HOLD UP DU DIGEON",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "8.8.0.0.6",
+            "gains_totaux": 323425,
+            "jockey": "F. NIVARD",
+            "entraineur": "TH. RAFFEGEAU",
+            "proprietaire": "EC. Thierry RAFFEGEAU",
+            "cote": 44.0
+          },
+          {
+            "numero": 12,
+            "nom": "IDOLE OF LOVE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "4.4.3.4.D",
+            "gains_totaux": 328800,
+            "jockey": "T. LE BELLER",
+            "entraineur": "E. VARIN",
+            "proprietaire": "EC. E. VARIN",
+            "cote": 20.0
+          },
+          {
+            "numero": 13,
+            "nom": "JUST DE L'OISON",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "1.1.2.D.2",
+            "gains_totaux": 435870,
+            "jockey": "THEO DUVALDESTIN",
+            "entraineur": "TH. DUVALDESTIN",
+            "proprietaire": "Victor PAQUIN",
+            "cote": 7.0
+          },
+          {
+            "numero": 14,
+            "nom": "KING OPERA",
+            "age": 6,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "2.1.1.3.2",
+            "gains_totaux": 561280,
+            "jockey": "M. ABRIVARD",
+            "entraineur": "W. BIGEON",
+            "proprietaire": "J. SECHE",
+            "cote": 8.0
+          },
+          {
+            "numero": 15,
+            "nom": "HIDALGO DES NOES",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.8.6.4.8",
+            "gains_totaux": 573540,
+            "jockey": "J. TRAVERS",
+            "entraineur": "St. PROVOOST",
+            "proprietaire": "EC.DANOVER",
+            "cote": 98.0
+          },
+          {
+            "numero": 16,
+            "nom": "IDEAL DU ROCHER",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "1.5.0.3.3",
+            "gains_totaux": 573892,
+            "jockey": "CL. DUVALDESTIN",
+            "entraineur": "TH. DUVALDESTIN",
+            "proprietaire": "EC. Charley MOTTIER",
+            "cote": 6.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 1
+      },
+      "top5_final": [
+        {
+          "numero": 3,
+          "nom": "KING DE L'OUEST",
+          "age": 6,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "2.1.7.5.3",
+          "gains_totaux": 211100,
+          "jockey": "A. BARRIER",
+          "entraineur": "S.G. DUPONT",
+          "proprietaire": "EC.G. RAUTUREAU",
+          "cote": 9.0,
+          "score_historique": 5.86,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 6.221,
+          "win_prob": 0.7887,
+          "place_prob": 0.9366,
+          "top3_prob": 0.9803,
+          "confiance_mc": 0.98,
+          "score_pondere": 784325.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.989,
+          "score_mc": 0.98,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 16,
+          "nom": "IDEAL DU ROCHER",
+          "age": 8,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "1.5.0.3.3",
+          "gains_totaux": 573892,
+          "jockey": "CL. DUVALDESTIN",
+          "entraineur": "TH. DUVALDESTIN",
+          "proprietaire": "EC. Charley MOTTIER",
+          "cote": 6.0,
+          "score_historique": 5.94,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 5.5,
+          "score_global": 5.808,
+          "win_prob": 0.0968,
+          "place_prob": 0.4312,
+          "top3_prob": 0.6906,
+          "confiance_mc": 0.691,
+          "score_pondere": 665420.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": true,
+          "meta_score": 0.83,
+          "score_mc": 0.691,
+          "score_externe": 1.0
+        },
+        {
+          "position": 3,
+          "numero": 10,
+          "nom": "Cheval 10",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 14.0,
+          "forme": "6.3.8.1.5",
+          "age": 7,
+          "poids": null,
+          "jockey": "A. THOMAS"
+        },
+        {
+          "position": 4,
+          "numero": 13,
+          "nom": "Cheval 13",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 7.0,
+          "forme": "1.1.2.D.2",
+          "age": 7,
+          "poids": null,
+          "jockey": "THEO DUVALDESTIN"
+        },
+        {
+          "numero": 14,
+          "nom": "KING OPERA",
+          "age": 6,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "2.1.1.3.2",
+          "gains_totaux": 561280,
+          "jockey": "M. ABRIVARD",
+          "entraineur": "W. BIGEON",
+          "proprietaire": "J. SECHE",
+          "cote": 8.0,
+          "score_historique": 5.28,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.776,
+          "win_prob": 0.0786,
+          "place_prob": 0.3712,
+          "top3_prob": 0.641,
+          "confiance_mc": 0.641,
+          "score_pondere": 647857.0,
+          "borda_rank": 3,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.353,
+          "score_mc": 0.641,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 1,
+            "cheval_nom": "JAMBIER D'OURVILLE",
+            "message": "N°1 JAMBIER D'OURVILLE : écart cote 90% (affichée 108.0, théorique 56.8) — surévalué",
+            "cote_affichee": 108.0,
+            "cote_theorique": 56.82,
+            "ecart_pct": 0.901
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "IDEAL DE SASSY",
+            "message": "N°2 IDEAL DE SASSY : écart cote 52% (affichée 31.0, théorique 64.9) — sous-évalué",
+            "cote_affichee": 31.0,
+            "cote_theorique": 64.94,
+            "ecart_pct": 0.523
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "KING DE L'OUEST",
+            "message": "N°3 KING DE L'OUEST : écart cote 609% (affichée 9.0, théorique 1.3) — surévalué",
+            "cote_affichee": 9.0,
+            "cote_theorique": 1.27,
+            "ecart_pct": 6.087
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 14,
+            "cheval_nom": "KING OPERA",
+            "message": "N°14 KING OPERA : écart cote 37% (affichée 8.0, théorique 12.7) — sous-évalué",
+            "cote_affichee": 8.0,
+            "cote_theorique": 12.72,
+            "ecart_pct": 0.371
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 16,
+            "cheval_nom": "IDEAL DU ROCHER",
+            "message": "N°16 IDEAL DU ROCHER : écart cote 42% (affichée 6.0, théorique 10.3) — sous-évalué",
+            "cote_affichee": 6.0,
+            "cote_theorique": 10.33,
+            "ecart_pct": 0.419
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 8,
+            "cheval_nom": "INHERIT",
+            "message": "N°8 INHERIT : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 10,
+            "cheval_nom": "JOYCE DELTO",
+            "message": "N°10 JOYCE DELTO : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "JUST DE L'OISON",
+            "message": "N°13 JUST DE L'OISON : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 16,
+            "cheval_nom": "IDEAL DU ROCHER",
+            "message": "N°16 IDEAL DU ROCHER : hype artificielle possible — prob. interne 10% mais 100% sources externes",
+            "prob_internal": 0.097,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          3,
+          8,
+          10,
+          13,
+          14,
+          16
+        ],
+        "nb_signaux": 9,
+        "mode_test": true,
+        "detected_at": "2026-09-07T14:36:46.095980"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "3": {
+            "numero": 3,
+            "nom": "KING DE L'OUEST",
+            "cote_affichee": 9.0,
+            "cote_theorique": 1.01,
+            "prob_reelle": 0.989,
+            "prob_implicite": 0.094,
+            "ev": 7.901,
+            "ev_pct": 790.1,
+            "kelly_raw": 0.9876,
+            "kelly_fractionne": 0.2469,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "16": {
+            "numero": 16,
+            "nom": "IDEAL DU ROCHER",
+            "cote_affichee": 6.0,
+            "cote_theorique": 1.2,
+            "prob_reelle": 0.83,
+            "prob_implicite": 0.142,
+            "ev": 3.98,
+            "ev_pct": 398.0,
+            "kelly_raw": 0.796,
+            "kelly_fractionne": 0.199,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "10": {
+            "numero": 10,
+            "nom": "JOYCE DELTO",
+            "cote_affichee": 14.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.061,
+            "ev": 5.3,
+            "ev_pct": 530.0,
+            "kelly_raw": 0.4077,
+            "kelly_fractionne": 0.1019,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "13": {
+            "numero": 13,
+            "nom": "JUST DE L'OISON",
+            "cote_affichee": 7.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.121,
+            "ev": 2.15,
+            "ev_pct": 215.0,
+            "kelly_raw": 0.3583,
+            "kelly_fractionne": 0.0896,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "14": {
+            "numero": 14,
+            "nom": "KING OPERA",
+            "cote_affichee": 8.0,
+            "cote_theorique": 2.83,
+            "prob_reelle": 0.353,
+            "prob_implicite": 0.106,
+            "ev": 1.824,
+            "ev_pct": 182.4,
+            "kelly_raw": 0.2606,
+            "kelly_fractionne": 0.0651,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          3,
+          16,
+          10,
+          13,
+          14
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "En tant qu'analyste en chef d'HYPERION V10, je vous propose l'étude de cette réunion à Craon sur le parcours de 2775 mètres. Notre algorithme place nettement en tête le N°3 KING DE L'OUEST, crédité d'un impressionnant score de 0.989 et associé à une cote spéculative de 9.0 qui offre un excellent rapport qualité-risque au vu de sa régularité récente. Pour pimenter les rapports, le N°16 IDEAL DU ROCHER se positionne comme un solide point d'appui avec un score de 0.830 et une cote de 6.0, tandis que le N°13 offre des garantías malgré une cote plus prudente de 7.0. L'indice de confiance s'établit à un robustes 82%, bien que l'indicateur HADES passe au rouge avec 9 signaux d'alerte, suggérant une course rythmée et potentiellement piège derrière les intouchables. Dans ce contexte, la hiérarchie du sommet de notre sélection apparaît fiable pour dominer les débats, mais la vigilance reste de mise. Pour vos jeux, je vous conseille de privilégier un couplé gagnant-placé solide axé sur le duet N°3 et N°16, complété en combinaison élargie par le N°13 pour sécuriser vos paris dans les trios.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "16": {
+            "numero": 16,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          13,
+          16,
+          10,
+          3,
+          8
+        ],
+        "sources_detail": [
+          {
+            "source": "CanalTurf",
+            "url": "https://www.canalturf.com/pronostics-PMU/2026-09-07/craon/417107_prix-v-and-b.html",
+            "top5": [
+              13,
+              16,
+              10,
+              3,
+              8
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-09-07T14:36:55.492749"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 40.5,
+  "finished_at": "2026-09-07T14:37:00.759779",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
