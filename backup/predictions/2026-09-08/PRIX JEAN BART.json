@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-08",
+  "course_id": "PRIX JEAN BART",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    2,
+    1,
+    12,
+    10
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "ROCK AND ROLL",
+      "meta_score": 0.544,
+      "win_prob": 0.6927,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "ASTA LA PASTA",
+      "meta_score": 0.522,
+      "win_prob": 0.2867,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "HAMANDIO",
+      "meta_score": 0.146,
+      "win_prob": 0.0058,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "HACKER DU BERLAIS",
+      "meta_score": 0.151,
+      "win_prob": 0.0068,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "JOYEUSE ROQUE",
+      "meta_score": 0.138,
+      "win_prob": 0.0049,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-08T13:11:02.856446"
+}
