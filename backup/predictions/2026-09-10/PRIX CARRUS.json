@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-10",
+  "course_id": "PRIX CARRUS",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    13,
+    3,
+    6,
+    10,
+    9
+  ],
+  "predicted_winner": 13,
+  "top5_details": [
+    {
+      "numero": 13,
+      "nom": "OMICRONE",
+      "meta_score": 0.686,
+      "win_prob": 0.1055,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "ALEM",
+      "meta_score": 0.658,
+      "win_prob": 0.0866,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "TALENTUOSO",
+      "meta_score": 0.619,
+      "win_prob": 0.0623,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "REVE DE VALLARSA",
+      "meta_score": 0.427,
+      "win_prob": 0.3783,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "ELIMAN",
+      "meta_score": 0.402,
+      "win_prob": 0.3161,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Pronostic Quinté PMU du PRIX CARRUS",
+      "url": "https://www.google.com/goto?url=CAESjQEB6zswFfmJfzZx2c16OLoERVrImHI9C5dGnnzqonDTFFfQdjUrQhRH4qcEB8qphnSpbwqmH3chIVsWyMm3pCDR4vRuRIxNwj53UmspLFlRBPr1jt_qGNSYC1-H1vW1uQ--ccnqT-z2Bdp6Nz8X-JTbjfGiRNogRkYGLW51x59_3iDpD5g-Ld1iLZ3aDio",
+      "top5": [
+        3,
+        6,
+        1,
+        2,
+        13
+      ]
+    }
+  ],
+  "consensus_externe": [
+    3,
+    6,
+    1,
+    2,
+    13
+  ],
+  "generated_at": "2026-09-10T13:14:42.843733"
+}
