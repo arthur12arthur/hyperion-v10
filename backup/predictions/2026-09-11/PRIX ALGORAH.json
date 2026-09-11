@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-11",
+  "course_id": "PRIX ALGORAH",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    14,
+    5,
+    3,
+    4,
+    2
+  ],
+  "predicted_winner": 14,
+  "top5_details": [
+    {
+      "numero": 14,
+      "nom": "JAZZ DE PADD",
+      "meta_score": 0.511,
+      "win_prob": 0.4683,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "JACKPOT MEARAS",
+      "meta_score": 0.504,
+      "win_prob": 0.4189,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "ENJOY THE MOMENT",
+      "meta_score": 0.296,
+      "win_prob": 0.0696,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "HASHTAG SIMONI",
+      "meta_score": 0.164,
+      "win_prob": 0.0249,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "ORLANDO YOUNG",
+      "meta_score": 0.12,
+      "win_prob": 0.0144,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-11T13:08:10.467347"
+}
