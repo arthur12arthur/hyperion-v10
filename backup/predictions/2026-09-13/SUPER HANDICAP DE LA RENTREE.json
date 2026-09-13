@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-13",
+  "course_id": "SUPER HANDICAP DE LA RENTREE",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    12,
+    2,
+    6,
+    10
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "BIG LOG",
+      "meta_score": 0.522,
+      "win_prob": 0.6497,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "AMINACO",
+      "meta_score": 0.395,
+      "win_prob": 0.1621,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "HUMAN EVOLUTION",
+      "meta_score": 0.361,
+      "win_prob": 0.1307,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "GANASS",
+      "meta_score": 0.199,
+      "win_prob": 0.0417,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "NITY GALESTE",
+      "meta_score": 0.073,
+      "win_prob": 0.0094,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-13T13:32:53.848836"
+}
