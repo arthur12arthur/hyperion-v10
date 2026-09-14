@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-14",
+  "course_id": "GRAND PRIX JEAN DUMOUCH",
+  "hippodrome": "BEAUMONT-DE-LOMAGNE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    10,
+    14,
+    13,
+    1,
+    9
+  ],
+  "predicted_winner": 10,
+  "top5_details": [
+    {
+      "numero": 10,
+      "nom": "KLASSE DE BRUZEAU",
+      "meta_score": 0.512,
+      "win_prob": 0.6143,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "JAPPELOUP TURGOT",
+      "meta_score": 0.405,
+      "win_prob": 0.2093,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "COOL KRONOS",
+      "meta_score": 0.275,
+      "win_prob": 0.0847,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "IRISH SONG",
+      "meta_score": 0.234,
+      "win_prob": 0.0646,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "JAZZ PAT",
+      "meta_score": 0.08,
+      "win_prob": 0.0111,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-14T15:27:59.178846"
+}
