@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-15",
+  "day_number": 20,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.0499,
+  "running_top3": 0.2001,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DES BORDS DE L'OISE",
+        "is_lonab": true,
+        "predicted_winner": 1,
+        "official_winner": 7,
+        "top1_correct": false,
+        "top3_score": 2,
+        "external_results": [
+          {
+            "source": "PRIX DES BORDS DE L'OISE",
+            "predicted_winner": 6,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-15T22:46:07.421678"
+}
