@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-15",
+  "course_id": "PRIX DES BORDS DE L'OISE",
+  "hippodrome": "COMPIEGNE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    6,
+    7,
+    12,
+    4
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "CHESS",
+      "meta_score": 0.92,
+      "win_prob": 0.5046,
+      "robuste": true
+    },
+    {
+      "numero": 6,
+      "nom": "MIGHTY BOY",
+      "meta_score": 0.699,
+      "win_prob": 0.103,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "MISTER GATZ",
+      "meta_score": 0.644,
+      "win_prob": 0.0669,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "SAPRISTI",
+      "meta_score": 0.602,
+      "win_prob": 0.0469,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "Cheval 4",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "PRIX DES BORDS DE L'OISE",
+      "url": "https://www.google.com/goto?url=CAEShwEB6zswFZHMjRYMPgOSNu3BrrlKMAD8FQXSf4SPgyWhy5ZtcJHYwZxa4v704iyyLtQV7BS-iDmGCnZnWs6A2Z-MvLmANLVi7stSWf_z-qL9v4Aohhwv9fdR8ocU_iINaWn7IGDtiv9Tq7v9G4QHxexkKuPVi89sfXAH_QgER7nga3H-mHr8rKo",
+      "top5": [
+        6,
+        4,
+        1,
+        12,
+        7
+      ]
+    }
+  ],
+  "consensus_externe": [
+    6,
+    4,
+    1,
+    12,
+    7
+  ],
+  "generated_at": "2026-09-15T14:00:31.040545"
+}
