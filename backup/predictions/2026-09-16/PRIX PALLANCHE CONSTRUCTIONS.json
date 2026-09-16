@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-16",
+  "course_id": "PRIX PALLANCHE CONSTRUCTIONS",
+  "hippodrome": "FEURS",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    7,
+    10,
+    1,
+    4,
+    2
+  ],
+  "predicted_winner": 7,
+  "top5_details": [
+    {
+      "numero": 7,
+      "nom": "JAGERBOMB",
+      "meta_score": 0.492,
+      "win_prob": 0.5857,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "JINGLE LOVER",
+      "meta_score": 0.363,
+      "win_prob": 0.2084,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "IVAN DE L'ERDRE",
+      "meta_score": 0.172,
+      "win_prob": 0.0502,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "JONQUILLE DE MEAT",
+      "meta_score": 0.153,
+      "win_prob": 0.0417,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "JET DES PRES",
+      "meta_score": 0.18,
+      "win_prob": 0.0561,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-16T13:54:04.402583"
+}
