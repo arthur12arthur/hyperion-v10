@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-16",
+  "day_number": 21,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.0475,
+  "running_top3": 0.2223,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX PALLANCHE CONSTRUCTIONS",
+        "is_lonab": true,
+        "predicted_winner": 7,
+        "official_winner": 9,
+        "top1_correct": false,
+        "top3_score": 2,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-09-16T22:44:48.233539"
+}
