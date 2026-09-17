@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-17",
+  "course_id": "PRIX DE MEHUN SUR YEVRE",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    7,
+    3,
+    5,
+    15
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "LE GRAAL",
+      "meta_score": 0.546,
+      "win_prob": 0.5091,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "FAWAZ MIL",
+      "meta_score": 0.542,
+      "win_prob": 0.3337,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "LAMONT DU DOUET",
+      "meta_score": 0.524,
+      "win_prob": 0.1565,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "ALADIN",
+      "meta_score": 0.01,
+      "win_prob": 0.0003,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "LE RETOUR VRIE",
+      "meta_score": 0.017,
+      "win_prob": 0.0003,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 3,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-17T13:57:56.833502"
+}
