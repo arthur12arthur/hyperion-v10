@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-18",
+  "course_id": "PRIX EUCHARIS",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    4,
+    5,
+    2,
+    6
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "MIDDLE EARTH",
+      "meta_score": 0.549,
+      "win_prob": 0.9038,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "MAGIE MESLOISE",
+      "meta_score": 0.474,
+      "win_prob": 0.0572,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "MALICIA BELLA",
+      "meta_score": 0.441,
+      "win_prob": 0.0373,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "MA LIBERTE",
+      "meta_score": 0.095,
+      "win_prob": 0.0012,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MARINA JAMES",
+      "meta_score": 0.033,
+      "win_prob": 0.0002,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-18T13:17:46.925237"
+}
