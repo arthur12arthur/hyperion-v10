@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-18",
+  "day_number": 23,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0433,
+  "running_top3": 0.2464,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX EUCHARIS",
+        "is_lonab": true,
+        "predicted_winner": 1,
+        "official_winner": 3,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-09-18T22:24:41.015002"
+}
