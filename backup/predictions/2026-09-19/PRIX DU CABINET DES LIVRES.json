@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-19",
+  "course_id": "PRIX DU CABINET DES LIVRES",
+  "hippodrome": "CHANTILLY",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    12,
+    13,
+    7,
+    14,
+    16
+  ],
+  "predicted_winner": 12,
+  "top5_details": [
+    {
+      "numero": 12,
+      "nom": "SCHUMAN",
+      "meta_score": 0.93,
+      "win_prob": 0.5222,
+      "robuste": true
+    },
+    {
+      "numero": 13,
+      "nom": "HEROISTE",
+      "meta_score": 0.653,
+      "win_prob": 0.0697,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "MAJOR OAK",
+      "meta_score": 0.589,
+      "win_prob": 0.0377,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "MIKEY",
+      "meta_score": 0.4,
+      "win_prob": 0.2737,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "Cheval 16",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "turf-fr.com",
+      "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-du-cabinet-des-livres-385864",
+      "top5": [
+        12,
+        16,
+        9,
+        13,
+        7
+      ]
+    }
+  ],
+  "consensus_externe": [
+    12,
+    16,
+    9,
+    13,
+    7
+  ],
+  "generated_at": "2026-09-19T12:47:17.911645"
+}
