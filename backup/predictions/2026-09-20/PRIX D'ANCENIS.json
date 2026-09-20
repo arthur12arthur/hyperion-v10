@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-20",
+  "course_id": "PRIX D'ANCENIS",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    4,
+    11,
+    13,
+    2
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "JANE CASH",
+      "meta_score": 0.963,
+      "win_prob": 0.5968,
+      "robuste": true
+    },
+    {
+      "numero": 4,
+      "nom": "DADA DEL RONCO",
+      "meta_score": 0.619,
+      "win_prob": 0.0362,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "Cheval 11",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "Cheval 13",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "DILVA JET",
+      "meta_score": 0.371,
+      "win_prob": 0.1495,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfomania",
+      "url": "https://www.turfomania.fr/pronostics/pronostics-dimanche-20-septembre-2026-paris-vincennes-prix-d-ancenis.html?idcourse=682917",
+      "top5": [
+        13,
+        11,
+        4,
+        7,
+        8
+      ]
+    }
+  ],
+  "consensus_externe": [
+    13,
+    11,
+    4,
+    7,
+    8
+  ],
+  "generated_at": "2026-09-20T13:20:38.679971"
+}

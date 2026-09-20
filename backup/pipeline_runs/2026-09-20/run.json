@@ -1,0 +1,616 @@
+{
+  "date": "2026-09-20",
+  "run_id": "20260920_132001",
+  "started_at": "2026-09-20T13:20:01.649089",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX D'ANCENIS",
+        "hippodrome": "PARIS-VINCENNES",
+        "date": "2026-09-20",
+        "heure": "13:15",
+        "distance": 2700,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 13,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "TOSCANA SOUTHWIND",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "3.0.D.7.1",
+            "gains_totaux": 146391,
+            "jockey": "GUILLAUME MARTIN",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "J. J. TRAVSPORT HB",
+            "cote": 15.0
+          },
+          {
+            "numero": 2,
+            "nom": "DILVA JET",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.4.3.6.0",
+            "gains_totaux": 178756,
+            "jockey": "Y. LEBOURGEOIS",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Alle. TONIATTI",
+            "cote": 18.0
+          },
+          {
+            "numero": 3,
+            "nom": "JUNKIE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.0.5.3.9",
+            "gains_totaux": 185931,
+            "jockey": "TH. LEVESQUE",
+            "entraineur": "P. LEVESQUE",
+            "proprietaire": "EC. du BERYL",
+            "cote": 25.0
+          },
+          {
+            "numero": 4,
+            "nom": "DADA DEL RONCO",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "7.3.2.4.0",
+            "gains_totaux": 193388,
+            "jockey": "G. GELORMINI",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Scu. MUNACONE",
+            "cote": 17.0
+          },
+          {
+            "numero": 5,
+            "nom": "FAXIMA",
+            "age": 11,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "4.D.4.0.4",
+            "gains_totaux": 200680,
+            "jockey": "M. ABRIVARD",
+            "entraineur": "PH. JULIEN",
+            "proprietaire": "PH. JULIEN",
+            "cote": 24.0
+          },
+          {
+            "numero": 6,
+            "nom": "HANA D'OCCAGNES",
+            "age": 9,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.7.3.7.0",
+            "gains_totaux": 205175,
+            "jockey": "M. GOETZ",
+            "entraineur": "Sté. Ent. J. VANMEERBECK",
+            "proprietaire": "M.TH. PERRIN",
+            "cote": 73.0
+          },
+          {
+            "numero": 7,
+            "nom": "JUNON DE LOU",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "5.D.5.D.1",
+            "gains_totaux": 208160,
+            "jockey": "A. ABRIVARD",
+            "entraineur": "L.CL. ABRIVARD",
+            "proprietaire": "CH. GERMAIN",
+            "cote": 23.0
+          },
+          {
+            "numero": 8,
+            "nom": "JANE CASH",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "7.8.0.2.1",
+            "gains_totaux": 209940,
+            "jockey": "D. BONNE",
+            "entraineur": "S. ERNAULT",
+            "proprietaire": "EC. des CHARMES",
+            "cote": 6.0
+          },
+          {
+            "numero": 9,
+            "nom": "JALOUZ D'OLIVERIE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "2.0.2.2.0",
+            "gains_totaux": 210950,
+            "jockey": "E. RAFFIN",
+            "entraineur": "J.M. BAUDOUIN",
+            "proprietaire": "EC. du HS. D'ERABLE",
+            "cote": 7.0
+          },
+          {
+            "numero": 10,
+            "nom": "IRIS RIVOISE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "3.9.0.7.4",
+            "gains_totaux": 211790,
+            "jockey": "A. GENDROT",
+            "entraineur": "R.F. PERRET",
+            "proprietaire": "R.F. PERRET",
+            "cote": 43.0
+          },
+          {
+            "numero": 11,
+            "nom": "IDOLE JALLERIE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "D.D.1.D.D",
+            "gains_totaux": 219925,
+            "jockey": "F. NIVARD",
+            "entraineur": "D. HEON",
+            "proprietaire": "D. HEON",
+            "cote": 19.0
+          },
+          {
+            "numero": 12,
+            "nom": "JITANE VALLEE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "3.1.2.2.3",
+            "gains_totaux": 228320,
+            "jockey": "B. ROCHARD",
+            "entraineur": "PH. GAILLARD",
+            "proprietaire": "P. SAVIGNY",
+            "cote": 14.0
+          },
+          {
+            "numero": 13,
+            "nom": "DIVA DEL RONCO",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "8.6.D.3.7",
+            "gains_totaux": 230918,
+            "jockey": "F. LAGADEUC",
+            "entraineur": "Vitale CIOTOLA",
+            "proprietaire": "Sc. ALLE. TEAM MINOPOLI",
+            "cote": 12.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 4
+      },
+      "top5_final": [
+        {
+          "numero": 8,
+          "nom": "JANE CASH",
+          "age": 7,
+          "sexe": "F",
+          "poids": null,
+          "corde": null,
+          "forme": "7.8.0.2.1",
+          "gains_totaux": 209940,
+          "jockey": "D. BONNE",
+          "entraineur": "S. ERNAULT",
+          "proprietaire": "EC. des CHARMES",
+          "cote": 6.0,
+          "score_historique": 5.98,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.992,
+          "win_prob": 0.5968,
+          "place_prob": 0.8254,
+          "top3_prob": 0.933,
+          "confiance_mc": 0.933,
+          "score_pondere": 614901.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.963,
+          "score_mc": 0.933,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 4,
+          "nom": "DADA DEL RONCO",
+          "age": 7,
+          "sexe": "F",
+          "poids": null,
+          "corde": null,
+          "forme": "7.3.2.4.0",
+          "gains_totaux": 193388,
+          "jockey": "G. GELORMINI",
+          "entraineur": "H.E. BONDO",
+          "proprietaire": "Scu. MUNACONE",
+          "cote": 17.0,
+          "score_historique": 4.26,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.509,
+          "win_prob": 0.0362,
+          "place_prob": 0.1354,
+          "top3_prob": 0.3066,
+          "confiance_mc": 0.307,
+          "score_pondere": 413875.0,
+          "borda_rank": 5,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.619,
+          "score_mc": 0.307,
+          "score_externe": 1.0
+        },
+        {
+          "position": 3,
+          "numero": 11,
+          "nom": "Cheval 11",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 19.0,
+          "forme": "D.D.1.D.D",
+          "age": 8,
+          "poids": null,
+          "jockey": "F. NIVARD"
+        },
+        {
+          "position": 4,
+          "numero": 13,
+          "nom": "Cheval 13",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 12.0,
+          "forme": "8.6.D.3.7",
+          "age": 7,
+          "poids": null,
+          "jockey": "F. LAGADEUC"
+        },
+        {
+          "numero": 2,
+          "nom": "DILVA JET",
+          "age": 7,
+          "sexe": "F",
+          "poids": null,
+          "corde": null,
+          "forme": "0.4.3.6.0",
+          "gains_totaux": 178756,
+          "jockey": "Y. LEBOURGEOIS",
+          "entraineur": "H.E. BONDO",
+          "proprietaire": "Alle. TONIATTI",
+          "cote": 18.0,
+          "score_historique": 4.52,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.722,
+          "win_prob": 0.1495,
+          "place_prob": 0.4162,
+          "top3_prob": 0.675,
+          "confiance_mc": 0.675,
+          "score_pondere": 532642.0,
+          "borda_rank": 3,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.371,
+          "score_mc": 0.675,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "DILVA JET",
+            "message": "N°2 DILVA JET : écart cote 169% (affichée 18.0, théorique 6.7) — surévalué",
+            "cote_affichee": 18.0,
+            "cote_theorique": 6.69,
+            "ecart_pct": 1.691
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "DADA DEL RONCO",
+            "message": "N°4 DADA DEL RONCO : écart cote 38% (affichée 17.0, théorique 27.6) — sous-évalué",
+            "cote_affichee": 17.0,
+            "cote_theorique": 27.62,
+            "ecart_pct": 0.385
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 8,
+            "cheval_nom": "JANE CASH",
+            "message": "N°8 JANE CASH : écart cote 257% (affichée 6.0, théorique 1.7) — surévalué",
+            "cote_affichee": 6.0,
+            "cote_theorique": 1.68,
+            "ecart_pct": 2.571
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 9,
+            "cheval_nom": "JALOUZ D'OLIVERIE",
+            "message": "N°9 JALOUZ D'OLIVERIE : écart cote 25% (affichée 7.0, théorique 5.6) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 5.58,
+            "ecart_pct": 0.254
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "DADA DEL RONCO",
+            "message": "N°4 DADA DEL RONCO : hype artificielle possible — prob. interne 4% mais 100% sources externes",
+            "prob_internal": 0.036,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 7,
+            "cheval_nom": "JUNON DE LOU",
+            "message": "N°7 JUNON DE LOU : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 11,
+            "cheval_nom": "IDOLE JALLERIE",
+            "message": "N°11 IDOLE JALLERIE : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "DIVA DEL RONCO",
+            "message": "N°13 DIVA DEL RONCO : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          4,
+          7,
+          8,
+          9,
+          11,
+          13
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-09-20T13:20:24.780120"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "8": {
+            "numero": 8,
+            "nom": "JANE CASH",
+            "cote_affichee": 6.0,
+            "cote_theorique": 1.04,
+            "prob_reelle": 0.963,
+            "prob_implicite": 0.142,
+            "ev": 4.778,
+            "ev_pct": 477.8,
+            "kelly_raw": 0.9556,
+            "kelly_fractionne": 0.2389,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "4": {
+            "numero": 4,
+            "nom": "DADA DEL RONCO",
+            "cote_affichee": 17.0,
+            "cote_theorique": 1.62,
+            "prob_reelle": 0.619,
+            "prob_implicite": 0.05,
+            "ev": 9.523,
+            "ev_pct": 952.3,
+            "kelly_raw": 0.5952,
+            "kelly_fractionne": 0.1488,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "11": {
+            "numero": 11,
+            "nom": "IDOLE JALLERIE",
+            "cote_affichee": 19.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.045,
+            "ev": 7.55,
+            "ev_pct": 755.0,
+            "kelly_raw": 0.4194,
+            "kelly_fractionne": 0.1049,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "13": {
+            "numero": 13,
+            "nom": "DIVA DEL RONCO",
+            "cote_affichee": 12.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.071,
+            "ev": 4.4,
+            "ev_pct": 440.0,
+            "kelly_raw": 0.4,
+            "kelly_fractionne": 0.1,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "DILVA JET",
+            "cote_affichee": 18.0,
+            "cote_theorique": 2.7,
+            "prob_reelle": 0.371,
+            "prob_implicite": 0.047,
+            "ev": 5.678,
+            "ev_pct": 567.8,
+            "kelly_raw": 0.334,
+            "kelly_fractionne": 0.0835,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          8,
+          4,
+          11,
+          13,
+          2
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "HYPERION V10 vous livre son analyse experte pour cette réunion sur les 2700 mètres de Paris-Vincennes. Au sommet de notre hiérarchie, le **N°8 JANE CASH** s'impose comme une base incontournable avec un score impressionnant de 0.963 et une cote attractive de 6.0, bien soutenue par une récente victoire dans sa musique. Derrière cette ultra-favorite, le **N°4 DADA DEL RONCO** (17.0) présente un profil séduisant pour dynamiter les rapports, tout comme le **N°13** qui complète notre quatuor de tête. Malgré un indice de confiance maximal affiché à 100%, l'indicateur HADES vire au rouge avec 8 signaux d'alerte, révélant une course potentiellement piège en dépit de la domination technique de notre favori. Dans ce contexte, nous conseillons d'isoler le **N°8 JANE CASH** en base solide pour vos jeux simples, et de construire un couplé ou un trio élargi en y associant les outsiders **4** et **13** pour sécuriser vos mises face à la volatilité annoncée par le système.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "11": {
+            "numero": 11,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "7": {
+            "numero": 7,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          13,
+          11,
+          4,
+          7,
+          8
+        ],
+        "sources_detail": [
+          {
+            "source": "Turfomania",
+            "url": "https://www.turfomania.fr/pronostics/pronostics-dimanche-20-septembre-2026-paris-vincennes-prix-d-ancenis.html?idcourse=682917",
+            "top5": [
+              13,
+              11,
+              4,
+              7,
+              8
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-09-20T13:20:33.845680"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 37.0,
+  "finished_at": "2026-09-20T13:20:38.680599",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
