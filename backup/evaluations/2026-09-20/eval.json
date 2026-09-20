@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-20",
+  "day_number": 25,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0398,
+  "running_top3": 0.2267,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX D'ANCENIS",
+        "is_lonab": true,
+        "predicted_winner": 8,
+        "official_winner": 3,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": [
+          {
+            "source": "Turfomania",
+            "predicted_winner": 13,
+            "top1_correct": false,
+            "top3_score": 0
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-20T22:17:03.164542"
+}
