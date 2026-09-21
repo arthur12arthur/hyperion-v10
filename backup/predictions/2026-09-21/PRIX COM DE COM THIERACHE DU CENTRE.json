@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-21",
+  "course_id": "PRIX COM DE COM THIERACHE DU CENTRE",
+  "hippodrome": "LA CAPELLE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    13,
+    4,
+    5,
+    10,
+    12
+  ],
+  "predicted_winner": 13,
+  "top5_details": [
+    {
+      "numero": 13,
+      "nom": "INDIEN DE FONTAINE",
+      "meta_score": 0.485,
+      "win_prob": 0.4204,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "IMAKER",
+      "meta_score": 0.464,
+      "win_prob": 0.3357,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "HEIDI DU BISET",
+      "meta_score": 0.36,
+      "win_prob": 0.1548,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "IF I TELL YOU",
+      "meta_score": 0.264,
+      "win_prob": 0.0816,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "IPALIO",
+      "meta_score": 0.044,
+      "win_prob": 0.0051,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-21T15:30:03.449278"
+}
