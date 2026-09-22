@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-22",
+  "day_number": 27,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0739,
+  "running_top3": 0.2346,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX CALABRAIS",
+        "is_lonab": true,
+        "predicted_winner": 1,
+        "official_winner": 4,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "Turfomania",
+            "predicted_winner": 16,
+            "top1_correct": false,
+            "top3_score": 0
+          },
+          {
+            "source": "Zeturf",
+            "predicted_winner": 12,
+            "top1_correct": false,
+            "top3_score": 0
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-09-22T22:48:33.960837"
+}
