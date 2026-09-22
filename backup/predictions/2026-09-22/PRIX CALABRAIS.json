@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-22",
+  "course_id": "PRIX CALABRAIS",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    2,
+    6,
+    9,
+    12
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "BOTERVIA DU KALON",
+      "meta_score": 0.999,
+      "win_prob": 0.8937,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "MISS ALTEA BLUE",
+      "meta_score": 0.951,
+      "win_prob": 0.0883,
+      "robuste": true
+    },
+    {
+      "numero": 6,
+      "nom": "CHOUCHOU D'ANJOU",
+      "meta_score": 0.359,
+      "win_prob": 0.015,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "Cheval 9",
+      "meta_score": 0.225,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "Cheval 12",
+      "meta_score": 0.225,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfomania",
+      "url": "https://www.turfomania.fr/pronostics/courses-mardi-22-septembre-2026-auteuil-r1.html?idreunion=120378",
+      "top5": [
+        16,
+        9,
+        1,
+        2,
+        10
+      ]
+    },
+    {
+      "source": "Zeturf",
+      "url": "https://www.zeturf.fr/fr/reunion-du-jour/2026-09-22/R1-auteuil",
+      "top5": [
+        12,
+        10,
+        8,
+        1,
+        2
+      ]
+    }
+  ],
+  "consensus_externe": [
+    16,
+    12,
+    9,
+    8,
+    1
+  ],
+  "generated_at": "2026-09-22T13:48:48.462264"
+}

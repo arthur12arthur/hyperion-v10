@@ -1,0 +1,664 @@
+{
+  "date": "2026-09-22",
+  "run_id": "20260922_134702",
+  "started_at": "2026-09-22T13:47:02.130063",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX CALABRAIS",
+        "hippodrome": "AUTEUIL",
+        "date": "2026-09-22",
+        "heure": "11:55",
+        "distance": 3600,
+        "terrain": null,
+        "discipline": "GALOP",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "BOTERVIA DU KALON",
+            "age": 5,
+            "sexe": "F",
+            "poids": 73.0,
+            "corde": null,
+            "forme": "2.1.7.2.2",
+            "gains_totaux": 181485,
+            "jockey": "T. BEAURAIN",
+            "entraineur": "J. DELAUNAY",
+            "proprietaire": "M. DE KERPEZDRON",
+            "cote": 7.0
+          },
+          {
+            "numero": 2,
+            "nom": "MISS ALTEA BLUE",
+            "age": 5,
+            "sexe": "F",
+            "poids": 70.5,
+            "corde": null,
+            "forme": "6.1.8.2.6",
+            "gains_totaux": 97325,
+            "jockey": "J. REVELEY",
+            "entraineur": "N. GEORGE & A. ZETTERHOLM",
+            "proprietaire": "AL. BROOKS",
+            "cote": 11.0
+          },
+          {
+            "numero": 3,
+            "nom": "MASKINA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 69.0,
+            "corde": null,
+            "forme": "2.J.5.1",
+            "gains_totaux": 36335,
+            "jockey": "G. MEUNIER",
+            "entraineur": "D.BRESSOU",
+            "proprietaire": "FAMILLE BRYANT",
+            "cote": 12.0
+          },
+          {
+            "numero": 4,
+            "nom": "PINK PERSEVERANCE",
+            "age": 5,
+            "sexe": "F",
+            "poids": 68.5,
+            "corde": null,
+            "forme": "9.0.4.1.1",
+            "gains_totaux": 74265,
+            "jockey": "L.PHILIPPERON",
+            "entraineur": "M.SEROR",
+            "proprietaire": "M. BOUDOT",
+            "cote": 19.0
+          },
+          {
+            "numero": 5,
+            "nom": "MAMALAND",
+            "age": 4,
+            "sexe": "F",
+            "poids": 68.5,
+            "corde": null,
+            "forme": "5.1.3.T.3",
+            "gains_totaux": 85120,
+            "jockey": "G.RE",
+            "entraineur": "CHAILLE-CHAILLE & PAMART",
+            "proprietaire": "EC. HUB DE MONTMIRAIL",
+            "cote": 9.0
+          },
+          {
+            "numero": 6,
+            "nom": "CHOUCHOU D'ANJOU",
+            "age": 5,
+            "sexe": "F",
+            "poids": 67.5,
+            "corde": null,
+            "forme": "4.5.1.0.3",
+            "gains_totaux": 85440,
+            "jockey": "A. COUPU",
+            "entraineur": "E. LECOIFFIER",
+            "proprietaire": "E. LECOIFFIER",
+            "cote": 10.0
+          },
+          {
+            "numero": 7,
+            "nom": "LILI BALL",
+            "age": 5,
+            "sexe": "F",
+            "poids": 67.5,
+            "corde": null,
+            "forme": "7.2.7.3.2",
+            "gains_totaux": 54175,
+            "jockey": "L.BRECHET",
+            "entraineur": "L.PONTOIR",
+            "proprietaire": "SEARCHING",
+            "cote": 31.0
+          },
+          {
+            "numero": 8,
+            "nom": "LECA DE THAIX",
+            "age": 5,
+            "sexe": "F",
+            "poids": 67.5,
+            "corde": null,
+            "forme": "1.1.2.5.2",
+            "gains_totaux": 107790,
+            "jockey": "A.ZULIANI",
+            "entraineur": "E.ANDIGNE D'",
+            "proprietaire": "SOC. BOURGNEUF",
+            "cote": 50.0
+          },
+          {
+            "numero": 9,
+            "nom": "LUZERAISE",
+            "age": 5,
+            "sexe": "F",
+            "poids": 67.0,
+            "corde": null,
+            "forme": "2.4.A.A.7",
+            "gains_totaux": 80965,
+            "jockey": "L.ZULIANI",
+            "entraineur": "A. BOISBRUNET",
+            "proprietaire": "M. S. CHAGNAUD",
+            "cote": 20.0
+          },
+          {
+            "numero": 10,
+            "nom": "LOUBA",
+            "age": 5,
+            "sexe": "F",
+            "poids": 66.5,
+            "corde": null,
+            "forme": "3.3.2.2.A",
+            "gains_totaux": 110195,
+            "jockey": "B. LE CLERC",
+            "entraineur": "F. BELLEMERE",
+            "proprietaire": "G.BLAIN",
+            "cote": 14.0
+          },
+          {
+            "numero": 11,
+            "nom": "VENETIAN BEAUTY",
+            "age": 4,
+            "sexe": "F",
+            "poids": 66.0,
+            "corde": null,
+            "forme": "5.J.A.1.5",
+            "gains_totaux": 30810,
+            "jockey": "F.GILES",
+            "entraineur": "M.ROLLAND",
+            "proprietaire": "EC. FRANCKY DEFOSSE",
+            "cote": 41.0
+          },
+          {
+            "numero": 12,
+            "nom": "LADY DU BRIZAIS",
+            "age": 4,
+            "sexe": "F",
+            "poids": 65.0,
+            "corde": null,
+            "forme": "1.4.1",
+            "gains_totaux": 18990,
+            "jockey": "G. MASURE",
+            "entraineur": "CHAILLE-CHAILLE & PAMART",
+            "proprietaire": "HS DE MAGOUET",
+            "cote": 13.0
+          },
+          {
+            "numero": 13,
+            "nom": "LADY ANGE WIN",
+            "age": 5,
+            "sexe": "F",
+            "poids": 64.5,
+            "corde": null,
+            "forme": "4.3.1.4.2",
+            "gains_totaux": 95940,
+            "jockey": "BR. LE CLERC",
+            "entraineur": "M.SEROR",
+            "proprietaire": "J. FROST",
+            "cote": 29.0
+          },
+          {
+            "numero": 14,
+            "nom": "JOIE INTERIEURE",
+            "age": 5,
+            "sexe": "F",
+            "poids": 64.5,
+            "corde": null,
+            "forme": "5.2.1.4.4",
+            "gains_totaux": 64225,
+            "jockey": "K. NABET",
+            "entraineur": "I. PACAULT",
+            "proprietaire": "I. PACAULT",
+            "cote": 24.0
+          },
+          {
+            "numero": 15,
+            "nom": "JOYEUSE BLUE",
+            "age": 4,
+            "sexe": "F",
+            "poids": 63.0,
+            "corde": null,
+            "forme": "A.2.2.1.7",
+            "gains_totaux": 17840,
+            "jockey": "THO. JOURNIAC",
+            "entraineur": "L.BAUDRON",
+            "proprietaire": "L. L.BAUDRON",
+            "cote": 34.0
+          },
+          {
+            "numero": 16,
+            "nom": "MAIS OUI MADRIK",
+            "age": 4,
+            "sexe": "F",
+            "poids": 62.0,
+            "corde": null,
+            "forme": "2.2.5.1.1",
+            "gains_totaux": 49215,
+            "jockey": "T. CHEVILLARD",
+            "entraineur": "GAB.LEENDERS",
+            "proprietaire": "BDI RACING TEAM",
+            "cote": 54.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 4
+      },
+      "top5_final": [
+        {
+          "numero": 1,
+          "nom": "BOTERVIA DU KALON",
+          "age": 5,
+          "sexe": "F",
+          "poids": 73.0,
+          "corde": null,
+          "forme": "2.1.7.2.2",
+          "gains_totaux": 181485,
+          "jockey": "T. BEAURAIN",
+          "entraineur": "J. DELAUNAY",
+          "proprietaire": "M. DE KERPEZDRON",
+          "cote": 7.0,
+          "score_historique": 6.3,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 1.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.896,
+          "win_prob": 0.8937,
+          "place_prob": 0.9874,
+          "top3_prob": 0.9984,
+          "confiance_mc": 0.998,
+          "score_pondere": 793929.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.999,
+          "score_mc": 0.998,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 2,
+          "nom": "MISS ALTEA BLUE",
+          "age": 5,
+          "sexe": "F",
+          "poids": 70.5,
+          "corde": null,
+          "forme": "6.1.8.2.6",
+          "gains_totaux": 97325,
+          "jockey": "J. REVELEY",
+          "entraineur": "N. GEORGE & A. ZETTERHOLM",
+          "proprietaire": "AL. BROOKS",
+          "cote": 11.0,
+          "score_historique": 4.67,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 2.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.424,
+          "win_prob": 0.0883,
+          "place_prob": 0.7007,
+          "top3_prob": 0.9114,
+          "confiance_mc": 0.911,
+          "score_pondere": 730259.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": true,
+          "meta_score": 0.951,
+          "score_mc": 0.911,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 6,
+          "nom": "CHOUCHOU D'ANJOU",
+          "age": 5,
+          "sexe": "F",
+          "poids": 67.5,
+          "corde": null,
+          "forme": "4.5.1.0.3",
+          "gains_totaux": 85440,
+          "jockey": "A. COUPU",
+          "entraineur": "E. LECOIFFIER",
+          "proprietaire": "E. LECOIFFIER",
+          "cote": 10.0,
+          "score_historique": 4.32,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 3.7,
+          "score_fraicheur": 7.5,
+          "score_global": 5.182,
+          "win_prob": 0.015,
+          "place_prob": 0.2218,
+          "top3_prob": 0.6525,
+          "confiance_mc": 0.652,
+          "score_pondere": 658582.0,
+          "borda_rank": 3,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.359,
+          "score_mc": 0.652,
+          "score_externe": 0.0
+        },
+        {
+          "position": 4,
+          "numero": 9,
+          "nom": "Cheval 9",
+          "meta_score": 0.225,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 0.5,
+          "cote": 20.0,
+          "forme": "2.4.A.A.7",
+          "age": 5,
+          "poids": 67.0,
+          "jockey": "L.ZULIANI"
+        },
+        {
+          "position": 5,
+          "numero": 12,
+          "nom": "Cheval 12",
+          "meta_score": 0.225,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 0.5,
+          "cote": 13.0,
+          "forme": "1.4.1",
+          "age": 4,
+          "poids": 65.0,
+          "jockey": "G. MASURE"
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 1,
+            "cheval_nom": "BOTERVIA DU KALON",
+            "message": "N°1 BOTERVIA DU KALON : écart cote 525% (affichée 7.0, théorique 1.1) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.12,
+            "ecart_pct": 5.25
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "MASKINA",
+            "message": "N°3 MASKINA : écart cote 97% (affichée 12.0, théorique 434.8) — sous-évalué",
+            "cote_affichee": 12.0,
+            "cote_theorique": 434.78,
+            "ecart_pct": 0.972
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 4,
+            "cheval_nom": "PINK PERSEVERANCE",
+            "message": "N°4 PINK PERSEVERANCE : écart cote 99% (affichée 19.0, théorique 1666.7) — sous-évalué",
+            "cote_affichee": 19.0,
+            "cote_theorique": 1666.67,
+            "ecart_pct": 0.989
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 6,
+            "cheval_nom": "CHOUCHOU D'ANJOU",
+            "message": "N°6 CHOUCHOU D'ANJOU : écart cote 85% (affichée 10.0, théorique 66.7) — sous-évalué",
+            "cote_affichee": 10.0,
+            "cote_theorique": 66.67,
+            "ecart_pct": 0.85
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 2,
+            "cheval_nom": "MISS ALTEA BLUE",
+            "message": "N°2 MISS ALTEA BLUE : hype artificielle possible — prob. interne 9% mais 100% sources externes",
+            "prob_internal": 0.088,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 10,
+            "cheval_nom": "LOUBA",
+            "message": "N°10 LOUBA : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          10
+        ],
+        "nb_signaux": 6,
+        "mode_test": true,
+        "detected_at": "2026-09-22T13:48:31.529689"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "1": {
+            "numero": 1,
+            "nom": "BOTERVIA DU KALON",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.0,
+            "prob_reelle": 0.999,
+            "prob_implicite": 0.121,
+            "ev": 5.993,
+            "ev_pct": 599.3,
+            "kelly_raw": 0.9988,
+            "kelly_fractionne": 0.2497,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "MISS ALTEA BLUE",
+            "cote_affichee": 11.0,
+            "cote_theorique": 1.05,
+            "prob_reelle": 0.951,
+            "prob_implicite": 0.077,
+            "ev": 9.461,
+            "ev_pct": 946.1,
+            "kelly_raw": 0.9461,
+            "kelly_fractionne": 0.2365,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "6": {
+            "numero": 6,
+            "nom": "CHOUCHOU D'ANJOU",
+            "cote_affichee": 10.0,
+            "cote_theorique": 2.79,
+            "prob_reelle": 0.359,
+            "prob_implicite": 0.085,
+            "ev": 2.59,
+            "ev_pct": 259.0,
+            "kelly_raw": 0.2878,
+            "kelly_fractionne": 0.0719,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "9": {
+            "numero": 9,
+            "nom": "LUZERAISE",
+            "cote_affichee": 20.0,
+            "cote_theorique": 4.44,
+            "prob_reelle": 0.225,
+            "prob_implicite": 0.043,
+            "ev": 3.5,
+            "ev_pct": 350.0,
+            "kelly_raw": 0.1842,
+            "kelly_fractionne": 0.0461,
+            "kelly_cappe": 0.0461,
+            "mises": {
+              "capital_1000": 46.0,
+              "capital_10000": 461.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "12": {
+            "numero": 12,
+            "nom": "LADY DU BRIZAIS",
+            "cote_affichee": 13.0,
+            "cote_theorique": 4.44,
+            "prob_reelle": 0.225,
+            "prob_implicite": 0.065,
+            "ev": 1.925,
+            "ev_pct": 192.5,
+            "kelly_raw": 0.1604,
+            "kelly_fractionne": 0.0401,
+            "kelly_cappe": 0.0401,
+            "mises": {
+              "capital_1000": 40.0,
+              "capital_10000": 401.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          1,
+          2,
+          6,
+          9,
+          12
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette épreuve sur les balais d'Auteuil met en lumière la nette domination du N°1 BOTERVIA DU KALON, solidement installé en tête de notre hiérarchie avec un indice de 0.999 et une régularité exemplaire matérialisée par sa musique récente. Ce favori logique, proposé à un cote intéressante de 7.0, constitue la base incontournable de la course. Pour pimenter les rapports, le N°2 MISS ALTEA BLUE séduit par son profil d'outsider séduisant doté d'un score de 0.951, tout comme le N°6 CHOUCHOU D'ANJOU qui, malgré un score en retrait, conserve une chance régulière à belle cote. Toutefois, la vigilance est de mise : le module HADES émet une alerte rouge avec six signaux d'instabilité, ce qui qualifie le classement global d'incertain. Dans ce contexte délicat, notre indice de confiance s'établit à 60%, conseillant de privilégier un couplé plaçant ou un tiercé réduit autour de notre base solide tout en intégrant les outsiders ciblés.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "16": {
+            "numero": 16,
+            "external_frequency": 0.5,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "9": {
+            "numero": 9,
+            "external_frequency": 0.5,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "1": {
+            "numero": 1,
+            "external_frequency": 1.0,
+            "external_score": 0.5,
+            "apparitions": 2,
+            "position_moyenne": 3.5
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.3,
+            "apparitions": 2,
+            "position_moyenne": 4.5
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 1.0,
+            "external_score": 0.5,
+            "apparitions": 2,
+            "position_moyenne": 3.5
+          },
+          "12": {
+            "numero": 12,
+            "external_frequency": 0.5,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 0.5,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          }
+        },
+        "consensus_externe": [
+          16,
+          12,
+          9,
+          8,
+          1
+        ],
+        "sources_detail": [
+          {
+            "source": "Turfomania",
+            "url": "https://www.turfomania.fr/pronostics/courses-mardi-22-septembre-2026-auteuil-r1.html?idreunion=120378",
+            "top5": [
+              16,
+              9,
+              1,
+              2,
+              10
+            ]
+          },
+          {
+            "source": "Zeturf",
+            "url": "https://www.zeturf.fr/fr/reunion-du-jour/2026-09-22/R1-auteuil",
+            "top5": [
+              12,
+              10,
+              8,
+              1,
+              2
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 2
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-09-22T13:48:43.031612"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 106.3,
+  "finished_at": "2026-09-22T13:48:48.462818",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
