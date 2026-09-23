@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-23",
+  "course_id": "GRAND NATIONAL DU TROT (10ème Etape du G.N.T.)",
+  "hippodrome": "ARGENTAN",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    1,
+    2,
+    3,
+    10
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "JIPET DE CREPIN",
+      "meta_score": 0.521,
+      "win_prob": 0.5386,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "KOVES DU PONT",
+      "meta_score": 0.488,
+      "win_prob": 0.3299,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "HUMOUR FESTIF",
+      "meta_score": 0.283,
+      "win_prob": 0.0636,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "JAIN MAB",
+      "meta_score": 0.292,
+      "win_prob": 0.065,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "JOLIVERT DU GERS",
+      "meta_score": 0.036,
+      "win_prob": 0.0022,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-23T13:59:01.332984"
+}
