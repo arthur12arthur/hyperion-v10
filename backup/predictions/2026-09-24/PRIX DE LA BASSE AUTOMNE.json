@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-24",
+  "course_id": "PRIX DE LA BASSE AUTOMNE",
+  "hippodrome": "COMPIEGNE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    16,
+    6,
+    8,
+    11,
+    3
+  ],
+  "predicted_winner": 16,
+  "top5_details": [
+    {
+      "numero": 16,
+      "nom": "FAOLIO",
+      "meta_score": 0.447,
+      "win_prob": 0.4316,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "ESTIVALE",
+      "meta_score": 0.383,
+      "win_prob": 0.2729,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "VICTORY PACE",
+      "meta_score": 0.227,
+      "win_prob": 0.0941,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "NON PARTANT",
+      "meta_score": 0.27,
+      "win_prob": 0.1251,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "VICTORIA COLONIA",
+      "meta_score": 0.098,
+      "win_prob": 0.0277,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-24T13:56:09.152374"
+}
