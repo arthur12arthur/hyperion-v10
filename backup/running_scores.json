@@ -1,5 +1,5 @@
 {
-  "running_top1": 0.0688,
-  "running_top3": 0.2299,
-  "days_evaluated": 29
+  "running_top1": 0.0998,
+  "running_top3": 0.2333,
+  "days_evaluated": 30
 }
