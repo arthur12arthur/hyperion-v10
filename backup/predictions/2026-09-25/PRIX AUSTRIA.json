@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-25",
+  "course_id": "PRIX AUSTRIA",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    15,
+    1,
+    3,
+    5,
+    6
+  ],
+  "predicted_winner": 15,
+  "top5_details": [
+    {
+      "numero": 15,
+      "nom": "HIRIUS DE GUEZ",
+      "meta_score": 0.409,
+      "win_prob": 0.4067,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "HISCO DE PARNIERE",
+      "meta_score": 0.257,
+      "win_prob": 0.1529,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "HANACK DE VIVOIN",
+      "meta_score": 0.263,
+      "win_prob": 0.1576,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "HIGH TECH ROC",
+      "meta_score": 0.162,
+      "win_prob": 0.075,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "HEROS DHELPA",
+      "meta_score": 0.136,
+      "win_prob": 0.0577,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-25T14:19:59.327342"
+}
