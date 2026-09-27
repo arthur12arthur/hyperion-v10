@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-27",
+  "course_id": "GRAND PRIX DU PORTUGAL (OVIDIUS NASO)",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    12,
+    8,
+    3,
+    4,
+    15
+  ],
+  "predicted_winner": 12,
+  "top5_details": [
+    {
+      "numero": 12,
+      "nom": "JET EXPRESS",
+      "meta_score": 0.49,
+      "win_prob": 0.3625,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "HOMARD LAND",
+      "meta_score": 0.503,
+      "win_prob": 0.4392,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "IGUANE DE CAPONET",
+      "meta_score": 0.402,
+      "win_prob": 0.1557,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "COLBERT WF",
+      "meta_score": 0.19,
+      "win_prob": 0.0386,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "GIMS DU PLESSIS",
+      "meta_score": 0.043,
+      "win_prob": 0.0033,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-27T14:25:16.716377"
+}
