@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-27",
+  "day_number": 32,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0936,
+  "running_top3": 0.2291,
+  "details": {
+    "courses": [
+      {
+        "course_id": "GRAND PRIX DU PORTUGAL (OVIDIUS NASO)",
+        "is_lonab": true,
+        "predicted_winner": 12,
+        "official_winner": 4,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-09-27T22:53:13.316496"
+}
