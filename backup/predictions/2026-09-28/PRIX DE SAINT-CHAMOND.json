@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-28",
+  "course_id": "PRIX DE SAINT-CHAMOND",
+  "hippodrome": "ENGHIEN",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    4,
+    15,
+    14,
+    3
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "JIBI DU FRUITIER",
+      "meta_score": 0.49,
+      "win_prob": 0.4073,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "JOS MAZA",
+      "meta_score": 0.501,
+      "win_prob": 0.4698,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "INTREPIDE DES BOIS",
+      "meta_score": 0.249,
+      "win_prob": 0.0597,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "JAZZ DE PADD",
+      "meta_score": 0.184,
+      "win_prob": 0.0371,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "IOUPY TOLLEVILLE",
+      "meta_score": 0.101,
+      "win_prob": 0.0145,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-28T17:23:10.255800"
+}
