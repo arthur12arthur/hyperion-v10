@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-29",
+  "course_id": "PRIX DE LA CHAMBRE DU DUC",
+  "hippodrome": "CHANTILLY",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    9,
+    12,
+    2,
+    7,
+    4
+  ],
+  "predicted_winner": 9,
+  "top5_details": [
+    {
+      "numero": 9,
+      "nom": "PRESA DIRETTA",
+      "meta_score": 0.507,
+      "win_prob": 0.5463,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "TRUE TEDESCO",
+      "meta_score": 0.448,
+      "win_prob": 0.2824,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "ZELORO",
+      "meta_score": 0.289,
+      "win_prob": 0.0883,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "BOTICELLI",
+      "meta_score": 0.241,
+      "win_prob": 0.0616,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "CENTRAL PARK WEST",
+      "meta_score": 0.1,
+      "win_prob": 0.0153,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-29T15:15:30.749437"
+}
