@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-30",
+  "course_id": "GRAND PRIX ANJOU-MAINE",
+  "hippodrome": "LAVAL",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    7,
+    3,
+    5,
+    4,
+    2
+  ],
+  "predicted_winner": 7,
+  "top5_details": [
+    {
+      "numero": 7,
+      "nom": "L'AS DESBOIS",
+      "meta_score": 0.44,
+      "win_prob": 0.383,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "RIKITA JP",
+      "meta_score": 0.388,
+      "win_prob": 0.2641,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "JILORD VIVA",
+      "meta_score": 0.347,
+      "win_prob": 0.1992,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "HURRICANE CARTER",
+      "meta_score": 0.185,
+      "win_prob": 0.0646,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KAMEHAMEHA",
+      "meta_score": 0.147,
+      "win_prob": 0.0473,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-09-30T15:29:01.133773"
+}
