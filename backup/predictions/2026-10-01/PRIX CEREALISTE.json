@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-01",
+  "course_id": "PRIX CEREALISTE",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    3,
+    4,
+    2,
+    12
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "WEBCAM",
+      "meta_score": 0.546,
+      "win_prob": 0.6381,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "GREY FIGHTER",
+      "meta_score": 0.537,
+      "win_prob": 0.342,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "MR DIAFOIRUS",
+      "meta_score": 0.278,
+      "win_prob": 0.0134,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "SPECIALS ONE",
+      "meta_score": 0.179,
+      "win_prob": 0.0053,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "LE COLOMBAR",
+      "meta_score": 0.077,
+      "win_prob": 0.0011,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-01T15:52:01.502087"
+}
