@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-02",
+  "course_id": "PRIX LUDOVICA",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    4,
+    6,
+    2,
+    1
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "JYTRACE DE HOUELLE",
+      "meta_score": 0.493,
+      "win_prob": 0.5241,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "JAIFA DE L'ITON",
+      "meta_score": 0.437,
+      "win_prob": 0.2982,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "JAZZ D'OURVILLE",
+      "meta_score": 0.257,
+      "win_prob": 0.0843,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "JUNIOR STEED",
+      "meta_score": 0.172,
+      "win_prob": 0.0437,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "JADE DE NAVARY",
+      "meta_score": 0.105,
+      "win_prob": 0.0205,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-02T15:12:29.101646"
+}
