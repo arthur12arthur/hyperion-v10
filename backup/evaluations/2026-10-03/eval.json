@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-03",
+  "day_number": 37,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.081,
+  "running_top3": 0.2522,
+  "details": {
+    "courses": [
+      {
+        "course_id": "QATAR PRIX DE LA PLACE DES VOSGES",
+        "is_lonab": true,
+        "predicted_winner": 4,
+        "official_winner": 5,
+        "top1_correct": false,
+        "top3_score": 2,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-10-03T22:45:31.654014"
+}
