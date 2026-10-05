@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-05",
+  "course_id": "PRIX DES BUTTES CHAUMONT",
+  "hippodrome": "ENGHIEN",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    9,
+    8,
+    10,
+    7
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "SOKRATES",
+      "meta_score": 0.325,
+      "win_prob": 0.2427,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "BLACK HEUVELLAND",
+      "meta_score": 0.3,
+      "win_prob": 0.2081,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "LORD ON WAY",
+      "meta_score": 0.31,
+      "win_prob": 0.22,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "LORD SUN DRALIAM",
+      "meta_score": 0.241,
+      "win_prob": 0.1404,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "LUCIUS DE PUCH",
+      "meta_score": 0.207,
+      "win_prob": 0.1084,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-05T17:36:35.171115"
+}
