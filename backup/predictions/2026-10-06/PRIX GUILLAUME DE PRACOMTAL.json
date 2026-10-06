@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-06",
+  "course_id": "PRIX GUILLAUME DE PRACOMTAL",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    13,
+    9,
+    7,
+    14
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "MASKINA",
+      "meta_score": 0.545,
+      "win_prob": 0.7582,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "NON PARTANT",
+      "meta_score": 0.495,
+      "win_prob": 0.1731,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "PASCIALELLA",
+      "meta_score": 0.392,
+      "win_prob": 0.0569,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "ROMAN SKIES",
+      "meta_score": 0.165,
+      "win_prob": 0.0108,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "OPTIMUS",
+      "meta_score": 0.019,
+      "win_prob": 0.0003,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 3,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-06T15:34:19.577991"
+}
