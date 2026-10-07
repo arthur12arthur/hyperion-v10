@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "course_id": "PRIX DES GOBELINS",
+  "hippodrome": "ENGHIEN",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    17,
+    16,
+    2,
+    18,
+    13
+  ],
+  "predicted_winner": 17,
+  "top5_details": [
+    {
+      "numero": 17,
+      "nom": "IMAGE D'ATALANTE",
+      "meta_score": 0.466,
+      "win_prob": 0.4444,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "JAIN MAB",
+      "meta_score": 0.382,
+      "win_prob": 0.2326,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "JOYCE PILE",
+      "meta_score": 0.376,
+      "win_prob": 0.2213,
+      "robuste": false
+    },
+    {
+      "numero": 18,
+      "nom": "JOIE DE LA COTE",
+      "meta_score": 0.154,
+      "win_prob": 0.0444,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "IDOLE ELDE",
+      "meta_score": 0.127,
+      "win_prob": 0.0316,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-07T15:55:59.643783"
+}
