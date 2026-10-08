@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "course_id": "PRIX DE VERSAILLES",
+  "hippodrome": "SAINT-CLOUD",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    15,
+    8,
+    3,
+    16,
+    11
+  ],
+  "predicted_winner": 15,
+  "top5_details": [
+    {
+      "numero": 15,
+      "nom": "ENTLEBUCH",
+      "meta_score": 0.471,
+      "win_prob": 0.4179,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "MISTER BLACK",
+      "meta_score": 0.435,
+      "win_prob": 0.2988,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "LAPENTY",
+      "meta_score": 0.357,
+      "win_prob": 0.1728,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "STAN LE GRAND",
+      "meta_score": 0.264,
+      "win_prob": 0.0948,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "ARANYANI",
+      "meta_score": 0.059,
+      "win_prob": 0.0098,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-08T15:58:26.242483"
+}
