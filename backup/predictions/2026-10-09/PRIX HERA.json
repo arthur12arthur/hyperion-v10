@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09",
+  "course_id": "PRIX HERA",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    6,
+    2,
+    3,
+    14,
+    4
+  ],
+  "predicted_winner": 6,
+  "top5_details": [
+    {
+      "numero": 6,
+      "nom": "JANNIG D'EREVAN",
+      "meta_score": 0.514,
+      "win_prob": 0.6467,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "HEAVEN D'ECAJEUL",
+      "meta_score": 0.397,
+      "win_prob": 0.2052,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "HORACIO DE CERISY",
+      "meta_score": 0.233,
+      "win_prob": 0.064,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "INDIEN DE FONTAINE",
+      "meta_score": 0.16,
+      "win_prob": 0.0333,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "HISTORY MAJYC",
+      "meta_score": 0.117,
+      "win_prob": 0.0215,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-09T15:40:35.436588"
+}
