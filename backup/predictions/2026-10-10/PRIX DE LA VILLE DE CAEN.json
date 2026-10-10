@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-10",
+  "course_id": "PRIX DE LA VILLE DE CAEN",
+  "hippodrome": "CAEN",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    3,
+    4,
+    2,
+    10
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "HORUS DE VAL",
+      "meta_score": 0.454,
+      "win_prob": 0.3653,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "KORONA DELADOU",
+      "meta_score": 0.423,
+      "win_prob": 0.2836,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "KALINE DU LOCHEUR",
+      "meta_score": 0.41,
+      "win_prob": 0.2547,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KASSYA",
+      "meta_score": 0.2,
+      "win_prob": 0.065,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "KASH DES CAILLONS",
+      "meta_score": 0.115,
+      "win_prob": 0.0264,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-10T14:56:00.275291"
+}
