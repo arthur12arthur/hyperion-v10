@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-11",
+  "day_number": 42,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.0715,
+  "running_top3": 0.2461,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX MONTGOMERY",
+        "is_lonab": true,
+        "predicted_winner": 2,
+        "official_winner": 3,
+        "top1_correct": false,
+        "top3_score": 2,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-10-11T23:30:32.715531"
+}
