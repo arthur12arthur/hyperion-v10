@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-12",
+  "course_id": "PRIX JACQUES ROSSI (PRIX JULES MORGAN)",
+  "hippodrome": "MARSEILLE-BORELY",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    7,
+    15,
+    5,
+    10
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "MORPHEWAN",
+      "meta_score": 0.475,
+      "win_prob": 0.5173,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "SOUS INFLUENCE",
+      "meta_score": 0.349,
+      "win_prob": 0.2007,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "NOUS Y SOMMES",
+      "meta_score": 0.288,
+      "win_prob": 0.1312,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "LINFASOMMER",
+      "meta_score": 0.19,
+      "win_prob": 0.0665,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "COMME QUOI",
+      "meta_score": 0.128,
+      "win_prob": 0.0358,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-12T18:23:09.557178"
+}
