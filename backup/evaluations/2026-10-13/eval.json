@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-13",
+  "day_number": 43,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0698,
+  "running_top3": 0.2481,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DE LA GALERIE DES VARIETES",
+        "is_lonab": true,
+        "predicted_winner": 16,
+        "official_winner": 9,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "Facebook - RCB Radio",
+            "predicted_winner": 12,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-10-13T23:39:23.042784"
+}

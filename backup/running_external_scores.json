@@ -38,5 +38,10 @@
     "jours": 1,
     "top1_ok": 0,
     "top3_sum": 0
+  },
+  "Facebook - RCB Radio": {
+    "jours": 1,
+    "top1_ok": 0,
+    "top3_sum": 1
   }
 }
