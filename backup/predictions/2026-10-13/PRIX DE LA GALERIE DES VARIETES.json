@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-13",
+  "course_id": "PRIX DE LA GALERIE DES VARIETES",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    16,
+    12,
+    5,
+    14,
+    3
+  ],
+  "predicted_winner": 16,
+  "top5_details": [
+    {
+      "numero": 16,
+      "nom": "GALORD",
+      "meta_score": 0.952,
+      "win_prob": 0.5051,
+      "robuste": true
+    },
+    {
+      "numero": 12,
+      "nom": "DUTY",
+      "meta_score": 0.722,
+      "win_prob": 0.0794,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "REVE DE VALLARSA",
+      "meta_score": 0.542,
+      "win_prob": 0.0147,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "MUENCHEN",
+      "meta_score": 0.469,
+      "win_prob": 0.3449,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "Cheval 3",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Facebook - RCB Radio",
+      "url": "https://www.facebook.com/rcbradio83/posts/quint%C3%A9-du-mardi-13-octobre-2026direction-lhippodrome-de-parislongchamp-pour-le-p/1959634275428056/",
+      "top5": [
+        12,
+        3,
+        16,
+        5,
+        7
+      ]
+    }
+  ],
+  "consensus_externe": [
+    12,
+    3,
+    16,
+    5,
+    7
+  ],
+  "generated_at": "2026-10-13T16:38:59.329685"
+}
