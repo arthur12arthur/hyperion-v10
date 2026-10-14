@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
-  "day_number": 44,
+  "day_number": 45,
   "score_top1_jour": 0.0,
-  "score_top3_jour": 0.3333,
-  "running_top1": 0.0682,
-  "running_top3": 0.25,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.0667,
+  "running_top3": 0.2593,
   "details": {
     "courses": [
       {
@@ -13,10 +13,17 @@
         "predicted_winner": 2,
         "official_winner": 10,
         "top1_correct": false,
-        "top3_score": 1,
-        "external_results": []
+        "top3_score": 2,
+        "external_results": [
+          {
+            "source": "RueDesJoueurs",
+            "predicted_winner": 2,
+            "top1_correct": false,
+            "top3_score": 2
+          }
+        ]
       }
     ]
   },
-  "saved_at": "2026-10-14T23:03:38.276872"
+  "saved_at": "2026-10-14T23:54:43.561969"
 }
