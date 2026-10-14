@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-14",
+  "course_id": "GRAND NATIONAL DU TROT (11ème Etape du G.N.T.)",
+  "hippodrome": "REIMS",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    15,
+    3,
+    10,
+    9
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "KOUREAS D'ELA",
+      "meta_score": 0.55,
+      "win_prob": 0.971,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "JUST DE L'OISON",
+      "meta_score": 0.443,
+      "win_prob": 0.0205,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "IF I TELL YOU",
+      "meta_score": 0.318,
+      "win_prob": 0.0053,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "KATCHI QUICK",
+      "meta_score": 0.246,
+      "win_prob": 0.0031,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "JACOMO BELLO",
+      "meta_score": 0.035,
+      "win_prob": 0.0001,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-14T14:12:57.045231"
+}
