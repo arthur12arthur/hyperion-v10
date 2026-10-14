@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-14",
+  "day_number": 44,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0682,
+  "running_top3": 0.25,
+  "details": {
+    "courses": [
+      {
+        "course_id": "GRAND NATIONAL DU TROT (11ème Etape du G.N.T.)",
+        "is_lonab": true,
+        "predicted_winner": 2,
+        "official_winner": 10,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-10-14T23:03:38.276872"
+}
