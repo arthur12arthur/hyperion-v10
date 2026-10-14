@@ -8,8 +8,8 @@
   "predicted_top5": [
     2,
     15,
-    3,
     10,
+    3,
     9
   ],
   "predicted_winner": 2,
@@ -17,42 +17,60 @@
     {
       "numero": 2,
       "nom": "KOUREAS D'ELA",
-      "meta_score": 0.55,
-      "win_prob": 0.971,
-      "robuste": false
+      "meta_score": 1.0,
+      "win_prob": 0.9752,
+      "robuste": true
     },
     {
       "numero": 15,
       "nom": "JUST DE L'OISON",
-      "meta_score": 0.443,
-      "win_prob": 0.0205,
+      "meta_score": 0.924,
+      "win_prob": 0.0209,
+      "robuste": true
+    },
+    {
+      "numero": 10,
+      "nom": "KATCHI QUICK",
+      "meta_score": 0.759,
+      "win_prob": 0.0028,
       "robuste": false
     },
     {
       "numero": 3,
       "nom": "IF I TELL YOU",
-      "meta_score": 0.318,
-      "win_prob": 0.0053,
-      "robuste": false
-    },
-    {
-      "numero": 10,
-      "nom": "KATCHI QUICK",
-      "meta_score": 0.246,
-      "win_prob": 0.0031,
+      "meta_score": 0.178,
+      "win_prob": 0.0008,
       "robuste": false
     },
     {
       "numero": 9,
       "nom": "JACOMO BELLO",
-      "meta_score": 0.035,
+      "meta_score": 0.051,
       "win_prob": 0.0001,
       "robuste": false
     }
   ],
   "hades_niveau": "red",
   "nb_value_bets": 4,
-  "external_sources": [],
-  "consensus_externe": [],
-  "generated_at": "2026-10-14T14:12:57.045231"
+  "external_sources": [
+    {
+      "source": "RueDesJoueurs",
+      "url": "https://www.ruedesjoueurs.com/turf/pronostic-turf/course/14-10-2026/R1/C1/grand-national-du-trot.html",
+      "top5": [
+        2,
+        10,
+        15,
+        13,
+        5
+      ]
+    }
+  ],
+  "consensus_externe": [
+    2,
+    10,
+    15,
+    13,
+    5
+  ],
+  "generated_at": "2026-10-14T23:44:53.970053"
 }
