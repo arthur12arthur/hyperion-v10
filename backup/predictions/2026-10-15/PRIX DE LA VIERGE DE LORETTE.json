@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-15",
+  "course_id": "PRIX DE LA VIERGE DE LORETTE",
+  "hippodrome": "CHANTILLY",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    10,
+    1,
+    3,
+    14
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "GRAND SCOOP",
+      "meta_score": 0.399,
+      "win_prob": 0.2818,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "ROYALWOOD",
+      "meta_score": 0.333,
+      "win_prob": 0.1806,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "SWEET CHOP",
+      "meta_score": 0.381,
+      "win_prob": 0.2461,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "MISTER CHANG",
+      "meta_score": 0.389,
+      "win_prob": 0.2648,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "YOKEN",
+      "meta_score": 0.059,
+      "win_prob": 0.0125,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-15T01:40:28.404407"
+}
