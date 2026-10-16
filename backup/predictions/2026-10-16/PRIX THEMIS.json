@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "course_id": "PRIX THEMIS",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    2,
+    6,
+    5,
+    8
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "EMINENT KRONOS",
+      "meta_score": 0.55,
+      "win_prob": 0.9739,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KIPHYLE DESBOIS",
+      "meta_score": 0.422,
+      "win_prob": 0.0142,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "DOMENIK JET",
+      "meta_score": 0.39,
+      "win_prob": 0.0101,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "KOMERE DE CORDAY",
+      "meta_score": 0.179,
+      "win_prob": 0.0016,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "KERALDO",
+      "meta_score": 0.037,
+      "win_prob": 0.0001,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-16T13:38:51.208568"
+}
