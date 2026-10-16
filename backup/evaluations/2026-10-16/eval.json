@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "day_number": 47,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0638,
+  "running_top3": 0.2483,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX THEMIS",
+        "is_lonab": true,
+        "predicted_winner": 3,
+        "official_winner": 10,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": []
+      }
+    ]
+  },
+  "saved_at": "2026-10-16T22:40:37.789981"
+}
