@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-17",
+  "course_id": "PRIX PRINCE D'ECOUEN - GRAND HANDICAP D'AUTOMNE",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    5,
+    2,
+    6,
+    1
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "KIRIKOU DES MERS",
+      "meta_score": 0.609,
+      "win_prob": 0.0745,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "KEL STORY",
+      "meta_score": 0.545,
+      "win_prob": 0.8855,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "Cheval 2",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "GREY FIGHTER",
+      "meta_score": 0.391,
+      "win_prob": 0.0119,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "GOLIATH D'AUNOU",
+      "meta_score": 0.377,
+      "win_prob": 0.0101,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfoo",
+      "url": "https://www.turfoo.fr/programmes-courses/261017/reunion1-auteuil/course3-prix-prince-d-ecouen-grand-handicap-d-automne/",
+      "top5": [
+        1,
+        2
+      ]
+    },
+    {
+      "source": "Rue des Joueurs",
+      "url": "https://www.ruedesjoueurs.com/turf/pronostic-turf/course/17-10-2026/R1/C3/prix-prince-d-ecouen-grand-handicap-d-automne.html",
+      "top5": [
+        2,
+        19,
+        6,
+        11,
+        3
+      ]
+    }
+  ],
+  "consensus_externe": [
+    1,
+    2,
+    19,
+    6,
+    11
+  ],
+  "generated_at": "2026-10-17T12:36:00.242833"
+}
