@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-17",
+  "day_number": 48,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.6667,
+  "running_top1": 0.0625,
+  "running_top3": 0.257,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX PRINCE D'ECOUEN - GRAND HANDICAP D'AUTOMNE",
+        "is_lonab": true,
+        "predicted_winner": 3,
+        "official_winner": 4,
+        "top1_correct": false,
+        "top3_score": 2,
+        "external_results": [
+          {
+            "source": "Turfoo",
+            "predicted_winner": 1,
+            "top1_correct": false,
+            "top3_score": 1
+          },
+          {
+            "source": "Rue des Joueurs",
+            "predicted_winner": 2,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-10-17T22:02:42.376298"
+}
