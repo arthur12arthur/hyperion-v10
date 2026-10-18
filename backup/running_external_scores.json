@@ -5,9 +5,9 @@
     "top3_sum": 2
   },
   "Turfoo": {
-    "jours": 2,
+    "jours": 3,
     "top1_ok": 0,
-    "top3_sum": 2
+    "top3_sum": 3
   },
   "canalturf": {
     "jours": 1,
@@ -50,6 +50,21 @@
     "top3_sum": 2
   },
   "Rue des Joueurs": {
+    "jours": 1,
+    "top1_ok": 0,
+    "top3_sum": 1
+  },
+  "Canalturf": {
+    "jours": 1,
+    "top1_ok": 0,
+    "top3_sum": 1
+  },
+  "Facebook": {
+    "jours": 1,
+    "top1_ok": 0,
+    "top3_sum": 1
+  },
+  "Turf-fr": {
     "jours": 1,
     "top1_ok": 0,
     "top3_sum": 1

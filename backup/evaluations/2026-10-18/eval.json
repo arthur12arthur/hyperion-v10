@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "day_number": 49,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0612,
+  "running_top3": 0.2586,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX RIEUSSEC",
+        "is_lonab": true,
+        "predicted_winner": 8,
+        "official_winner": 2,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "Turfoo",
+            "predicted_winner": 4,
+            "top1_correct": false,
+            "top3_score": 1
+          },
+          {
+            "source": "Canalturf",
+            "predicted_winner": 4,
+            "top1_correct": false,
+            "top3_score": 1
+          },
+          {
+            "source": "Facebook",
+            "predicted_winner": 8,
+            "top1_correct": false,
+            "top3_score": 1
+          },
+          {
+            "source": "Turf-fr",
+            "predicted_winner": 12,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-10-18T22:17:46.624117"
+}
