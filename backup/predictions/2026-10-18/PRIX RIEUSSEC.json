@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-18",
+  "course_id": "PRIX RIEUSSEC",
+  "hippodrome": "PARISLONGCHAMP",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    4,
+    16,
+    12,
+    10
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "MIGHTY BOY",
+      "meta_score": 0.997,
+      "win_prob": 0.933,
+      "robuste": true
+    },
+    {
+      "numero": 4,
+      "nom": "Cheval 4",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "MEASTER OWEN",
+      "meta_score": 0.319,
+      "win_prob": 0.0305,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "VENDOMYA",
+      "meta_score": 0.336,
+      "win_prob": 0.0136,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "DEMPY",
+      "meta_score": 0.368,
+      "win_prob": 0.0059,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfoo",
+      "url": "https://www.turfoo.fr/programmes-courses/261018/reunion1-longchamp/course3-prix-rieussec/",
+      "top5": [
+        4,
+        8,
+        10,
+        14
+      ]
+    },
+    {
+      "source": "Canalturf",
+      "url": "https://www.canalturf.com/pronostics-PMU/2026-10-18/longchamp/420888_prix-rieussec.html",
+      "top5": [
+        4,
+        6,
+        8,
+        5,
+        3
+      ]
+    },
+    {
+      "source": "Facebook",
+      "url": "https://www.facebook.com/rcbradio83/posts/quint%C3%A9-du-dimanche-18-octobre-2026-%C3%A0-parislongchample-quint%C3%A9-se-dispute-ce-diman/1965015494889934/",
+      "top5": [
+        8,
+        10,
+        4,
+        7,
+        2
+      ]
+    },
+    {
+      "source": "Turf-fr",
+      "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-rieussec-388142",
+      "top5": [
+        12,
+        2,
+        9,
+        8,
+        4
+      ]
+    }
+  ],
+  "consensus_externe": [
+    12,
+    6,
+    4,
+    8,
+    10
+  ],
+  "generated_at": "2026-10-18T12:53:14.110683"
+}

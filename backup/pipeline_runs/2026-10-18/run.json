@@ -1,0 +1,720 @@
+{
+  "date": "2026-10-18",
+  "run_id": "20261018_125233",
+  "started_at": "2026-10-18T12:52:33.802123",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX RIEUSSEC",
+        "hippodrome": "PARISLONGCHAMP",
+        "date": "2026-10-18",
+        "heure": "13:15",
+        "distance": 3100,
+        "terrain": null,
+        "discipline": "GALOP",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "YES ZARA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 60.5,
+            "corde": 4,
+            "forme": "5.1.0.1.1",
+            "gains_totaux": 149232,
+            "jockey": "M.VELON",
+            "entraineur": "C.FEY",
+            "proprietaire": "ST. ALLE. RACING CLUB",
+            "cote": 17.0
+          },
+          {
+            "numero": 2,
+            "nom": "DON'T SHUT ME DOWN",
+            "age": 4,
+            "sexe": "H",
+            "poids": 60.0,
+            "corde": 8,
+            "forme": "5.1.5.7.0",
+            "gains_totaux": 83864,
+            "jockey": "M.GUYON",
+            "entraineur": "P&J.BRANDT",
+            "proprietaire": "P.BRANDT",
+            "cote": 12.0
+          },
+          {
+            "numero": 3,
+            "nom": "BLACK SAXON",
+            "age": 5,
+            "sexe": "H",
+            "poids": 58.5,
+            "corde": 15,
+            "forme": "2.4.5.0.1",
+            "gains_totaux": 94444,
+            "jockey": "A.MADAMET",
+            "entraineur": "N.BELLANGER",
+            "proprietaire": "D.MARS",
+            "cote": 14.0
+          },
+          {
+            "numero": 4,
+            "nom": "PRINCESSE D'AMOUR",
+            "age": 4,
+            "sexe": "F",
+            "poids": 58.5,
+            "corde": 14,
+            "forme": "1.0.2.1.5",
+            "gains_totaux": 100652,
+            "jockey": "C.SOUMILLON",
+            "entraineur": "JPH .DUBOIS",
+            "proprietaire": "EC. VICT. DREAMS",
+            "cote": 8.0
+          },
+          {
+            "numero": 5,
+            "nom": "A BEAUREGARD",
+            "age": 5,
+            "sexe": "H",
+            "poids": 58.0,
+            "corde": 16,
+            "forme": "0.1.7.7.0",
+            "gains_totaux": 93883,
+            "jockey": "D.PROVOST",
+            "entraineur": "M.CESANDRI",
+            "proprietaire": "THOUVENEL RACING",
+            "cote": 21.0
+          },
+          {
+            "numero": 6,
+            "nom": "FERDINAND PREMIER",
+            "age": 4,
+            "sexe": "H",
+            "poids": 57.5,
+            "corde": 11,
+            "forme": "0.7.4.1.1",
+            "gains_totaux": 57041,
+            "jockey": "C.LECOEUVRE",
+            "entraineur": "J.TASTAYRE",
+            "proprietaire": "A.LOURENCO",
+            "cote": 22.0
+          },
+          {
+            "numero": 7,
+            "nom": "STEP MORNING",
+            "age": 8,
+            "sexe": "H",
+            "poids": 57.0,
+            "corde": 12,
+            "forme": "3.8.5.0.5",
+            "gains_totaux": 147937,
+            "jockey": "T.BACHELOT",
+            "entraineur": "L.HEB. DE VEYRINAS",
+            "proprietaire": "JC.OBELLIANNE",
+            "cote": 15.0
+          },
+          {
+            "numero": 8,
+            "nom": "MIGHTY BOY",
+            "age": 4,
+            "sexe": "H",
+            "poids": 56.5,
+            "corde": 2,
+            "forme": "3.3.2.4.3",
+            "gains_totaux": 83106,
+            "jockey": "S.PASQUIER",
+            "entraineur": "ED.MONFORT",
+            "proprietaire": "C.GUEZET",
+            "cote": 7.0
+          },
+          {
+            "numero": 9,
+            "nom": "RAM SEA",
+            "age": 4,
+            "sexe": "H",
+            "poids": 56.5,
+            "corde": 5,
+            "forme": "0.0.1.3.5",
+            "gains_totaux": 58088,
+            "jockey": "L.BRECHET",
+            "entraineur": "D.MELE",
+            "proprietaire": "D.MELE",
+            "cote": 21.0
+          },
+          {
+            "numero": 10,
+            "nom": "DEMPY",
+            "age": 5,
+            "sexe": "H",
+            "poids": 54.5,
+            "corde": 9,
+            "forme": "0.2.7.1.0",
+            "gains_totaux": 111029,
+            "jockey": "C.DEMURO",
+            "entraineur": "D.BONILLA",
+            "proprietaire": "P.WATTANAVRANGKUL",
+            "cote": 11.0
+          },
+          {
+            "numero": 11,
+            "nom": "IKKO",
+            "age": 4,
+            "sexe": "H",
+            "poids": 54.0,
+            "corde": 13,
+            "forme": "2.7.4.2.3",
+            "gains_totaux": 51099,
+            "jockey": "R.THOMAS",
+            "entraineur": "G.MOSSE",
+            "proprietaire": "M.KUWATA",
+            "cote": 28.0
+          },
+          {
+            "numero": 12,
+            "nom": "VENDOMYA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 52.5,
+            "corde": 3,
+            "forme": "1.3.2.4.0",
+            "gains_totaux": 57906,
+            "jockey": "A.LEMAITRE",
+            "entraineur": "F.BRESSON",
+            "proprietaire": "P.FELLOUS/BRESSON",
+            "cote": 16.0
+          },
+          {
+            "numero": 13,
+            "nom": "RECOLETTY",
+            "age": 6,
+            "sexe": "F",
+            "poids": 52.0,
+            "corde": 10,
+            "forme": "0.3.8.3.1",
+            "gains_totaux": 93172,
+            "jockey": "E.HARDOUIN",
+            "entraineur": "S.CERULIS",
+            "proprietaire": "G.BARBARIN/ E.KLIMSCHA",
+            "cote": 33.0
+          },
+          {
+            "numero": 14,
+            "nom": "ZARFLIGHT",
+            "age": 6,
+            "sexe": "H",
+            "poids": 52.0,
+            "corde": 6,
+            "forme": "5.7.1.6.1",
+            "gains_totaux": 9607,
+            "jockey": "A.CRASTUS",
+            "entraineur": "GAB.LEENDERS",
+            "proprietaire": "EC. PATRICK BOITEAU",
+            "cote": 26.0
+          },
+          {
+            "numero": 15,
+            "nom": "FANTASTICO",
+            "age": 4,
+            "sexe": "M",
+            "poids": 51.5,
+            "corde": 7,
+            "forme": "5.6.8.6.3",
+            "gains_totaux": 13906,
+            "jockey": "C.PACAUT",
+            "entraineur": "M.BERTO",
+            "proprietaire": "K.HOFMANN",
+            "cote": 38.0
+          },
+          {
+            "numero": 16,
+            "nom": "MEASTER OWEN",
+            "age": 5,
+            "sexe": "H",
+            "poids": 51.0,
+            "corde": 1,
+            "forme": "7.1.4.7.2",
+            "gains_totaux": 84777,
+            "jockey": "L.PLOMMEE",
+            "entraineur": "M.CESANDRI",
+            "proprietaire": "N.RICIGNUOLO",
+            "cote": 34.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 3
+      },
+      "top5_final": [
+        {
+          "numero": 8,
+          "nom": "MIGHTY BOY",
+          "age": 4,
+          "sexe": "H",
+          "poids": 56.5,
+          "corde": 2,
+          "forme": "3.3.2.4.3",
+          "gains_totaux": 83106,
+          "jockey": "S.PASQUIER",
+          "entraineur": "ED.MONFORT",
+          "proprietaire": "C.GUEZET",
+          "cote": 7.0,
+          "score_historique": 5.48,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.8,
+          "score_fraicheur": 7.5,
+          "score_global": 6.24,
+          "win_prob": 0.933,
+          "place_prob": 0.9853,
+          "top3_prob": 0.9952,
+          "confiance_mc": 0.995,
+          "score_pondere": 795423.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.997,
+          "score_mc": 0.995,
+          "score_externe": 1.0
+        },
+        {
+          "position": 2,
+          "numero": 4,
+          "nom": "Cheval 4",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 8.0,
+          "forme": "1.0.2.1.5",
+          "age": 4,
+          "poids": 58.5,
+          "jockey": "C.SOUMILLON"
+        },
+        {
+          "numero": 16,
+          "nom": "MEASTER OWEN",
+          "age": 5,
+          "sexe": "H",
+          "poids": 51.0,
+          "corde": 1,
+          "forme": "7.1.4.7.2",
+          "gains_totaux": 84777,
+          "jockey": "L.PLOMMEE",
+          "entraineur": "M.CESANDRI",
+          "proprietaire": "N.RICIGNUOLO",
+          "cote": 34.0,
+          "score_historique": 3.35,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 8.9,
+          "score_fraicheur": 7.5,
+          "score_global": 5.604,
+          "win_prob": 0.0305,
+          "place_prob": 0.3605,
+          "top3_prob": 0.5796,
+          "confiance_mc": 0.58,
+          "score_pondere": 589727.0,
+          "borda_rank": 2,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.319,
+          "score_mc": 0.58,
+          "score_externe": 0.0
+        },
+        {
+          "numero": 12,
+          "nom": "VENDOMYA",
+          "age": 4,
+          "sexe": "F",
+          "poids": 52.5,
+          "corde": 3,
+          "forme": "1.3.2.4.0",
+          "gains_totaux": 57906,
+          "jockey": "A.LEMAITRE",
+          "entraineur": "F.BRESSON",
+          "proprietaire": "P.FELLOUS/BRESSON",
+          "cote": 16.0,
+          "score_historique": 3.49,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 8.6,
+          "score_fraicheur": 7.5,
+          "score_global": 5.5,
+          "win_prob": 0.0136,
+          "place_prob": 0.2071,
+          "top3_prob": 0.4073,
+          "confiance_mc": 0.407,
+          "score_pondere": 490220.0,
+          "borda_rank": 3,
+          "position": 4,
+          "robuste": false,
+          "meta_score": 0.336,
+          "score_mc": 0.407,
+          "score_externe": 0.25
+        },
+        {
+          "numero": 10,
+          "nom": "DEMPY",
+          "age": 5,
+          "sexe": "H",
+          "poids": 54.5,
+          "corde": 9,
+          "forme": "0.2.7.1.0",
+          "gains_totaux": 111029,
+          "jockey": "C.DEMURO",
+          "entraineur": "D.BONILLA",
+          "proprietaire": "P.WATTANAVRANGKUL",
+          "cote": 11.0,
+          "score_historique": 4.01,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 8.2,
+          "score_fraicheur": 7.5,
+          "score_global": 5.405,
+          "win_prob": 0.0059,
+          "place_prob": 0.1173,
+          "top3_prob": 0.2599,
+          "confiance_mc": 0.26,
+          "score_pondere": 381775.0,
+          "borda_rank": 5,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.368,
+          "score_mc": 0.26,
+          "score_externe": 0.5
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 1,
+            "cheval_nom": "YES ZARA",
+            "message": "N°1 YES ZARA : écart cote 82% (affichée 17.0, théorique 92.6) — sous-évalué",
+            "cote_affichee": 17.0,
+            "cote_theorique": 92.59,
+            "ecart_pct": 0.816
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 8,
+            "cheval_nom": "MIGHTY BOY",
+            "message": "N°8 MIGHTY BOY : écart cote 554% (affichée 7.0, théorique 1.1) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.07,
+            "ecart_pct": 5.542
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 10,
+            "cheval_nom": "DEMPY",
+            "message": "N°10 DEMPY : écart cote 94% (affichée 11.0, théorique 169.5) — sous-évalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 169.49,
+            "ecart_pct": 0.935
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 12,
+            "cheval_nom": "VENDOMYA",
+            "message": "N°12 VENDOMYA : écart cote 78% (affichée 16.0, théorique 73.5) — sous-évalué",
+            "cote_affichee": 16.0,
+            "cote_theorique": 73.53,
+            "ecart_pct": 0.782
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "PRINCESSE D'AMOUR",
+            "message": "N°4 PRINCESSE D'AMOUR : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          4,
+          8,
+          10,
+          12
+        ],
+        "nb_signaux": 5,
+        "mode_test": true,
+        "detected_at": "2026-10-18T12:52:59.878408"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "8": {
+            "numero": 8,
+            "nom": "MIGHTY BOY",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.0,
+            "prob_reelle": 0.997,
+            "prob_implicite": 0.121,
+            "ev": 5.979,
+            "ev_pct": 597.9,
+            "kelly_raw": 0.9965,
+            "kelly_fractionne": 0.2491,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "4": {
+            "numero": 4,
+            "nom": "PRINCESSE D'AMOUR",
+            "cote_affichee": 8.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.106,
+            "ev": 2.6,
+            "ev_pct": 260.0,
+            "kelly_raw": 0.3714,
+            "kelly_fractionne": 0.0929,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "16": {
+            "numero": 16,
+            "nom": "MEASTER OWEN",
+            "cote_affichee": 34.0,
+            "cote_theorique": 3.13,
+            "prob_reelle": 0.319,
+            "prob_implicite": 0.025,
+            "ev": 9.846,
+            "ev_pct": 984.6,
+            "kelly_raw": 0.2984,
+            "kelly_fractionne": 0.0746,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "12": {
+            "numero": 12,
+            "nom": "VENDOMYA",
+            "cote_affichee": 16.0,
+            "cote_theorique": 2.98,
+            "prob_reelle": 0.336,
+            "prob_implicite": 0.053,
+            "ev": 4.376,
+            "ev_pct": 437.6,
+            "kelly_raw": 0.2917,
+            "kelly_fractionne": 0.0729,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "10": {
+            "numero": 10,
+            "nom": "DEMPY",
+            "cote_affichee": 11.0,
+            "cote_theorique": 2.72,
+            "prob_reelle": 0.368,
+            "prob_implicite": 0.077,
+            "ev": 3.048,
+            "ev_pct": 304.8,
+            "kelly_raw": 0.3048,
+            "kelly_fractionne": 0.0762,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          8,
+          4,
+          16,
+          12,
+          10
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette longue épreuve de tenue à ParisLongchamp sur 3100 mètres est totalement écrasée par la domination du N°8 MIGHTY BOY, qui s'impose avec un score stratosphérique de 0.997 et une régularité exemplaire dans sa forme récente. Proposé à une cote intéressante de 7.0, il constitue la base absolue de cette course. Derrière ce monstre de puissance, l'opposition directe s'articule autour de candidatures spéculatives séduisantes à l'image du N°16 MEASTER OWEN, séduisant outsider à 34.0, et du N°10 DEMPY, capable de surprendre à 11.0. Malgré un indice de confiance affiché à 100% par l'algorithme, le système HADES émet une alerte rouge avec cinq signaux d'instabilité, traduisant une forte probabilité de turbulences derrière le grand favori en raison de la distance extrême. Dans ce contexte piégeux marqué par la configuration \"RED\", il est conseillé de privilégier un jeu simple gagnant-placé massif sur MIGHTY BOY, tout en construisant des couplés audacieux et des trios élargis en associant les outsiders ciblés pour dynamiter les rapports.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 0.7,
+            "apparitions": 4,
+            "position_moyenne": 2.5
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.7,
+            "apparitions": 4,
+            "position_moyenne": 2.5
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 0.5,
+            "external_score": 0.7,
+            "apparitions": 2,
+            "position_moyenne": 2.5
+          },
+          "14": {
+            "numero": 14,
+            "external_frequency": 0.25,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "6": {
+            "numero": 6,
+            "external_frequency": 0.25,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "5": {
+            "numero": 5,
+            "external_frequency": 0.25,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 0.25,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          },
+          "7": {
+            "numero": 7,
+            "external_frequency": 0.25,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 0.5,
+            "external_score": 0.5,
+            "apparitions": 2,
+            "position_moyenne": 3.5
+          },
+          "12": {
+            "numero": 12,
+            "external_frequency": 0.25,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "9": {
+            "numero": 9,
+            "external_frequency": 0.25,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          }
+        },
+        "consensus_externe": [
+          12,
+          6,
+          4,
+          8,
+          10
+        ],
+        "sources_detail": [
+          {
+            "source": "Turfoo",
+            "url": "https://www.turfoo.fr/programmes-courses/261018/reunion1-longchamp/course3-prix-rieussec/",
+            "top5": [
+              4,
+              8,
+              10,
+              14
+            ]
+          },
+          {
+            "source": "Canalturf",
+            "url": "https://www.canalturf.com/pronostics-PMU/2026-10-18/longchamp/420888_prix-rieussec.html",
+            "top5": [
+              4,
+              6,
+              8,
+              5,
+              3
+            ]
+          },
+          {
+            "source": "Facebook",
+            "url": "https://www.facebook.com/rcbradio83/posts/quint%C3%A9-du-dimanche-18-octobre-2026-%C3%A0-parislongchample-quint%C3%A9-se-dispute-ce-diman/1965015494889934/",
+            "top5": [
+              8,
+              10,
+              4,
+              7,
+              2
+            ]
+          },
+          {
+            "source": "Turf-fr",
+            "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-rieussec-388142",
+            "top5": [
+              12,
+              2,
+              9,
+              8,
+              4
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 4
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-10-18T12:53:09.050135"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 40.3,
+  "finished_at": "2026-10-18T12:53:14.111260",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
