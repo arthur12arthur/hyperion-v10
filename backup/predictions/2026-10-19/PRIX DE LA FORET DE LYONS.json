@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-19",
+  "course_id": "PRIX DE LA FORET DE LYONS",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    13,
+    8,
+    2,
+    12
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "TIEGO THE FIRST",
+      "meta_score": 0.661,
+      "win_prob": 0.0772,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "FEARLESS CHEETAH",
+      "meta_score": 0.475,
+      "win_prob": 0.5223,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "Cheval 8",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "Cheval 2",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "ALLURRE",
+      "meta_score": 0.313,
+      "win_prob": 0.1566,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "turfoo",
+      "url": "https://www.turfoo.fr/programmes-courses/261019/reunion1-deauville/course1-prix-de-la-foret-de-lyons/",
+      "top5": [
+        1,
+        2,
+        8,
+        3
+      ]
+    }
+  ],
+  "consensus_externe": [
+    1,
+    2,
+    8,
+    3
+  ],
+  "generated_at": "2026-10-19T16:03:46.164677"
+}
