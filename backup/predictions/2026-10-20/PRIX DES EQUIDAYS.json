@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-20",
+  "course_id": "PRIX DES EQUIDAYS",
+  "hippodrome": "DEAUVILLE-CLAIREFONTAINE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    15,
+    5,
+    14,
+    3
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "NITY GALESTE",
+      "meta_score": 0.541,
+      "win_prob": 0.7389,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "ZARABABY",
+      "meta_score": 0.481,
+      "win_prob": 0.2057,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "MY HABITUDE",
+      "meta_score": 0.224,
+      "win_prob": 0.0245,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "EXELMANS",
+      "meta_score": 0.221,
+      "win_prob": 0.0237,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "MAKAN",
+      "meta_score": 0.061,
+      "win_prob": 0.0035,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-20T13:59:39.957782"
+}
