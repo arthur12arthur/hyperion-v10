@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-21",
+  "course_id": "GRAND PRIX DE LA VILLE ROSE",
+  "hippodrome": "TOULOUSE",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    10,
+    12,
+    3,
+    2
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "ENEA FONT",
+      "meta_score": 0.491,
+      "win_prob": 0.41,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "FREEDOM",
+      "meta_score": 0.492,
+      "win_prob": 0.4186,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "GERICAULT",
+      "meta_score": 0.361,
+      "win_prob": 0.1274,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "INVICTUS NAR",
+      "meta_score": 0.089,
+      "win_prob": 0.0128,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "I AM PHYT'S",
+      "meta_score": 0.113,
+      "win_prob": 0.0183,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-21T14:16:06.324649"
+}
