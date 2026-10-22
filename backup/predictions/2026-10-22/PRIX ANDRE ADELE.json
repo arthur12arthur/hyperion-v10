@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-22",
+  "course_id": "PRIX ANDRE ADELE",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    7,
+    1,
+    3,
+    2,
+    6
+  ],
+  "predicted_winner": 7,
+  "top5_details": [
+    {
+      "numero": 7,
+      "nom": "MANIYSA BLEUE",
+      "meta_score": 0.422,
+      "win_prob": 0.321,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "KING PINEAU",
+      "meta_score": 0.462,
+      "win_prob": 0.4466,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "KEASY STORM",
+      "meta_score": 0.255,
+      "win_prob": 0.1032,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "JUVAL",
+      "meta_score": 0.133,
+      "win_prob": 0.0374,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "DREAM DU LEMO",
+      "meta_score": 0.139,
+      "win_prob": 0.0391,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-22T14:15:11.202894"
+}
