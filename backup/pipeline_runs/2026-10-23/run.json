@@ -1,0 +1,705 @@
+{
+  "date": "2026-10-23",
+  "run_id": "20261023_135645",
+  "started_at": "2026-10-23T13:56:45.915951",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX ORIONIS",
+        "hippodrome": "PARIS-VINCENNES",
+        "date": "2026-10-23",
+        "heure": "18:15",
+        "distance": 2850,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 18,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "JARDYLAND",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.7.9.0.0",
+            "gains_totaux": 134685,
+            "jockey": "L. JUBLOT",
+            "entraineur": "L. JUBLOT",
+            "proprietaire": "B. MARIOTTO",
+            "cote": 90.0
+          },
+          {
+            "numero": 2,
+            "nom": "GITANO JACK",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.8.8.0.9",
+            "gains_totaux": 187500,
+            "jockey": "F. NIVARD",
+            "entraineur": "G.M. BERNIER",
+            "proprietaire": "J. GRISANTI",
+            "cote": 40.0
+          },
+          {
+            "numero": 3,
+            "nom": "IROISE DE MADKER",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.2.4.2.D",
+            "gains_totaux": 191155,
+            "jockey": "F. LAGADEUC",
+            "entraineur": "CH.A. MALLET",
+            "proprietaire": "EC. Ch. MALLET",
+            "cote": 38.0
+          },
+          {
+            "numero": 4,
+            "nom": "GENERAL DE CONNEE",
+            "age": 10,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "8.3.6.3.6",
+            "gains_totaux": 193690,
+            "jockey": "D. THOMAIN",
+            "entraineur": "CH.A. MALLET",
+            "proprietaire": "EC. Ch. MALLET",
+            "cote": 34.0
+          },
+          {
+            "numero": 5,
+            "nom": "IN RACE LORRAINE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0..0.3.3",
+            "gains_totaux": 205130,
+            "jockey": "G.A. POU POU",
+            "entraineur": "G.A. POU POU",
+            "proprietaire": "J.J.R. GUERIN",
+            "cote": 88.0
+          },
+          {
+            "numero": 6,
+            "nom": "JOKER GEMA",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "0.6.3.D.D",
+            "gains_totaux": 210335,
+            "jockey": "B. ROCHARD",
+            "entraineur": "M. SASSIER",
+            "proprietaire": "EC. Marc SASSIER",
+            "cote": 21.0
+          },
+          {
+            "numero": 7,
+            "nom": "IENISSE DE BARBRAY",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.0.3.3.1",
+            "gains_totaux": 213455,
+            "jockey": "E. RAFFIN",
+            "entraineur": "CH.A. MALLET",
+            "proprietaire": "EC. Ch. MALLET",
+            "cote": 20.0
+          },
+          {
+            "numero": 8,
+            "nom": "HALFAN SPEED",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "1.3.8.0.9",
+            "gains_totaux": 213845,
+            "jockey": "P.PH. PLOQUIN",
+            "entraineur": "P. LELIEVRE",
+            "proprietaire": "EC. Hervé GUERIN",
+            "cote": 26.0
+          },
+          {
+            "numero": 9,
+            "nom": "JEWEL DE LA COTE",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "8.2.9.1.1",
+            "gains_totaux": 214220,
+            "jockey": "G. GELORMINI",
+            "entraineur": "S. GUARATO",
+            "proprietaire": "M. FROMENTIN",
+            "cote": 32.0
+          },
+          {
+            "numero": 10,
+            "nom": "JADOU DU LUPIN",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.D.3.1.2",
+            "gains_totaux": 219435,
+            "jockey": "A. WIELS",
+            "entraineur": "J.P. MARMION",
+            "proprietaire": "EC. J.P. MARMION",
+            "cote": 9.0
+          },
+          {
+            "numero": 11,
+            "nom": "JAZZ DE PADD",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.3.7.3.3",
+            "gains_totaux": 221475,
+            "jockey": "A. ABRIVARD",
+            "entraineur": "M. ABRIVARD",
+            "proprietaire": "EC. LD-M. ABRIVARD",
+            "cote": 7.0
+          },
+          {
+            "numero": 12,
+            "nom": "IN LOVE REGLISSE",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "5.1.5.5.0",
+            "gains_totaux": 226080,
+            "jockey": "E. DE JESUS",
+            "entraineur": "D. DE JESUS REIS",
+            "proprietaire": "D. DE JESUS REIS",
+            "cote": 24.0
+          },
+          {
+            "numero": 13,
+            "nom": "JIBI DU FRUITIER",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.8.6.6.4",
+            "gains_totaux": 227865,
+            "jockey": "M. MOTTIER",
+            "entraineur": "CH.M. BRUNEAU",
+            "proprietaire": "M. BRUNEAU",
+            "cote": 19.0
+          },
+          {
+            "numero": 14,
+            "nom": "IOUPY TOLLEVILLE",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.7.8.8.0",
+            "gains_totaux": 228545,
+            "jockey": "F. OUVRIE",
+            "entraineur": "E. SZIRMAY",
+            "proprietaire": "E. SZIRMAY",
+            "cote": 29.0
+          },
+          {
+            "numero": 15,
+            "nom": "JUST DU CHATELET",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.0.7.1.1",
+            "gains_totaux": 232380,
+            "jockey": "D. BONNE",
+            "entraineur": "A. RANDON",
+            "proprietaire": "N. TAIEB",
+            "cote": 6.0
+          },
+          {
+            "numero": 16,
+            "nom": "HINDEN",
+            "age": 9,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "7.7.5.5.8",
+            "gains_totaux": 232720,
+            "jockey": "A. BARRIER",
+            "entraineur": "P.J. CORDEAU",
+            "proprietaire": "F. DECOSTER",
+            "cote": 118.0
+          },
+          {
+            "numero": 17,
+            "nom": "IVOIRE DAIRPET",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "D.4.9.5.0",
+            "gains_totaux": 232815,
+            "jockey": "CEDRIC TERRY",
+            "entraineur": "J.F. POPOT",
+            "proprietaire": "P.L. LEMOINE",
+            "cote": 13.0
+          },
+          {
+            "numero": 18,
+            "nom": "JEZABELLE BIE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.8.0.6.6",
+            "gains_totaux": 233965,
+            "jockey": "M. IZZO",
+            "entraineur": "M. IZZO",
+            "proprietaire": "J.Ph. IZZO",
+            "cote": 198.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 4
+      },
+      "top5_final": [
+        {
+          "numero": 11,
+          "nom": "JAZZ DE PADD",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "3.3.7.3.3",
+          "gains_totaux": 221475,
+          "jockey": "A. ABRIVARD",
+          "entraineur": "M. ABRIVARD",
+          "proprietaire": "EC. LD-M. ABRIVARD",
+          "cote": 7.0,
+          "score_historique": 5.26,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.622,
+          "win_prob": 0.2223,
+          "place_prob": 0.4673,
+          "top3_prob": 0.669,
+          "confiance_mc": 0.669,
+          "score_pondere": 734794.0,
+          "borda_rank": 2,
+          "position": 1,
+          "robuste": false,
+          "meta_score": 0.593,
+          "score_mc": 0.669,
+          "score_externe": 0.5
+        },
+        {
+          "numero": 15,
+          "nom": "JUST DU CHATELET",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "4.0.7.1.1",
+          "gains_totaux": 232380,
+          "jockey": "D. BONNE",
+          "entraineur": "A. RANDON",
+          "proprietaire": "N. TAIEB",
+          "cote": 6.0,
+          "score_historique": 5.65,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.758,
+          "win_prob": 0.4477,
+          "place_prob": 0.6949,
+          "top3_prob": 0.8399,
+          "confiance_mc": 0.84,
+          "score_pondere": 818213.0,
+          "borda_rank": 1,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.462,
+          "score_mc": 0.84,
+          "score_externe": 0.0
+        },
+        {
+          "numero": 2,
+          "nom": "GITANO JACK",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "2.8.8.0.9",
+          "gains_totaux": 187500,
+          "jockey": "F. NIVARD",
+          "entraineur": "G.M. BERNIER",
+          "proprietaire": "J. GRISANTI",
+          "cote": 40.0,
+          "score_historique": 4.16,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.594,
+          "win_prob": 0.1923,
+          "place_prob": 0.4215,
+          "top3_prob": 0.6296,
+          "confiance_mc": 0.63,
+          "score_pondere": 715122.0,
+          "borda_rank": 3,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.347,
+          "score_mc": 0.63,
+          "score_externe": 0.0
+        },
+        {
+          "numero": 1,
+          "nom": "JARDYLAND",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "2.7.9.0.0",
+          "gains_totaux": 134685,
+          "jockey": "L. JUBLOT",
+          "entraineur": "L. JUBLOT",
+          "proprietaire": "B. MARIOTTO",
+          "cote": 90.0,
+          "score_historique": 3.82,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.477,
+          "win_prob": 0.089,
+          "place_prob": 0.2372,
+          "top3_prob": 0.423,
+          "confiance_mc": 0.423,
+          "score_pondere": 593977.0,
+          "borda_rank": 4,
+          "position": 4,
+          "robuste": false,
+          "meta_score": 0.233,
+          "score_mc": 0.423,
+          "score_externe": 0.0
+        },
+        {
+          "position": 5,
+          "numero": 3,
+          "nom": "Cheval 3",
+          "meta_score": 0.225,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 0.5,
+          "cote": 38.0,
+          "forme": "0.2.4.2.D",
+          "age": 8,
+          "poids": null,
+          "jockey": "F. LAGADEUC"
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 1,
+            "cheval_nom": "JARDYLAND",
+            "message": "N°1 JARDYLAND : écart cote 701% (affichée 90.0, théorique 11.2) — surévalué",
+            "cote_affichee": 90.0,
+            "cote_theorique": 11.24,
+            "ecart_pct": 7.007
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "GITANO JACK",
+            "message": "N°2 GITANO JACK : écart cote 669% (affichée 40.0, théorique 5.2) — surévalué",
+            "cote_affichee": 40.0,
+            "cote_theorique": 5.2,
+            "ecart_pct": 6.692
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 5,
+            "cheval_nom": "IN RACE LORRAINE",
+            "message": "N°5 IN RACE LORRAINE : écart cote 129% (affichée 88.0, théorique 38.5) — surévalué",
+            "cote_affichee": 88.0,
+            "cote_theorique": 38.46,
+            "ecart_pct": 1.288
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 11,
+            "cheval_nom": "JAZZ DE PADD",
+            "message": "N°11 JAZZ DE PADD : écart cote 56% (affichée 7.0, théorique 4.5) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 4.5,
+            "ecart_pct": 0.556
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 15,
+            "cheval_nom": "JUST DU CHATELET",
+            "message": "N°15 JUST DU CHATELET : écart cote 169% (affichée 6.0, théorique 2.2) — surévalué",
+            "cote_affichee": 6.0,
+            "cote_theorique": 2.23,
+            "ecart_pct": 1.691
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          5,
+          11,
+          15
+        ],
+        "nb_signaux": 5,
+        "mode_test": true,
+        "detected_at": "2026-10-23T13:57:52.877878"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "11": {
+            "numero": 11,
+            "nom": "JAZZ DE PADD",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.69,
+            "prob_reelle": 0.593,
+            "prob_implicite": 0.121,
+            "ev": 3.151,
+            "ev_pct": 315.1,
+            "kelly_raw": 0.5252,
+            "kelly_fractionne": 0.1313,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "15": {
+            "numero": 15,
+            "nom": "JUST DU CHATELET",
+            "cote_affichee": 6.0,
+            "cote_theorique": 2.16,
+            "prob_reelle": 0.462,
+            "prob_implicite": 0.142,
+            "ev": 1.772,
+            "ev_pct": 177.2,
+            "kelly_raw": 0.3544,
+            "kelly_fractionne": 0.0886,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "GITANO JACK",
+            "cote_affichee": 40.0,
+            "cote_theorique": 2.88,
+            "prob_reelle": 0.347,
+            "prob_implicite": 0.021,
+            "ev": 12.88,
+            "ev_pct": 1288.0,
+            "kelly_raw": 0.3303,
+            "kelly_fractionne": 0.0826,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "1": {
+            "numero": 1,
+            "nom": "JARDYLAND",
+            "cote_affichee": 90.0,
+            "cote_theorique": 4.29,
+            "prob_reelle": 0.233,
+            "prob_implicite": 0.009,
+            "ev": 19.97,
+            "ev_pct": 1997.0,
+            "kelly_raw": 0.2244,
+            "kelly_fractionne": 0.0561,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "IROISE DE MADKER",
+            "cote_affichee": 38.0,
+            "cote_theorique": 4.44,
+            "prob_reelle": 0.225,
+            "prob_implicite": 0.022,
+            "ev": 7.55,
+            "ev_pct": 755.0,
+            "kelly_raw": 0.2041,
+            "kelly_fractionne": 0.051,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          11,
+          15,
+          2,
+          1,
+          3
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2850 mètres de Paris-Vincennes place nettement le N°11 JAZZ DE PADD en position de favori logique, fort d'un score de 0.593 et d'une régularité métronomique dans sa forme récente. Pour le contrer ou dynamiter les rapports, le N°15 JUST DU CHATELET offre de solides garanties avec une cote attractive de 6.0 et deux récentes victoires dans sa musette. Plus loin dans la hiérarchie, le N°2 GITANO JACK tentera de surmonter sa cote spéculative de 40.0 pour venir pimenter les jeux. Malgré un indice de confiance solide établi à 76%, le signal d'alerte rouge émis par le module Hades, couplé à la présence de quelques outsiders encombrants, invite à la plus grande prudence dans l'élaboration des tickets. En conséquence, il est conseillé de s'orienter vers un couplé placé audacieux ou un trio circonscrit autour des bases incontournables du haut de tableau pour optimiser les rendements.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "3": {
+            "numero": 3,
+            "external_frequency": 0.5,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "14": {
+            "numero": 14,
+            "external_frequency": 0.5,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 0.5,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "6": {
+            "numero": 6,
+            "external_frequency": 0.5,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "7": {
+            "numero": 7,
+            "external_frequency": 0.5,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          },
+          "11": {
+            "numero": 11,
+            "external_frequency": 0.5,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 0.5,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "9": {
+            "numero": 9,
+            "external_frequency": 0.5,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          }
+        },
+        "consensus_externe": [
+          3,
+          11,
+          14,
+          8,
+          10
+        ],
+        "sources_detail": [
+          {
+            "source": "turfoo",
+            "url": "https://www.turfoo.fr/programmes-courses/261023/reunion1-vincennes/course4-prix-orionis/",
+            "top5": [
+              3,
+              14,
+              10,
+              6,
+              7
+            ]
+          },
+          {
+            "source": "turfomania",
+            "url": "https://www.turfomania.fr/pronostics/pronostics-vendredi-23-octobre-2026-paris-vincennes-prix-orionis.html?idcourse=687442",
+            "top5": [
+              11,
+              8,
+              9
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 2
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-10-23T13:58:12.393743"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 91.4,
+  "finished_at": "2026-10-23T13:58:17.359891",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
