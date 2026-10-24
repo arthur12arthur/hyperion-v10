@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
-  "run_id": "20261024_090613",
-  "started_at": "2026-10-24T09:06:13.075210",
+  "run_id": "20261024_130024",
+  "started_at": "2026-10-24T13:00:24.243397",
   "nb_courses": 1,
   "nb_pronostics": 1,
   "errors": [],
@@ -113,7 +113,7 @@
             "jockey": "T.CHEVILLARD",
             "entraineur": "GAB.LEENDERS",
             "proprietaire": "D.JOSSET",
-            "cote": 8.0
+            "cote": 11.0
           },
           {
             "numero": 8,
@@ -225,7 +225,7 @@
             "jockey": "L.BEAUBOIS",
             "entraineur": "D.WINDRIF",
             "proprietaire": "M.CHAOUAT",
-            "cote": 44.0
+            "cote": 43.0
           }
         ],
         "is_lonab": true,
@@ -252,16 +252,16 @@
           "score_handicap": 2.1,
           "score_fraicheur": 7.5,
           "score_global": 5.885,
-          "win_prob": 0.9073,
-          "place_prob": 0.9895,
-          "top3_prob": 0.9991,
-          "confiance_mc": 0.999,
-          "score_pondere": 744786.0,
+          "win_prob": 0.916,
+          "place_prob": 0.9958,
+          "top3_prob": 0.9996,
+          "confiance_mc": 1.0,
+          "score_pondere": 745568.0,
           "borda_rank": 1,
           "position": 1,
           "robuste": false,
-          "meta_score": 0.549,
-          "score_mc": 0.999,
+          "meta_score": 0.55,
+          "score_mc": 1.0,
           "score_externe": 0.0
         },
         {
@@ -283,47 +283,16 @@
           "score_handicap": 1.9,
           "score_fraicheur": 7.5,
           "score_global": 5.386,
-          "win_prob": 0.0771,
-          "place_prob": 0.6903,
-          "top3_prob": 0.91,
-          "confiance_mc": 0.91,
-          "score_pondere": 679310.0,
+          "win_prob": 0.0792,
+          "place_prob": 0.8095,
+          "top3_prob": 0.9429,
+          "confiance_mc": 0.943,
+          "score_pondere": 688180.0,
           "borda_rank": 2,
           "position": 2,
           "robuste": false,
-          "meta_score": 0.501,
-          "score_mc": 0.91,
-          "score_externe": 0.0
-        },
-        {
-          "numero": 7,
-          "nom": "MON PETIT PRINCE",
-          "age": 5,
-          "sexe": "H",
-          "poids": 70.5,
-          "corde": null,
-          "forme": "2.3.3.2.2",
-          "gains_totaux": 99725,
-          "jockey": "T.CHEVILLARD",
-          "entraineur": "GAB.LEENDERS",
-          "proprietaire": "D.JOSSET",
-          "cote": 8.0,
-          "score_historique": 4.58,
-          "score_forme": 5.0,
-          "score_terrain_distance": 6.5,
-          "score_handicap": 2.5,
-          "score_fraicheur": 7.5,
-          "score_global": 5.153,
-          "win_prob": 0.013,
-          "place_prob": 0.2303,
-          "top3_prob": 0.6623,
-          "confiance_mc": 0.662,
-          "score_pondere": 613240.0,
-          "borda_rank": 3,
-          "position": 3,
-          "robuste": false,
-          "meta_score": 0.364,
-          "score_mc": 0.662,
+          "meta_score": 0.519,
+          "score_mc": 0.943,
           "score_externe": 0.0
         },
         {
@@ -345,16 +314,47 @@
           "score_handicap": 2.5,
           "score_fraicheur": 7.5,
           "score_global": 4.95,
-          "win_prob": 0.0024,
-          "place_prob": 0.0656,
-          "top3_prob": 0.2699,
-          "confiance_mc": 0.27,
-          "score_pondere": 494527.0,
+          "win_prob": 0.0026,
+          "place_prob": 0.0883,
+          "top3_prob": 0.4203,
+          "confiance_mc": 0.42,
+          "score_pondere": 518146.0,
+          "borda_rank": 3,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.231,
+          "score_mc": 0.42,
+          "score_externe": 0.0
+        },
+        {
+          "numero": 7,
+          "nom": "MON PETIT PRINCE",
+          "age": 5,
+          "sexe": "H",
+          "poids": 70.5,
+          "corde": null,
+          "forme": "2.3.3.2.2",
+          "gains_totaux": 99725,
+          "jockey": "T.CHEVILLARD",
+          "entraineur": "GAB.LEENDERS",
+          "proprietaire": "D.JOSSET",
+          "cote": 11.0,
+          "score_historique": 3.9,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 2.5,
+          "score_fraicheur": 7.5,
+          "score_global": 4.914,
+          "win_prob": 0.002,
+          "place_prob": 0.0694,
+          "top3_prob": 0.3513,
+          "confiance_mc": 0.351,
+          "score_pondere": 489869.0,
           "borda_rank": 4,
           "position": 4,
           "robuste": false,
-          "meta_score": 0.149,
-          "score_mc": 0.27,
+          "meta_score": 0.193,
+          "score_mc": 0.351,
           "score_externe": 0.0
         },
         {
@@ -376,16 +376,16 @@
           "score_handicap": 2.9,
           "score_fraicheur": 7.5,
           "score_global": 4.74,
-          "win_prob": 0.0001,
-          "place_prob": 0.0131,
-          "top3_prob": 0.0766,
-          "confiance_mc": 0.077,
-          "score_pondere": 292764.0,
+          "win_prob": 0.0002,
+          "place_prob": 0.0189,
+          "top3_prob": 0.1326,
+          "confiance_mc": 0.133,
+          "score_pondere": 319854.0,
           "borda_rank": 5,
           "position": 5,
           "robuste": false,
-          "meta_score": 0.042,
-          "score_mc": 0.077,
+          "meta_score": 0.073,
+          "score_mc": 0.133,
           "score_externe": 0.0
         }
       ],
@@ -398,40 +398,40 @@
             "niveau": "red",
             "cheval_numero": 4,
             "cheval_nom": "LOUBA",
-            "message": "N°4 LOUBA : écart cote 355% (affichée 5.0, théorique 1.1) — surévalué",
+            "message": "N°4 LOUBA : écart cote 359% (affichée 5.0, théorique 1.1) — surévalué",
             "cote_affichee": 5.0,
-            "cote_theorique": 1.1,
-            "ecart_pct": 3.545
+            "cote_theorique": 1.09,
+            "ecart_pct": 3.587
           },
           {
             "type": "ECART_COTE",
             "niveau": "red",
             "cheval_numero": 6,
             "cheval_nom": "LE COLOMBAR",
-            "message": "N°6 LE COLOMBAR : écart cote 96% (affichée 15.0, théorique 416.7) — sous-évalué",
+            "message": "N°6 LE COLOMBAR : écart cote 96% (affichée 15.0, théorique 384.6) — sous-évalué",
             "cote_affichee": 15.0,
-            "cote_theorique": 416.67,
-            "ecart_pct": 0.964
+            "cote_theorique": 384.62,
+            "ecart_pct": 0.961
           },
           {
             "type": "ECART_COTE",
             "niveau": "red",
             "cheval_numero": 7,
             "cheval_nom": "MON PETIT PRINCE",
-            "message": "N°7 MON PETIT PRINCE : écart cote 90% (affichée 8.0, théorique 76.9) — sous-évalué",
-            "cote_affichee": 8.0,
-            "cote_theorique": 76.92,
-            "ecart_pct": 0.896
+            "message": "N°7 MON PETIT PRINCE : écart cote 98% (affichée 11.0, théorique 500.0) — sous-évalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 500.0,
+            "ecart_pct": 0.978
           },
           {
             "type": "ECART_COTE",
             "niveau": "red",
             "cheval_numero": 8,
             "cheval_nom": "LADY ANGE WIN",
-            "message": "N°8 LADY ANGE WIN : écart cote 100% (affichée 17.0, théorique 10000.0) — sous-évalué",
+            "message": "N°8 LADY ANGE WIN : écart cote 100% (affichée 17.0, théorique 5000.0) — sous-évalué",
             "cote_affichee": 17.0,
-            "cote_theorique": 10000.0,
-            "ecart_pct": 0.998
+            "cote_theorique": 5000.0,
+            "ecart_pct": 0.997
           }
         ],
         "chevaux_suspects": [
@@ -442,7 +442,7 @@
         ],
         "nb_signaux": 4,
         "mode_test": true,
-        "detected_at": "2026-10-24T09:06:39.934821"
+        "detected_at": "2026-10-24T13:00:47.626486"
       },
       "ev_kelly": {
         "chevaux": {
@@ -451,12 +451,12 @@
             "nom": "LOUBA",
             "cote_affichee": 5.0,
             "cote_theorique": 1.82,
-            "prob_reelle": 0.549,
+            "prob_reelle": 0.55,
             "prob_implicite": 0.17,
-            "ev": 1.745,
-            "ev_pct": 174.5,
-            "kelly_raw": 0.4363,
-            "kelly_fractionne": 0.1091,
+            "ev": 1.75,
+            "ev_pct": 175.0,
+            "kelly_raw": 0.4375,
+            "kelly_fractionne": 0.1094,
             "kelly_cappe": 0.05,
             "mises": {
               "capital_1000": 50.0,
@@ -469,13 +469,13 @@
             "numero": 2,
             "nom": "COUTE QUE COUTE",
             "cote_affichee": 13.0,
-            "cote_theorique": 2.0,
-            "prob_reelle": 0.501,
+            "cote_theorique": 1.93,
+            "prob_reelle": 0.519,
             "prob_implicite": 0.065,
-            "ev": 5.513,
-            "ev_pct": 551.3,
-            "kelly_raw": 0.4594,
-            "kelly_fractionne": 0.1149,
+            "ev": 5.747,
+            "ev_pct": 574.7,
+            "kelly_raw": 0.4789,
+            "kelly_fractionne": 0.1197,
             "kelly_cappe": 0.05,
             "mises": {
               "capital_1000": 50.0,
@@ -484,40 +484,40 @@
             "risque": "FAIBLE",
             "is_value_bet": true
           },
-          "7": {
-            "numero": 7,
-            "nom": "MON PETIT PRINCE",
-            "cote_affichee": 8.0,
-            "cote_theorique": 2.75,
-            "prob_reelle": 0.364,
-            "prob_implicite": 0.106,
-            "ev": 1.912,
-            "ev_pct": 191.2,
-            "kelly_raw": 0.2731,
-            "kelly_fractionne": 0.0683,
-            "kelly_cappe": 0.05,
-            "mises": {
-              "capital_1000": 50.0,
-              "capital_10000": 500.0
-            },
-            "risque": "MODÉRÉ",
-            "is_value_bet": true
-          },
           "6": {
             "numero": 6,
             "nom": "LE COLOMBAR",
             "cote_affichee": 15.0,
-            "cote_theorique": 6.71,
-            "prob_reelle": 0.149,
+            "cote_theorique": 4.33,
+            "prob_reelle": 0.231,
             "prob_implicite": 0.057,
-            "ev": 1.235,
-            "ev_pct": 123.5,
-            "kelly_raw": 0.0882,
-            "kelly_fractionne": 0.0221,
-            "kelly_cappe": 0.0221,
+            "ev": 2.465,
+            "ev_pct": 246.5,
+            "kelly_raw": 0.1761,
+            "kelly_fractionne": 0.044,
+            "kelly_cappe": 0.044,
             "mises": {
-              "capital_1000": 22.0,
-              "capital_10000": 221.0
+              "capital_1000": 44.0,
+              "capital_10000": 440.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "7": {
+            "numero": 7,
+            "nom": "MON PETIT PRINCE",
+            "cote_affichee": 11.0,
+            "cote_theorique": 5.18,
+            "prob_reelle": 0.193,
+            "prob_implicite": 0.077,
+            "ev": 1.123,
+            "ev_pct": 112.3,
+            "kelly_raw": 0.1123,
+            "kelly_fractionne": 0.0281,
+            "kelly_cappe": 0.0281,
+            "mises": {
+              "capital_1000": 28.0,
+              "capital_10000": 281.0
             },
             "risque": "ÉLEVÉ",
             "is_value_bet": true
@@ -526,31 +526,32 @@
             "numero": 8,
             "nom": "LADY ANGE WIN",
             "cote_affichee": 17.0,
-            "cote_theorique": 23.81,
-            "prob_reelle": 0.042,
+            "cote_theorique": 13.7,
+            "prob_reelle": 0.073,
             "prob_implicite": 0.05,
-            "ev": -0.286,
-            "ev_pct": -28.6,
-            "kelly_raw": 0.0,
-            "kelly_fractionne": 0.0,
-            "kelly_cappe": 0.0,
+            "ev": 0.241,
+            "ev_pct": 24.1,
+            "kelly_raw": 0.0151,
+            "kelly_fractionne": 0.0038,
+            "kelly_cappe": 0.0038,
             "mises": {
-              "capital_1000": 0.0,
-              "capital_10000": 0.0
+              "capital_1000": 4.0,
+              "capital_10000": 38.0
             },
             "risque": "ÉLEVÉ",
-            "is_value_bet": false
+            "is_value_bet": true
           }
         },
         "value_bets": [
           4,
           2,
+          6,
           7,
-          6
+          8
         ],
-        "nb_value_bets": 4
+        "nb_value_bets": 5
       },
-      "rapport_gemini": "L'analyste en chef d'HYPERION V10 vous présente l'étude de cette épreuve disputée sur les 3600 mètres de Compiègne en terrain lourd. Le favori logique de cette course est le **N°4 LOUBA**, qui affiche le score le plus élevé (0.549) et une régularité exemplaire dans sa forme récente, s'imposant comme la base incontournable. Parmi les outsiders séduisants, le **N°2 COUTE QUE COUTE** retient particulièrement l'attention avec une cote attractive de 13/1 et des références honorables, tout comme le **N°7 MON PETIT PRINCE** (8.0), dont la régularité plaide en faveur d'une place active à l'arrivée. Malgré la domination technique du favori, le classement global demeure empreint d'incertitude, comme en atteste un score de confiance modéré à 60 % et surtout l'indicateur HADES au signal ROUGE, qui met en garde contre de potentiels retournements de situation inhérents à la piste très lourde. En matière de stratégie de jeu, il est conseillé de privilégier un couplé plaçant le favori en base associée aux outsiders en vue, ainsi qu'un jeu simple prudent sur le **N°4 LOUBA** pour sécuriser les investissements.",
+      "rapport_gemini": "L'analyse de cette épreuve disputée sur les 3600 mètres très lourds de Compiègne place en tête le numéro 4 Louba, qui endosse le costume de logiquefavori avec une cote de 5.0 et une régularité exemplaire matérialisée par une musique récente très incitative. Derrière cette base solide, le profil du numéro 2 Coute Que Coute retient particulièrement l'attention à une cote séduisante de 13.0, tout comme le numéro 7 Mon Petit Prince, dont la régularité affichée dans sa forme récente en fait un trouble-fête en puissance. Toutefois, le modèle HYPERION V10 attribue à cette course un score de confiance modéré de 56%, d'autant que l'indicateur HADES passe au rouge avec quatre signaux d'alerte, trahissant des conditions de terrain particulièrement piégeuses. Face à cette incertitude accrue, la hiérarchie établie demande la plus grande prudence et incite à privilégier des options tactiques prudentes. On orientera de préférence les jeux vers un couplé plaçant le favori en base, associé aux outsiders mentionnés, ou un tiercé circonscrit pour composer avec les aléas de cette piste profonde.",
       "external_aggregation": {
         "chevaux_stats": {},
         "consensus_externe": [],
@@ -563,12 +564,12 @@
         "stability": 1.0,
         "total_simulations": 50000
       },
-      "generated_at": "2026-10-24T09:06:49.029361"
+      "generated_at": "2026-10-24T13:00:56.870050"
     }
   ],
   "test_mode": false,
-  "duration_sec": 41.4,
-  "finished_at": "2026-10-24T09:06:54.490851",
+  "duration_sec": 37.3,
+  "finished_at": "2026-10-24T13:01:01.520307",
   "quota_status": {
     "KEY1": {
       "calls_today": 4,
