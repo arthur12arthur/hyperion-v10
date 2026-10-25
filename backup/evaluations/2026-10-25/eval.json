@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-25",
+  "day_number": 54,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.0,
+  "running_top1": 0.0556,
+  "running_top3": 0.2471,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX DE L'ELEVAGE",
+        "is_lonab": true,
+        "predicted_winner": 2,
+        "official_winner": 4,
+        "top1_correct": false,
+        "top3_score": 0,
+        "external_results": [
+          {
+            "source": "Facebook - RCB Radio",
+            "predicted_winner": 8,
+            "top1_correct": false,
+            "top3_score": 0
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-10-25T22:22:37.609429"
+}
