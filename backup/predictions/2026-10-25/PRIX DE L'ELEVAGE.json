@@ -6,27 +6,34 @@
   "numero_course": 5,
   "is_lonab": true,
   "predicted_top5": [
-    13,
     2,
+    13,
+    3,
     8,
-    11,
-    15
+    10
   ],
-  "predicted_winner": 13,
+  "predicted_winner": 2,
   "top5_details": [
-    {
-      "numero": 13,
-      "nom": "NANCY DES PLACES",
-      "meta_score": 0.998,
-      "win_prob": 0.7815,
-      "robuste": true
-    },
     {
       "numero": 2,
       "nom": "SHRIHARA",
-      "meta_score": 0.823,
-      "win_prob": 0.2098,
+      "meta_score": 0.841,
+      "win_prob": 0.3224,
       "robuste": true
+    },
+    {
+      "numero": 13,
+      "nom": "NANCY DES PLACES",
+      "meta_score": 0.718,
+      "win_prob": 0.1443,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "Cheval 3",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
     },
     {
       "numero": 8,
@@ -36,17 +43,10 @@
       "robuste": false
     },
     {
-      "numero": 11,
-      "nom": "GOLDEN BELLE",
-      "meta_score": 0.412,
-      "win_prob": 0.0021,
-      "robuste": false
-    },
-    {
-      "numero": 15,
-      "nom": "JANAH",
-      "meta_score": 0.404,
-      "win_prob": 0.0018,
+      "numero": 10,
+      "nom": "BRITANIA",
+      "meta_score": 0.356,
+      "win_prob": 0.2549,
       "robuste": false
     }
   ],
@@ -54,18 +54,7 @@
   "nb_value_bets": 5,
   "external_sources": [
     {
-      "source": "Turf-fr",
-      "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-de-l-elevage-388703",
-      "top5": [
-        15,
-        2,
-        7,
-        8,
-        13
-      ]
-    },
-    {
-      "source": "Facebook",
+      "source": "Facebook - RCB Radio",
       "url": "https://www.facebook.com/rcbradio83/posts/pronostic-quint%C3%A9-du-dimanche-25-octobre-2026le-quint%C3%A9-se-dispute-ce-dimanche-%C3%A0-l/1971827570875393/",
       "top5": [
         8,
@@ -74,24 +63,14 @@
         2,
         11
       ]
-    },
-    {
-      "source": "Equidia",
-      "url": "https://www.equidia.fr/courses/2026-10-25/R1/C5",
-      "top5": [
-        8,
-        15,
-        11,
-        13
-      ]
     }
   ],
   "consensus_externe": [
-    15,
     8,
     3,
+    13,
     2,
-    7
+    11
   ],
-  "generated_at": "2026-10-25T10:35:09.048058"
+  "generated_at": "2026-10-25T13:28:08.452966"
 }
