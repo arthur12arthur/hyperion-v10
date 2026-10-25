@@ -1,0 +1,710 @@
+{
+  "date": "2026-10-25",
+  "run_id": "20261025_103418",
+  "started_at": "2026-10-25T10:34:18.370250",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX DE L'ELEVAGE",
+        "hippodrome": "SAINT-CLOUD",
+        "date": "2026-10-25",
+        "heure": "14:15",
+        "distance": 2500,
+        "terrain": null,
+        "discipline": "GALOP",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "AGILE",
+            "age": 7,
+            "sexe": "F",
+            "poids": 61.5,
+            "corde": 13,
+            "forme": "6p9p6p5p4p",
+            "gains_totaux": 141599,
+            "jockey": "M.VELON",
+            "entraineur": "JM.BEGUIGNE",
+            "proprietaire": "FAMILLE PHARAON",
+            "cote": 20.0
+          },
+          {
+            "numero": 2,
+            "nom": "SHRIHARA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 60.0,
+            "corde": 6,
+            "forme": "2p8p1p3p5p",
+            "gains_totaux": 75238,
+            "jockey": "A.HAMELIN",
+            "entraineur": "C.FEY",
+            "proprietaire": "G.SELLIER",
+            "cote": 8.0
+          },
+          {
+            "numero": 3,
+            "nom": "MAIA STAR",
+            "age": 5,
+            "sexe": "F",
+            "poids": 58.5,
+            "corde": 16,
+            "forme": "4p2p0p3p0p",
+            "gains_totaux": 93113,
+            "jockey": "PC.BOUDOT",
+            "entraineur": "JPH .DUBOIS",
+            "proprietaire": "EC. VICT. DREAMS",
+            "cote": 12.0
+          },
+          {
+            "numero": 4,
+            "nom": "AMERICAN GLORY",
+            "age": 5,
+            "sexe": "F",
+            "poids": 58.0,
+            "corde": 5,
+            "forme": "0p3p8p2p0p",
+            "gains_totaux": 134070,
+            "jockey": "A.LEMAITRE",
+            "entraineur": "N.PERRET",
+            "proprietaire": "A.REN",
+            "cote": 28.0
+          },
+          {
+            "numero": 5,
+            "nom": "HASAPIKO",
+            "age": 6,
+            "sexe": "F",
+            "poids": 58.0,
+            "corde": 4,
+            "forme": "0p7p5p3p9p",
+            "gains_totaux": 107699,
+            "jockey": "T.BACHELOT",
+            "entraineur": "S.WATTEL",
+            "proprietaire": "E.MUDGE",
+            "cote": 38.0
+          },
+          {
+            "numero": 6,
+            "nom": "WEEMAGATEE",
+            "age": 4,
+            "sexe": "F",
+            "poids": 57.5,
+            "corde": 14,
+            "forme": "1p2p4p3p0p",
+            "gains_totaux": 84752,
+            "jockey": "M.GRANDIN",
+            "entraineur": "J.ANDREU",
+            "proprietaire": "H.BOUDOUAIA",
+            "cote": 14.0
+          },
+          {
+            "numero": 7,
+            "nom": "AME D'OR",
+            "age": 4,
+            "sexe": "F",
+            "poids": 57.5,
+            "corde": 12,
+            "forme": "1p9p1p1p5p",
+            "gains_totaux": 37865,
+            "jockey": "M.BARZALONA",
+            "entraineur": "FH.GRAFFARD",
+            "proprietaire": "EC. MAT. OFFENSTADT",
+            "cote": 26.0
+          },
+          {
+            "numero": 8,
+            "nom": "CRISTABEL",
+            "age": 4,
+            "sexe": "F",
+            "poids": 57.5,
+            "corde": 9,
+            "forme": "4p6p3p5p5p",
+            "gains_totaux": 33683,
+            "jockey": "O.ANDIGNE",
+            "entraineur": "A.COUETIL",
+            "proprietaire": "P.DAVID",
+            "cote": 17.0
+          },
+          {
+            "numero": 9,
+            "nom": "MARINALEDA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 56.5,
+            "corde": 3,
+            "forme": "1p9p4p7p9p",
+            "gains_totaux": 61988,
+            "jockey": "C.LECOEUVRE",
+            "entraineur": "M.BARATTI",
+            "proprietaire": "G.BAJETTI",
+            "cote": 16.0
+          },
+          {
+            "numero": 10,
+            "nom": "BRITANIA",
+            "age": 4,
+            "sexe": "F",
+            "poids": 56.0,
+            "corde": 1,
+            "forme": "4p4p8p0p5p",
+            "gains_totaux": 72649,
+            "jockey": "I.MENDIZABAL",
+            "entraineur": "F.ROHAUT",
+            "proprietaire": "F.F.ROHAUT",
+            "cote": 19.0
+          },
+          {
+            "numero": 11,
+            "nom": "GOLDEN BELLE",
+            "age": 5,
+            "sexe": "F",
+            "poids": 55.5,
+            "corde": 7,
+            "forme": "3p7p2p2p3p",
+            "gains_totaux": 62574,
+            "jockey": "M.GUYON",
+            "entraineur": "A.FOUASSIER",
+            "proprietaire": "SCEA EC. BADER",
+            "cote": 24.0
+          },
+          {
+            "numero": 12,
+            "nom": "FOXEY LADY",
+            "age": 6,
+            "sexe": "F",
+            "poids": 54.5,
+            "corde": 10,
+            "forme": "4p1p8p3p5p",
+            "gains_totaux": 83029,
+            "jockey": "M.FAVRIAUX",
+            "entraineur": "JM.BEGUIGNE",
+            "proprietaire": "SPARKLING STAR",
+            "cote": 31.0
+          },
+          {
+            "numero": 13,
+            "nom": "NANCY DES PLACES",
+            "age": 3,
+            "sexe": "F",
+            "poids": 54.5,
+            "corde": 2,
+            "forme": "1p2p4p2p3p",
+            "gains_totaux": 23778,
+            "jockey": "E.HARDOUIN",
+            "entraineur": "C.FEY",
+            "proprietaire": "E.DECOSTER",
+            "cote": 11.0
+          },
+          {
+            "numero": 14,
+            "nom": "TEARDROP EXPLODES",
+            "age": 5,
+            "sexe": "F",
+            "poids": 54.5,
+            "corde": 11,
+            "forme": "9p1p8p3p6p",
+            "gains_totaux": 102242,
+            "jockey": "F.VERON",
+            "entraineur": "C.BOUTIN",
+            "proprietaire": "EC. NICOLATO",
+            "cote": 34.0
+          },
+          {
+            "numero": 15,
+            "nom": "JANAH",
+            "age": 4,
+            "sexe": "F",
+            "poids": 54.0,
+            "corde": 15,
+            "forme": "3p2p1p5p2p",
+            "gains_totaux": 28010,
+            "jockey": "S.PASQUIER",
+            "entraineur": "CLEMENT & HERMANS",
+            "proprietaire": "ME.KISBER",
+            "cote": 15.0
+          },
+          {
+            "numero": 16,
+            "nom": "GAREYA",
+            "age": 3,
+            "sexe": "F",
+            "poids": 52.5,
+            "corde": 8,
+            "forme": "2p4p3p2p",
+            "gains_totaux": 12281,
+            "jockey": "A.MADAMET",
+            "entraineur": "M.DELZANGLES",
+            "proprietaire": "AGA KHAN STUDS SCEA",
+            "cote": 30.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 5
+      },
+      "top5_final": [
+        {
+          "numero": 13,
+          "nom": "NANCY DES PLACES",
+          "age": 3,
+          "sexe": "F",
+          "poids": 54.5,
+          "corde": 2,
+          "forme": "1p2p4p2p3p",
+          "gains_totaux": 23778,
+          "jockey": "E.HARDOUIN",
+          "entraineur": "C.FEY",
+          "proprietaire": "E.DECOSTER",
+          "cote": 11.0,
+          "score_historique": 3.44,
+          "score_forme": 7.9,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 8.2,
+          "score_fraicheur": 6.5,
+          "score_global": 6.068,
+          "win_prob": 0.7815,
+          "place_prob": 0.983,
+          "top3_prob": 0.9966,
+          "confiance_mc": 0.997,
+          "score_pondere": 787798.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.998,
+          "score_mc": 0.997,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 2,
+          "nom": "SHRIHARA",
+          "age": 4,
+          "sexe": "F",
+          "poids": 60.0,
+          "corde": 6,
+          "forme": "2p8p1p3p5p",
+          "gains_totaux": 75238,
+          "jockey": "A.HAMELIN",
+          "entraineur": "C.FEY",
+          "proprietaire": "G.SELLIER",
+          "cote": 8.0,
+          "score_historique": 4.67,
+          "score_forme": 6.2,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 6.7,
+          "score_fraicheur": 7.5,
+          "score_global": 5.785,
+          "win_prob": 0.2098,
+          "place_prob": 0.8615,
+          "top3_prob": 0.9514,
+          "confiance_mc": 0.951,
+          "score_pondere": 744218.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": true,
+          "meta_score": 0.823,
+          "score_mc": 0.951,
+          "score_externe": 0.667
+        },
+        {
+          "position": 3,
+          "numero": 8,
+          "nom": "Cheval 8",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 17.0,
+          "forme": "4p6p3p5p5p",
+          "age": 4,
+          "poids": 57.5,
+          "jockey": "O.ANDIGNE"
+        },
+        {
+          "numero": 11,
+          "nom": "GOLDEN BELLE",
+          "age": 5,
+          "sexe": "F",
+          "poids": 55.5,
+          "corde": 7,
+          "forme": "3p7p2p2p3p",
+          "gains_totaux": 62574,
+          "jockey": "M.GUYON",
+          "entraineur": "A.FOUASSIER",
+          "proprietaire": "SCEA EC. BADER",
+          "cote": 24.0,
+          "score_historique": 2.37,
+          "score_forme": 6.5,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 8.0,
+          "score_fraicheur": 7.5,
+          "score_global": 5.183,
+          "win_prob": 0.0021,
+          "place_prob": 0.0342,
+          "top3_prob": 0.2042,
+          "confiance_mc": 0.204,
+          "score_pondere": 327526.0,
+          "borda_rank": 4,
+          "position": 4,
+          "robuste": false,
+          "meta_score": 0.412,
+          "score_mc": 0.204,
+          "score_externe": 0.667
+        },
+        {
+          "numero": 15,
+          "nom": "JANAH",
+          "age": 4,
+          "sexe": "F",
+          "poids": 54.0,
+          "corde": 15,
+          "forme": "3p2p1p5p2p",
+          "gains_totaux": 28010,
+          "jockey": "S.PASQUIER",
+          "entraineur": "CLEMENT & HERMANS",
+          "proprietaire": "ME.KISBER",
+          "cote": 15.0,
+          "score_historique": 1.79,
+          "score_forme": 7.6,
+          "score_terrain_distance": 5.3,
+          "score_handicap": 8.3,
+          "score_fraicheur": 7.5,
+          "score_global": 5.167,
+          "win_prob": 0.0018,
+          "place_prob": 0.0304,
+          "top3_prob": 0.189,
+          "confiance_mc": 0.189,
+          "score_pondere": 313723.0,
+          "borda_rank": 5,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.404,
+          "score_mc": 0.189,
+          "score_externe": 0.667
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "SHRIHARA",
+            "message": "N°2 SHRIHARA : écart cote 68% (affichée 8.0, théorique 4.8) — surévalué",
+            "cote_affichee": 8.0,
+            "cote_theorique": 4.77,
+            "ecart_pct": 0.677
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 6,
+            "cheval_nom": "WEEMAGATEE",
+            "message": "N°6 WEEMAGATEE : écart cote 96% (affichée 14.0, théorique 384.6) — sous-évalué",
+            "cote_affichee": 14.0,
+            "cote_theorique": 384.62,
+            "ecart_pct": 0.964
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 11,
+            "cheval_nom": "GOLDEN BELLE",
+            "message": "N°11 GOLDEN BELLE : écart cote 95% (affichée 24.0, théorique 476.2) — sous-évalué",
+            "cote_affichee": 24.0,
+            "cote_theorique": 476.19,
+            "ecart_pct": 0.95
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 13,
+            "cheval_nom": "NANCY DES PLACES",
+            "message": "N°13 NANCY DES PLACES : écart cote 759% (affichée 11.0, théorique 1.3) — surévalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 1.28,
+            "ecart_pct": 7.594
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 15,
+            "cheval_nom": "JANAH",
+            "message": "N°15 JANAH : écart cote 97% (affichée 15.0, théorique 555.6) — sous-évalué",
+            "cote_affichee": 15.0,
+            "cote_theorique": 555.56,
+            "ecart_pct": 0.973
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 8,
+            "cheval_nom": "CRISTABEL",
+            "message": "N°8 CRISTABEL : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 11,
+            "cheval_nom": "GOLDEN BELLE",
+            "message": "N°11 GOLDEN BELLE : hype artificielle possible — prob. interne 0% mais 67% sources externes",
+            "prob_internal": 0.002,
+            "freq_external": 0.667
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 15,
+            "cheval_nom": "JANAH",
+            "message": "N°15 JANAH : hype artificielle possible — prob. interne 0% mais 67% sources externes",
+            "prob_internal": 0.002,
+            "freq_external": 0.667
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          6,
+          8,
+          11,
+          13,
+          15
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-10-25T10:34:54.749781"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "13": {
+            "numero": 13,
+            "nom": "NANCY DES PLACES",
+            "cote_affichee": 11.0,
+            "cote_theorique": 1.0,
+            "prob_reelle": 0.998,
+            "prob_implicite": 0.077,
+            "ev": 9.978,
+            "ev_pct": 997.8,
+            "kelly_raw": 0.9978,
+            "kelly_fractionne": 0.2495,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "SHRIHARA",
+            "cote_affichee": 8.0,
+            "cote_theorique": 1.22,
+            "prob_reelle": 0.823,
+            "prob_implicite": 0.106,
+            "ev": 5.584,
+            "ev_pct": 558.4,
+            "kelly_raw": 0.7977,
+            "kelly_fractionne": 0.1994,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "8": {
+            "numero": 8,
+            "nom": "CRISTABEL",
+            "cote_affichee": 17.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.05,
+            "ev": 6.65,
+            "ev_pct": 665.0,
+            "kelly_raw": 0.4156,
+            "kelly_fractionne": 0.1039,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "11": {
+            "numero": 11,
+            "nom": "GOLDEN BELLE",
+            "cote_affichee": 24.0,
+            "cote_theorique": 2.43,
+            "prob_reelle": 0.412,
+            "prob_implicite": 0.035,
+            "ev": 8.888,
+            "ev_pct": 888.8,
+            "kelly_raw": 0.3864,
+            "kelly_fractionne": 0.0966,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "15": {
+            "numero": 15,
+            "nom": "JANAH",
+            "cote_affichee": 15.0,
+            "cote_theorique": 2.48,
+            "prob_reelle": 0.404,
+            "prob_implicite": 0.057,
+            "ev": 5.06,
+            "ev_pct": 506.0,
+            "kelly_raw": 0.3614,
+            "kelly_fractionne": 0.0904,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          13,
+          2,
+          8,
+          11,
+          15
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette course de 2500 mètres à Saint-Cloud est dominée de la tête et des épaules par le N°13 NANCY DES PLACES, qui s'impose comme un favori extrêmement solide avec un score impressionnant de 0.998 et une régularité exemplaire dans sa musique récente. Derrière cette base incontournable, le N°2 SHRIHARA retient l'attention avec un profil séduisant et une cote attractive, tout comme le N°15 JANAH, capable de venir pimenter les rapports à un score de 15/1. Malgré un indice de confiance élevé fixé à 85% et un classement globalement robuste, l'indicateur HADES passe au rouge avec 8 signaux d'alerte, suggérant une course potentiellement piège en-deçà de notre base. Pour aborder cette épreuve avec profit, nous conseillons de placer le N°13 en base absolue dans vos jeux simples, et de l'associer dans un couplé gagnant-placé avec le N°2 SHRIHARA et le N°15 JANAH, tout en élargissant vos jeux combinés en trio pour exploiter les incertitudes liées aux signaux d'alerte.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "15": {
+            "numero": 15,
+            "external_frequency": 0.667,
+            "external_score": 0.9,
+            "apparitions": 2,
+            "position_moyenne": 1.5
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 0.667,
+            "external_score": 0.6,
+            "apparitions": 2,
+            "position_moyenne": 3.0
+          },
+          "7": {
+            "numero": 7,
+            "external_frequency": 0.333,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 3,
+            "position_moyenne": 2.0
+          },
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 3,
+            "position_moyenne": 4.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 0.333,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "11": {
+            "numero": 11,
+            "external_frequency": 0.667,
+            "external_score": 0.4,
+            "apparitions": 2,
+            "position_moyenne": 4.0
+          }
+        },
+        "consensus_externe": [
+          15,
+          8,
+          3,
+          2,
+          7
+        ],
+        "sources_detail": [
+          {
+            "source": "Turf-fr",
+            "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-de-l-elevage-388703",
+            "top5": [
+              15,
+              2,
+              7,
+              8,
+              13
+            ]
+          },
+          {
+            "source": "Facebook",
+            "url": "https://www.facebook.com/rcbradio83/posts/pronostic-quint%C3%A9-du-dimanche-25-octobre-2026le-quint%C3%A9-se-dispute-ce-dimanche-%C3%A0-l/1971827570875393/",
+            "top5": [
+              8,
+              3,
+              13,
+              2,
+              11
+            ]
+          },
+          {
+            "source": "Equidia",
+            "url": "https://www.equidia.fr/courses/2026-10-25/R1/C5",
+            "top5": [
+              8,
+              15,
+              11,
+              13
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 3
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-10-25T10:35:03.931501"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 50.7,
+  "finished_at": "2026-10-25T10:35:09.048741",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

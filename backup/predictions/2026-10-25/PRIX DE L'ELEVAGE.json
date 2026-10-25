@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-25",
+  "course_id": "PRIX DE L'ELEVAGE",
+  "hippodrome": "SAINT-CLOUD",
+  "numero_reunion": null,
+  "numero_course": 5,
+  "is_lonab": true,
+  "predicted_top5": [
+    13,
+    2,
+    8,
+    11,
+    15
+  ],
+  "predicted_winner": 13,
+  "top5_details": [
+    {
+      "numero": 13,
+      "nom": "NANCY DES PLACES",
+      "meta_score": 0.998,
+      "win_prob": 0.7815,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "SHRIHARA",
+      "meta_score": 0.823,
+      "win_prob": 0.2098,
+      "robuste": true
+    },
+    {
+      "numero": 8,
+      "nom": "Cheval 8",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 11,
+      "nom": "GOLDEN BELLE",
+      "meta_score": 0.412,
+      "win_prob": 0.0021,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "JANAH",
+      "meta_score": 0.404,
+      "win_prob": 0.0018,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turf-fr",
+      "url": "https://www.turf-fr.com/courses-pmu/partants/r1-prix-de-l-elevage-388703",
+      "top5": [
+        15,
+        2,
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "source": "Facebook",
+      "url": "https://www.facebook.com/rcbradio83/posts/pronostic-quint%C3%A9-du-dimanche-25-octobre-2026le-quint%C3%A9-se-dispute-ce-dimanche-%C3%A0-l/1971827570875393/",
+      "top5": [
+        8,
+        3,
+        13,
+        2,
+        11
+      ]
+    },
+    {
+      "source": "Equidia",
+      "url": "https://www.equidia.fr/courses/2026-10-25/R1/C5",
+      "top5": [
+        8,
+        15,
+        11,
+        13
+      ]
+    }
+  ],
+  "consensus_externe": [
+    15,
+    8,
+    3,
+    2,
+    7
+  ],
+  "generated_at": "2026-10-25T10:35:09.048058"
+}
