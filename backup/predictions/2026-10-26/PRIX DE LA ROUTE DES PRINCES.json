@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-26",
+  "course_id": "PRIX DE LA ROUTE DES PRINCES",
+  "hippodrome": "CHANTILLY",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    12,
+    13,
+    10,
+    3,
+    7
+  ],
+  "predicted_winner": 12,
+  "top5_details": [
+    {
+      "numero": 12,
+      "nom": "DUBALAA",
+      "meta_score": 0.526,
+      "win_prob": 0.6095,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "PUMALIN PARK",
+      "meta_score": 0.48,
+      "win_prob": 0.3078,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "NOVA LUXOR",
+      "meta_score": 0.204,
+      "win_prob": 0.0344,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "OLYMPIC MESSAGE",
+      "meta_score": 0.171,
+      "win_prob": 0.0232,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "MELUSINE DU HOULEY",
+      "meta_score": 0.12,
+      "win_prob": 0.0146,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-26T15:40:10.677217"
+}
