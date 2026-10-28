@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-28",
+  "course_id": "PRIX SANTO PIETRO",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    2,
+    1,
+    3,
+    12
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "ROMAN SKIES",
+      "meta_score": 0.549,
+      "win_prob": 0.7919,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "HELL STORM",
+      "meta_score": 0.535,
+      "win_prob": 0.1994,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "LOUMINOS",
+      "meta_score": 0.259,
+      "win_prob": 0.0056,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "FALCON JET",
+      "meta_score": 0.167,
+      "win_prob": 0.0024,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "ALHUNTER",
+      "meta_score": 0.063,
+      "win_prob": 0.0004,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-28T15:38:57.537921"
+}
