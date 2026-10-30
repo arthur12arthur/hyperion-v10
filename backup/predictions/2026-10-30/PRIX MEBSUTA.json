@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-30",
+  "course_id": "PRIX MEBSUTA",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 5,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    7,
+    10,
+    6,
+    1
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "MYGIRL DES FORGES",
+      "meta_score": 0.484,
+      "win_prob": 0.5897,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "MI FA SOL",
+      "meta_score": 0.248,
+      "win_prob": 0.1041,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "MELODICA BELLA",
+      "meta_score": 0.272,
+      "win_prob": 0.1245,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MAHIZ DE GUEZ",
+      "meta_score": 0.202,
+      "win_prob": 0.0743,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "MY HAPPY STORY",
+      "meta_score": 0.121,
+      "win_prob": 0.0348,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-30T15:27:00.480663"
+}
