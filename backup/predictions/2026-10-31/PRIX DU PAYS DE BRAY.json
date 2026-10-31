@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-31",
+  "course_id": "PRIX DU PAYS DE BRAY",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    11,
+    6,
+    7,
+    9,
+    13
+  ],
+  "predicted_winner": 11,
+  "top5_details": [
+    {
+      "numero": 11,
+      "nom": "MISTER BLACK",
+      "meta_score": 0.533,
+      "win_prob": 0.5881,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "VICTORY PACE",
+      "meta_score": 0.491,
+      "win_prob": 0.2456,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "PALM SPRINGS",
+      "meta_score": 0.454,
+      "win_prob": 0.1557,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "AMIE AMOUR",
+      "meta_score": 0.067,
+      "win_prob": 0.0045,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "BLANC CARAT",
+      "meta_score": 0.06,
+      "win_prob": 0.004,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-10-31T14:55:00.566016"
+}
