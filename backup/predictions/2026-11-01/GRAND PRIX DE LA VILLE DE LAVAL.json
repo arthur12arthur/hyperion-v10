@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-01",
+  "course_id": "GRAND PRIX DE LA VILLE DE LAVAL",
+  "hippodrome": "LAVAL",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    2,
+    1,
+    17,
+    6
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "LAROZE DU GERS",
+      "meta_score": 0.549,
+      "win_prob": 0.9616,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "JIBI DU FRUITIER",
+      "meta_score": 0.348,
+      "win_prob": 0.0194,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "JERICHO DU RIB",
+      "meta_score": 0.249,
+      "win_prob": 0.0084,
+      "robuste": false
+    },
+    {
+      "numero": 17,
+      "nom": "KANTO AVIS",
+      "meta_score": 0.175,
+      "win_prob": 0.0042,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "LEMON TREE",
+      "meta_score": 0.189,
+      "win_prob": 0.0052,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-01T15:36:53.168783"
+}
