@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-02",
+  "course_id": "PRIX DE LA SEINE ET MARNE",
+  "hippodrome": "FONTAINEBLEAU",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    11,
+    6,
+    5,
+    3,
+    13
+  ],
+  "predicted_winner": 11,
+  "top5_details": [
+    {
+      "numero": 11,
+      "nom": "GALORD",
+      "meta_score": 0.549,
+      "win_prob": 0.9168,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MR FLEURANT",
+      "meta_score": 0.501,
+      "win_prob": 0.0683,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "JUSEARTH FAL",
+      "meta_score": 0.367,
+      "win_prob": 0.0132,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "BAYAMOON",
+      "meta_score": 0.12,
+      "win_prob": 0.0014,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "ARTISTIC MAN",
+      "meta_score": 0.045,
+      "win_prob": 0.0001,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-02T18:59:21.526910"
+}
