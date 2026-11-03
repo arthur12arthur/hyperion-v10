@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-03",
+  "course_id": "PRIX DE VIENNE",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    2,
+    1,
+    14,
+    8
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "KANNABIS JELOCA",
+      "meta_score": 0.289,
+      "win_prob": 0.2001,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KYNTE FLUSH",
+      "meta_score": 0.319,
+      "win_prob": 0.2445,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "KOCKTAIL WOOD",
+      "meta_score": 0.321,
+      "win_prob": 0.2479,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "KOMEO DU DOME",
+      "meta_score": 0.195,
+      "win_prob": 0.1088,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "KARMA",
+      "meta_score": 0.121,
+      "win_prob": 0.0524,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-03T16:44:29.891892"
+}
