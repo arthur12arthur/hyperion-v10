@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-04",
+  "course_id": "GRAND NATIONAL DU TROT (12ème Etape du G.N.T.)",
+  "hippodrome": "NANTES",
+  "numero_reunion": null,
+  "numero_course": 2,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    1,
+    5,
+    10,
+    4
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "KELLE BEAUTE",
+      "meta_score": 0.549,
+      "win_prob": 0.9019,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "JERENAL D'HAMELINE",
+      "meta_score": 0.469,
+      "win_prob": 0.0821,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "JANE AIMEE",
+      "meta_score": 0.223,
+      "win_prob": 0.0081,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "JE REVE DU BOIS",
+      "meta_score": 0.137,
+      "win_prob": 0.0033,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "HAPPY DANOVER",
+      "meta_score": 0.136,
+      "win_prob": 0.0034,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-04T16:44:02.732624"
+}
