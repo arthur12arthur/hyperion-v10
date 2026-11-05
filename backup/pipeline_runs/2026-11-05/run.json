@@ -1,0 +1,678 @@
+{
+  "date": "2026-11-05",
+  "run_id": "20261105_165720",
+  "started_at": "2026-11-05T16:57:20.071146",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX D'AVRANCHES",
+        "hippodrome": "PARIS-VINCENNES",
+        "date": "2026-11-05",
+        "heure": "12:55",
+        "distance": 2100,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 18,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "KOTKIE",
+            "age": 6,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "D.4.3.2.0",
+            "gains_totaux": 239870,
+            "jockey": "P.PH. PLOQUIN",
+            "entraineur": "J.R. DELLIAUX",
+            "proprietaire": "EC. du DAMIER",
+            "cote": 31.0
+          },
+          {
+            "numero": 2,
+            "nom": "ISIS D'HERFRAIE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.5.0.D.5",
+            "gains_totaux": 236080,
+            "jockey": "D. THOMAIN",
+            "entraineur": "CL. THOMAIN",
+            "proprietaire": "EC. de BAFFE",
+            "cote": 26.0
+          },
+          {
+            "numero": 3,
+            "nom": "MATEO DI QUATTRO",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "9.4.6.0.7",
+            "gains_totaux": 228130,
+            "jockey": "B. GOOP",
+            "entraineur": "B. GOOP",
+            "proprietaire": "PETER BRONSMAN",
+            "cote": 22.0
+          },
+          {
+            "numero": 4,
+            "nom": "JOKER DES CHALIERS",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "0.D.1.0.0",
+            "gains_totaux": 239930,
+            "jockey": "G. GELORMINI",
+            "entraineur": "A. CHAVATTE",
+            "proprietaire": "EC. Elev. d' ALOUETTES",
+            "cote": 6.0
+          },
+          {
+            "numero": 5,
+            "nom": "EVERY TIME WINNER",
+            "age": 6,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.6.2.4.8",
+            "gains_totaux": 223588,
+            "jockey": "E. RAFFIN",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Sc. UNION PERFECT",
+            "cote": 11.0
+          },
+          {
+            "numero": 6,
+            "nom": "HUMANITY PELLINI",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "9.1.2.3.1",
+            "gains_totaux": 235546,
+            "jockey": "D. BEKAERT",
+            "entraineur": "CH. ERIKSSON",
+            "proprietaire": "JAMAV SYD FASTIG",
+            "cote": 23.0
+          },
+          {
+            "numero": 7,
+            "nom": "JUSSEO",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "9.6.1.D.1",
+            "gains_totaux": 226680,
+            "jockey": "JULIEN RAFFESTIN",
+            "entraineur": "Julien RAFFESTIN",
+            "proprietaire": "PH. GENTIL",
+            "cote": 61.0
+          },
+          {
+            "numero": 8,
+            "nom": "HINDEN",
+            "age": 9,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "5.7.7.5.5",
+            "gains_totaux": 235670,
+            "jockey": "A. BARRIER",
+            "entraineur": "P.J. CORDEAU",
+            "proprietaire": "F. DECOSTER",
+            "cote": 43.0
+          },
+          {
+            "numero": 9,
+            "nom": "READY STAR",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "1.2.1.2.3",
+            "gains_totaux": 238198,
+            "jockey": "MATS DJUSE",
+            "entraineur": "J. WESTHOLM",
+            "proprietaire": "EC. OLOF BRODIN",
+            "cote": 8.0
+          },
+          {
+            "numero": 10,
+            "nom": "DIE HARD",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "6.0.3.0.6",
+            "gains_totaux": 168842,
+            "jockey": "THEO DUVALDESTIN",
+            "entraineur": "P.L. DESAUNETTE",
+            "proprietaire": "G. SARFATI",
+            "cote": 59.0
+          },
+          {
+            "numero": 11,
+            "nom": "KIRA BO FACE",
+            "age": 6,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "9.4.8.1.4",
+            "gains_totaux": 177030,
+            "jockey": "M. BROUWER",
+            "entraineur": "D. BROUWER",
+            "proprietaire": "Stall HABO",
+            "cote": 34.0
+          },
+          {
+            "numero": 12,
+            "nom": "KAXIG IN",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.8.4.3.1",
+            "gains_totaux": 198092,
+            "jockey": "A. COLLETTE",
+            "entraineur": "David PERSSON",
+            "proprietaire": "INVEXBO AB",
+            "cote": 19.0
+          },
+          {
+            "numero": 13,
+            "nom": "INSTINCT D'AUTHISE",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "0.0.0.6.6",
+            "gains_totaux": 142580,
+            "jockey": "L. LAUDREN",
+            "entraineur": "L. LAUDREN",
+            "proprietaire": "L. LAUDREN",
+            "cote": 73.0
+          },
+          {
+            "numero": 14,
+            "nom": "KNOCKONWOOD",
+            "age": 6,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "4.1.D.D.D",
+            "gains_totaux": 219880,
+            "jockey": "R. LAMY",
+            "entraineur": "R.CH. LARUE",
+            "proprietaire": "EC. de WINDCUT",
+            "cote": 24.0
+          },
+          {
+            "numero": 15,
+            "nom": "COMPETIVO",
+            "age": 6,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "8.4.2.2.1",
+            "gains_totaux": 218033,
+            "jockey": "B. ROCHARD",
+            "entraineur": "Daniel WAJERSTEN",
+            "proprietaire": "SRF STABLE",
+            "cote": 14.0
+          },
+          {
+            "numero": 16,
+            "nom": "ZOOM DIAMANT",
+            "age": 6,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.D.1.6.2",
+            "gains_totaux": 211234,
+            "jockey": "M. ABRIVARD",
+            "entraineur": "P. HAGOORT",
+            "proprietaire": "Stall M.S. DIAMANTEN",
+            "cote": 16.0
+          },
+          {
+            "numero": 17,
+            "nom": "NIAGARA RIVER",
+            "age": 6,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "8.2.5.D.1",
+            "gains_totaux": 203092,
+            "jockey": "D. BROUWER",
+            "entraineur": "D. BROUWER",
+            "proprietaire": "K. DE POORTER",
+            "cote": 35.0
+          },
+          {
+            "numero": 18,
+            "nom": "JUNKIE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "8.0.0.5.3",
+            "gains_totaux": 185931,
+            "jockey": "CL. FRECELLE",
+            "entraineur": "P. LEVESQUE",
+            "proprietaire": "EC. du BERYL",
+            "cote": 78.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 1
+      },
+      "top5_final": [
+        {
+          "numero": 3,
+          "nom": "MATEO DI QUATTRO",
+          "age": 7,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "9.4.6.0.7",
+          "gains_totaux": 228130,
+          "jockey": "B. GOOP",
+          "entraineur": "B. GOOP",
+          "proprietaire": "PETER BRONSMAN",
+          "cote": 22.0,
+          "score_historique": 4.52,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.484,
+          "win_prob": 0.109,
+          "place_prob": 0.3653,
+          "top3_prob": 0.6274,
+          "confiance_mc": 0.627,
+          "score_pondere": 721163.0,
+          "borda_rank": 3,
+          "position": 1,
+          "robuste": false,
+          "meta_score": 0.795,
+          "score_mc": 0.627,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 4,
+          "nom": "JOKER DES CHALIERS",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "0.D.1.0.0",
+          "gains_totaux": 239930,
+          "jockey": "G. GELORMINI",
+          "entraineur": "A. CHAVATTE",
+          "proprietaire": "EC. Elev. d' ALOUETTES",
+          "cote": 6.0,
+          "score_historique": 6.47,
+          "score_forme": 1.5,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.291,
+          "win_prob": 0.0272,
+          "place_prob": 0.1265,
+          "top3_prob": 0.295,
+          "confiance_mc": 0.295,
+          "score_pondere": 525988.0,
+          "borda_rank": 4,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.612,
+          "score_mc": 0.295,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 5,
+          "nom": "EVERY TIME WINNER",
+          "age": 6,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "2.6.2.4.8",
+          "gains_totaux": 223588,
+          "jockey": "E. RAFFIN",
+          "entraineur": "H.E. BONDO",
+          "proprietaire": "Sc. UNION PERFECT",
+          "cote": 11.0,
+          "score_historique": 5.08,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.829,
+          "win_prob": 0.6733,
+          "place_prob": 0.8732,
+          "top3_prob": 0.9541,
+          "confiance_mc": 0.954,
+          "score_pondere": 870259.0,
+          "borda_rank": 1,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.525,
+          "score_mc": 0.954,
+          "score_externe": 0.0
+        },
+        {
+          "position": 4,
+          "numero": 1,
+          "nom": "Cheval 1",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 31.0,
+          "forme": "D.4.3.2.0",
+          "age": 6,
+          "poids": null,
+          "jockey": "P.PH. PLOQUIN"
+        },
+        {
+          "position": 5,
+          "numero": 2,
+          "nom": "Cheval 2",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 26.0,
+          "forme": "0.5.0.D.5",
+          "age": 8,
+          "poids": null,
+          "jockey": "D. THOMAIN"
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "MATEO DI QUATTRO",
+            "message": "N°3 MATEO DI QUATTRO : écart cote 140% (affichée 22.0, théorique 9.2) — surévalué",
+            "cote_affichee": 22.0,
+            "cote_theorique": 9.17,
+            "ecart_pct": 1.399
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 4,
+            "cheval_nom": "JOKER DES CHALIERS",
+            "message": "N°4 JOKER DES CHALIERS : écart cote 84% (affichée 6.0, théorique 36.8) — sous-évalué",
+            "cote_affichee": 6.0,
+            "cote_theorique": 36.76,
+            "ecart_pct": 0.837
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 5,
+            "cheval_nom": "EVERY TIME WINNER",
+            "message": "N°5 EVERY TIME WINNER : écart cote 638% (affichée 11.0, théorique 1.5) — surévalué",
+            "cote_affichee": 11.0,
+            "cote_theorique": 1.49,
+            "ecart_pct": 6.383
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 6,
+            "cheval_nom": "HUMANITY PELLINI",
+            "message": "N°6 HUMANITY PELLINI : écart cote 65% (affichée 23.0, théorique 65.8) — sous-évalué",
+            "cote_affichee": 23.0,
+            "cote_theorique": 65.79,
+            "ecart_pct": 0.65
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 9,
+            "cheval_nom": "READY STAR",
+            "message": "N°9 READY STAR : écart cote 32% (affichée 8.0, théorique 6.1) — surévalué",
+            "cote_affichee": 8.0,
+            "cote_theorique": 6.06,
+            "ecart_pct": 0.32
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 1,
+            "cheval_nom": "KOTKIE",
+            "message": "N°1 KOTKIE : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 2,
+            "cheval_nom": "ISIS D'HERFRAIE",
+            "message": "N°2 ISIS D'HERFRAIE : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "JOKER DES CHALIERS",
+            "message": "N°4 JOKER DES CHALIERS : hype artificielle possible — prob. interne 3% mais 100% sources externes",
+            "prob_internal": 0.027,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-11-05T17:03:55.804956"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "3": {
+            "numero": 3,
+            "nom": "MATEO DI QUATTRO",
+            "cote_affichee": 22.0,
+            "cote_theorique": 1.26,
+            "prob_reelle": 0.795,
+            "prob_implicite": 0.039,
+            "ev": 16.49,
+            "ev_pct": 1649.0,
+            "kelly_raw": 0.7852,
+            "kelly_fractionne": 0.1963,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "4": {
+            "numero": 4,
+            "nom": "JOKER DES CHALIERS",
+            "cote_affichee": 6.0,
+            "cote_theorique": 1.63,
+            "prob_reelle": 0.612,
+            "prob_implicite": 0.142,
+            "ev": 2.672,
+            "ev_pct": 267.2,
+            "kelly_raw": 0.5344,
+            "kelly_fractionne": 0.1336,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "5": {
+            "numero": 5,
+            "nom": "EVERY TIME WINNER",
+            "cote_affichee": 11.0,
+            "cote_theorique": 1.9,
+            "prob_reelle": 0.525,
+            "prob_implicite": 0.077,
+            "ev": 4.775,
+            "ev_pct": 477.5,
+            "kelly_raw": 0.4775,
+            "kelly_fractionne": 0.1194,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "1": {
+            "numero": 1,
+            "nom": "KOTKIE",
+            "cote_affichee": 31.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.027,
+            "ev": 12.95,
+            "ev_pct": 1295.0,
+            "kelly_raw": 0.4317,
+            "kelly_fractionne": 0.1079,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "ISIS D'HERFRAIE",
+            "cote_affichee": 26.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.033,
+            "ev": 10.7,
+            "ev_pct": 1070.0,
+            "kelly_raw": 0.428,
+            "kelly_fractionne": 0.107,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          3,
+          4,
+          5,
+          1,
+          2
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2100 mètres de Paris-Vincennes par HYPERION V10 s'annonce particulièrement explosive, affichant un remarquable score de confiance de 87% malgré l'activation du protocole d'alerte Hades Red. Le sommet de la hiérarchie est trusté par le redoutable N°3 MATEO DI QUATTRO, qui surclasse nettement ses rivaux avec un indice de 0.795 et présente un profil spéculatif séduisant à 22/1. Pour pimenter les rapports, le régulier N°5 EVERY TIME WINNER (11/1) et le plus inconstant N°4 JOKER DES CHALIERS (6/1) constituent des couplés de choix, s'intercalant solidement derrière notre base. En dépit de signaux de volatilité notables relevés par notre intelligence artificielle, le classement de tête se révèle suffisamment hermétique pour échafauder des stratégies ambitieuses. Dans cette configuration, nous conseillons vivement un couplé gagnant-placé audacieux autour de notre favori associé au N°5, ainsi qu'un trio vertical en combinant les trois premiers de notre sélection pour capitaliser sur les cotes élevées.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "1": {
+            "numero": 1,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          }
+        },
+        "consensus_externe": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "sources_detail": [
+          {
+            "source": "paris-turf",
+            "url": "https://www.paris-turf.com/quinte/tomorrow",
+            "top5": [
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-11-05T17:04:40.652584"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 445.8,
+  "finished_at": "2026-11-05T17:04:45.867836",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 5,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

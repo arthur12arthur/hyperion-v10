@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-05",
+  "course_id": "PRIX D'AVRANCHES",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    4,
+    5,
+    1,
+    2
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "MATEO DI QUATTRO",
+      "meta_score": 0.795,
+      "win_prob": 0.109,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "JOKER DES CHALIERS",
+      "meta_score": 0.612,
+      "win_prob": 0.0272,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "EVERY TIME WINNER",
+      "meta_score": 0.525,
+      "win_prob": 0.6733,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "Cheval 1",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "Cheval 2",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "paris-turf",
+      "url": "https://www.paris-turf.com/quinte/tomorrow",
+      "top5": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "consensus_externe": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "generated_at": "2026-11-05T17:04:45.867259"
+}
