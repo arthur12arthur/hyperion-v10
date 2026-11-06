@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-06",
+  "course_id": "PRIX PALATIA",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    1,
+    3,
+    18,
+    9
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "INDY DE MAI",
+      "meta_score": 0.927,
+      "win_prob": 0.4841,
+      "robuste": true
+    },
+    {
+      "numero": 1,
+      "nom": "HISCO DE PARNIERE",
+      "meta_score": 0.757,
+      "win_prob": 0.1353,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "Cheval 3",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 18,
+      "nom": "IZIJAL",
+      "meta_score": 0.33,
+      "win_prob": 0.1563,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "IRIS DU LIVIER",
+      "meta_score": 0.345,
+      "win_prob": 0.1727,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Zeturf",
+      "url": "https://www.zeturf.fr/fr/course-du-jour/2026-11-06/R1C4-vincennes-prix-palatia",
+      "top5": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "consensus_externe": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "generated_at": "2026-11-06T16:30:24.047565"
+}
