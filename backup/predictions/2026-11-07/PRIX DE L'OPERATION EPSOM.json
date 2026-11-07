@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-07",
+  "course_id": "PRIX DE L'OPERATION EPSOM",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    10,
+    4,
+    9,
+    7,
+    1
+  ],
+  "predicted_winner": 10,
+  "top5_details": [
+    {
+      "numero": 10,
+      "nom": "ALLURRE",
+      "meta_score": 0.486,
+      "win_prob": 0.5404,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "AL MAX",
+      "meta_score": 0.35,
+      "win_prob": 0.1817,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "EAST GREY",
+      "meta_score": 0.261,
+      "win_prob": 0.1024,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "FEARLESS CHEETAH",
+      "meta_score": 0.283,
+      "win_prob": 0.121,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "ZELORO",
+      "meta_score": 0.117,
+      "win_prob": 0.0294,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-07T15:17:02.281507"
+}
