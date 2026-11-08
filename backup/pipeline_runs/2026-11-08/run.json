@@ -1,0 +1,640 @@
+{
+  "date": "2026-11-08",
+  "run_id": "20261108_154012",
+  "started_at": "2026-11-08T15:40:12.275869",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX SAGARO",
+        "hippodrome": "SAINT-CLOUD",
+        "date": "2026-11-08",
+        "heure": "14:15",
+        "distance": 3100,
+        "terrain": null,
+        "discipline": "GALOP",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "DON'T SHUT ME DOWN",
+            "age": 4,
+            "sexe": "H",
+            "poids": 61.0,
+            "corde": 9,
+            "forme": "6.5.1.5.7",
+            "gains_totaux": 85136,
+            "jockey": "M. GUYON",
+            "entraineur": "P&J. BRANDT",
+            "proprietaire": "P.BRANDT",
+            "cote": 7.0
+          },
+          {
+            "numero": 2,
+            "nom": "HOMO DEUS",
+            "age": 8,
+            "sexe": "H",
+            "poids": 60.0,
+            "corde": 10,
+            "forme": "8.9.5.5.1",
+            "gains_totaux": 299839,
+            "jockey": "PC.BOUDOT",
+            "entraineur": "H.GHABRI",
+            "proprietaire": "A.ANEIZI",
+            "cote": 31.0
+          },
+          {
+            "numero": 3,
+            "nom": "BLACK SAXON",
+            "age": 5,
+            "sexe": "H",
+            "poids": 59.5,
+            "corde": 8,
+            "forme": "0.2.4.5.0",
+            "gains_totaux": 94444,
+            "jockey": "A.MADAMET",
+            "entraineur": "N.BELLANGER",
+            "proprietaire": "D.MARS",
+            "cote": 29.0
+          },
+          {
+            "numero": 4,
+            "nom": "MISTER GATZ",
+            "age": 5,
+            "sexe": "H",
+            "poids": 59.5,
+            "corde": 16,
+            "forme": "0.1.7.7.6",
+            "gains_totaux": 102673,
+            "jockey": "S.PASQUIER",
+            "entraineur": "S.NIGGE",
+            "proprietaire": "G.AU.NORMAND",
+            "cote": 23.0
+          },
+          {
+            "numero": 5,
+            "nom": "A BEAUREGARD",
+            "age": 5,
+            "sexe": "H",
+            "poids": 59.0,
+            "corde": 14,
+            "forme": "2.0.1.7.7",
+            "gains_totaux": 103555,
+            "jockey": "D.PROVOST",
+            "entraineur": "M.CESANDRI",
+            "proprietaire": "THOUVENEL RACING",
+            "cote": 14.0
+          },
+          {
+            "numero": 6,
+            "nom": "MON RICIN",
+            "age": 7,
+            "sexe": "H",
+            "poids": 58.5,
+            "corde": 2,
+            "forme": "0.0.1.0.3",
+            "gains_totaux": 141724,
+            "jockey": "A.LEMAITRE",
+            "entraineur": "TIM.DONWORTH",
+            "proprietaire": "SANG. BLOODSTOCK",
+            "cote": 28.0
+          },
+          {
+            "numero": 7,
+            "nom": "ORAGEUX",
+            "age": 4,
+            "sexe": "H",
+            "poids": 58.0,
+            "corde": 1,
+            "forme": "1.1.1.2",
+            "gains_totaux": 22686,
+            "jockey": "M.BARZALONA",
+            "entraineur": "J.REYNIER",
+            "proprietaire": "WATHNAN RACING",
+            "cote": 9.0
+          },
+          {
+            "numero": 8,
+            "nom": "RAM SEA",
+            "age": 4,
+            "sexe": "H",
+            "poids": 57.5,
+            "corde": 4,
+            "forme": "3.0.0.1.3",
+            "gains_totaux": 65214,
+            "jockey": "L.BRECHET",
+            "entraineur": "D.MELE",
+            "proprietaire": "D.D.MELE",
+            "cote": 15.0
+          },
+          {
+            "numero": 9,
+            "nom": "PAOLINO",
+            "age": 4,
+            "sexe": "H",
+            "poids": 57.0,
+            "corde": 3,
+            "forme": "9.0.0.1.5",
+            "gains_totaux": 35858,
+            "jockey": "A.HAMELIN",
+            "entraineur": "D&P.PROD'HOMME",
+            "proprietaire": "A.KRAULIGER",
+            "cote": 19.0
+          },
+          {
+            "numero": 10,
+            "nom": "DARK ROCKSTER",
+            "age": 4,
+            "sexe": "H",
+            "poids": 57.0,
+            "corde": 6,
+            "forme": "6.4.1.4.2",
+            "gains_totaux": 22353,
+            "jockey": "C.LECOEUVRE",
+            "entraineur": "S.WATTEL",
+            "proprietaire": "I.CORBANI",
+            "cote": 12.0
+          },
+          {
+            "numero": 11,
+            "nom": "DEMPY",
+            "age": 5,
+            "sexe": "H",
+            "poids": 55.5,
+            "corde": 12,
+            "forme": "4.0.2.7.1",
+            "gains_totaux": 115610,
+            "jockey": "C.SOUMILLON",
+            "entraineur": "D.BONILLA",
+            "proprietaire": "P.WATTANAVRANGKUL",
+            "cote": 21.0
+          },
+          {
+            "numero": 12,
+            "nom": "LUCIO VERO",
+            "age": 6,
+            "sexe": "H",
+            "poids": 54.0,
+            "corde": 15,
+            "forme": "1.7.1.6.4",
+            "gains_totaux": 125853,
+            "jockey": "A.MEKOUCHE",
+            "entraineur": "R.AVIAL LOPEZ",
+            "proprietaire": "R.AVIAL SANCHEZ",
+            "cote": 25.0
+          },
+          {
+            "numero": 13,
+            "nom": "GARVEY",
+            "age": 5,
+            "sexe": "M",
+            "poids": 53.5,
+            "corde": 5,
+            "forme": "2.4.3.3.2",
+            "gains_totaux": 51724,
+            "jockey": "E.HARDOUIN",
+            "entraineur": "E.MADER",
+            "proprietaire": "ST. SCHLOSS GARTROP",
+            "cote": 34.0
+          },
+          {
+            "numero": 14,
+            "nom": "ZARFLIGHT",
+            "age": 6,
+            "sexe": "H",
+            "poids": 52.0,
+            "corde": 7,
+            "forme": "0.5.7.1.6",
+            "gains_totaux": 9607,
+            "jockey": "F.VERON",
+            "entraineur": "GAB.LEENDERS",
+            "proprietaire": "EC.PATRICK BOITEAU",
+            "cote": 28.0
+          },
+          {
+            "numero": 15,
+            "nom": "GOOD TO SEE YOU",
+            "age": 4,
+            "sexe": "H",
+            "poids": 51.0,
+            "corde": 13,
+            "forme": "2.1.0.4.1",
+            "gains_totaux": 27504,
+            "jockey": "A.CRASTUS",
+            "entraineur": "A.WATTEL",
+            "proprietaire": "S.GRANDIN/P.JANSSENS",
+            "cote": 24.0
+          },
+          {
+            "numero": 16,
+            "nom": "SEEYOUGO",
+            "age": null,
+            "sexe": null,
+            "poids": null,
+            "corde": null,
+            "forme": null,
+            "gains_totaux": null,
+            "jockey": "NON PARTANT",
+            "entraineur": "NON PARTANT",
+            "proprietaire": "NON PARTANT",
+            "cote": null
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 5
+      },
+      "top5_final": [
+        {
+          "numero": 1,
+          "nom": "DON'T SHUT ME DOWN",
+          "age": 4,
+          "sexe": "H",
+          "poids": 61.0,
+          "corde": 9,
+          "forme": "6.5.1.5.7",
+          "gains_totaux": 85136,
+          "jockey": "M. GUYON",
+          "entraineur": "P&J. BRANDT",
+          "proprietaire": "P.BRANDT",
+          "cote": 7.0,
+          "score_historique": 4.71,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 6.3,
+          "score_fraicheur": 7.5,
+          "score_global": 5.459,
+          "win_prob": 0.173,
+          "place_prob": 0.377,
+          "top3_prob": 0.561,
+          "confiance_mc": 0.561,
+          "score_pondere": 568065.0,
+          "borda_rank": 3,
+          "position": 1,
+          "robuste": false,
+          "meta_score": 0.759,
+          "score_mc": 0.561,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 7,
+          "nom": "ORAGEUX",
+          "age": 4,
+          "sexe": "H",
+          "poids": 58.0,
+          "corde": 1,
+          "forme": "1.1.1.2",
+          "gains_totaux": 22686,
+          "jockey": "M.BARZALONA",
+          "entraineur": "J.REYNIER",
+          "proprietaire": "WATHNAN RACING",
+          "cote": 9.0,
+          "score_historique": 3.83,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.631,
+          "win_prob": 0.4382,
+          "place_prob": 0.6732,
+          "top3_prob": 0.8084,
+          "confiance_mc": 0.808,
+          "score_pondere": 700849.0,
+          "borda_rank": 1,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.444,
+          "score_mc": 0.808,
+          "score_externe": 0.0
+        },
+        {
+          "position": 3,
+          "numero": 3,
+          "nom": "Cheval 3",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 29.0,
+          "forme": "0.2.4.5.0",
+          "age": 5,
+          "poids": 59.5,
+          "jockey": "A.MADAMET"
+        },
+        {
+          "position": 4,
+          "numero": 2,
+          "nom": "Cheval 2",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 31.0,
+          "forme": "8.9.5.5.1",
+          "age": 8,
+          "poids": 60.0,
+          "jockey": "PC.BOUDOT"
+        },
+        {
+          "numero": 6,
+          "nom": "MON RICIN",
+          "age": 7,
+          "sexe": "H",
+          "poids": 58.5,
+          "corde": 2,
+          "forme": "0.0.1.0.3",
+          "gains_totaux": 141724,
+          "jockey": "A.LEMAITRE",
+          "entraineur": "TIM.DONWORTH",
+          "proprietaire": "SANG. BLOODSTOCK",
+          "cote": 28.0,
+          "score_historique": 3.97,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.3,
+          "score_fraicheur": 6.0,
+          "score_global": 5.508,
+          "win_prob": 0.2297,
+          "place_prob": 0.4622,
+          "top3_prob": 0.6432,
+          "confiance_mc": 0.643,
+          "score_pondere": 614662.0,
+          "borda_rank": 2,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.354,
+          "score_mc": 0.643,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 1,
+            "cheval_nom": "DON'T SHUT ME DOWN",
+            "message": "N°1 DON'T SHUT ME DOWN : écart cote 21% (affichée 7.0, théorique 5.8) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 5.78,
+            "ecart_pct": 0.211
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 6,
+            "cheval_nom": "MON RICIN",
+            "message": "N°6 MON RICIN : écart cote 544% (affichée 28.0, théorique 4.3) — surévalué",
+            "cote_affichee": 28.0,
+            "cote_theorique": 4.35,
+            "ecart_pct": 5.437
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 7,
+            "cheval_nom": "ORAGEUX",
+            "message": "N°7 ORAGEUX : écart cote 295% (affichée 9.0, théorique 2.3) — surévalué",
+            "cote_affichee": 9.0,
+            "cote_theorique": 2.28,
+            "ecart_pct": 2.947
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 9,
+            "cheval_nom": "PAOLINO",
+            "message": "N°9 PAOLINO : écart cote 49% (affichée 19.0, théorique 37.5) — sous-évalué",
+            "cote_affichee": 19.0,
+            "cote_theorique": 37.45,
+            "ecart_pct": 0.493
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 2,
+            "cheval_nom": "HOMO DEUS",
+            "message": "N°2 HOMO DEUS : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 3,
+            "cheval_nom": "BLACK SAXON",
+            "message": "N°3 BLACK SAXON : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "MISTER GATZ",
+            "message": "N°4 MISTER GATZ : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          9
+        ],
+        "nb_signaux": 7,
+        "mode_test": true,
+        "detected_at": "2026-11-08T15:40:37.601215"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "1": {
+            "numero": 1,
+            "nom": "DON'T SHUT ME DOWN",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.32,
+            "prob_reelle": 0.759,
+            "prob_implicite": 0.121,
+            "ev": 4.313,
+            "ev_pct": 431.3,
+            "kelly_raw": 0.7188,
+            "kelly_fractionne": 0.1797,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "7": {
+            "numero": 7,
+            "nom": "ORAGEUX",
+            "cote_affichee": 9.0,
+            "cote_theorique": 2.25,
+            "prob_reelle": 0.444,
+            "prob_implicite": 0.094,
+            "ev": 2.996,
+            "ev_pct": 299.6,
+            "kelly_raw": 0.3745,
+            "kelly_fractionne": 0.0936,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "BLACK SAXON",
+            "cote_affichee": 29.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.029,
+            "ev": 12.05,
+            "ev_pct": 1205.0,
+            "kelly_raw": 0.4304,
+            "kelly_fractionne": 0.1076,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "HOMO DEUS",
+            "cote_affichee": 31.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.027,
+            "ev": 12.95,
+            "ev_pct": 1295.0,
+            "kelly_raw": 0.4317,
+            "kelly_fractionne": 0.1079,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "6": {
+            "numero": 6,
+            "nom": "MON RICIN",
+            "cote_affichee": 28.0,
+            "cote_theorique": 2.82,
+            "prob_reelle": 0.354,
+            "prob_implicite": 0.03,
+            "ev": 8.912,
+            "ev_pct": 891.2,
+            "kelly_raw": 0.3301,
+            "kelly_fractionne": 0.0825,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          1,
+          7,
+          3,
+          2,
+          6
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse d'HYPERION V10 pour ce marathon de 3100 mètres à Saint-Cloud place nettement en tête le N°1 DON'T SHUT ME DOWN, qui surclasse l'opposition avec un indice de confiance absolu de 100%. Ce favori logique, affichant une cote attractive de 7.0 et une régularité constante dans sa musique récente, dispose des meilleurs arguments théoriques pour s'imposer. Derrière cette base solide, la hiérarchie se resserre considérablement avec le N°7 ORAGEUX, crédité d'une excellente forme (1.1.1.2) et proposé à 9.0, ainsi que le N°3 Cheval 3 qui complète le trio de tête. Bien que le modèle émette une alerte rouge via le module HADES en raison de 7 signaux de volatilité, le classement du trio de tête offre une assise mathématique suffisante pour structurer des jeux audacieux. En termes de stratégie, il est conseillé de s'appuyer en base au simple gagnant sur le favori, tout en construisant des couplés et des trios élargis en incluant le N°7 ORAGEUX pour dynamiser les rapports dans cette épreuve ouverte.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "1": {
+            "numero": 1,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "3": {
+            "numero": 3,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          }
+        },
+        "consensus_externe": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "sources_detail": [
+          {
+            "source": "PMU",
+            "url": "https://www.pmu.fr/turf/08112026/r1/c5/",
+            "top5": [
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-11-08T15:40:46.685916"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 38.7,
+  "finished_at": "2026-11-08T15:40:51.017640",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

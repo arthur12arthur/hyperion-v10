@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-08",
+  "course_id": "PRIX SAGARO",
+  "hippodrome": "SAINT-CLOUD",
+  "numero_reunion": null,
+  "numero_course": 5,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    7,
+    3,
+    2,
+    6
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "DON'T SHUT ME DOWN",
+      "meta_score": 0.759,
+      "win_prob": 0.173,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "ORAGEUX",
+      "meta_score": 0.444,
+      "win_prob": 0.4382,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "Cheval 3",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "Cheval 2",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MON RICIN",
+      "meta_score": 0.354,
+      "win_prob": 0.2297,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "PMU",
+      "url": "https://www.pmu.fr/turf/08112026/r1/c5/",
+      "top5": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "consensus_externe": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "generated_at": "2026-11-08T15:40:51.017056"
+}
