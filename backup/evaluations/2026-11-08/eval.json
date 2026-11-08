@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "day_number": 61,
+  "score_top1_jour": 0.0,
+  "score_top3_jour": 0.3333,
+  "running_top1": 0.0656,
+  "running_top3": 0.2405,
+  "details": {
+    "courses": [
+      {
+        "course_id": "PRIX SAGARO",
+        "is_lonab": true,
+        "predicted_winner": 1,
+        "official_winner": 3,
+        "top1_correct": false,
+        "top3_score": 1,
+        "external_results": [
+          {
+            "source": "PMU",
+            "predicted_winner": 1,
+            "top1_correct": false,
+            "top3_score": 1
+          }
+        ]
+      }
+    ]
+  },
+  "saved_at": "2026-11-08T23:29:57.552569"
+}
