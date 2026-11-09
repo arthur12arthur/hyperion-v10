@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-09",
+  "course_id": "GRAND PRIX DE L'HIPPODROME DU BOUSCAT",
+  "hippodrome": "BORDEAUX-LE BOUSCAT",
+  "numero_reunion": null,
+  "numero_course": 2,
+  "is_lonab": true,
+  "predicted_top5": [
+    5,
+    3,
+    13,
+    1,
+    2
+  ],
+  "predicted_winner": 5,
+  "top5_details": [
+    {
+      "numero": 5,
+      "nom": "KEROSEN DU GERS",
+      "meta_score": 0.547,
+      "win_prob": 0.9166,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "STARO RAILI",
+      "meta_score": 0.322,
+      "win_prob": 0.0372,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "ICARE DU BERYL",
+      "meta_score": 0.248,
+      "win_prob": 0.0217,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "DUNA DI GIRIFALCO",
+      "meta_score": 0.175,
+      "win_prob": 0.0102,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "ROSSI GARLINE",
+      "meta_score": 0.164,
+      "win_prob": 0.0093,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-09T19:21:21.039333"
+}
