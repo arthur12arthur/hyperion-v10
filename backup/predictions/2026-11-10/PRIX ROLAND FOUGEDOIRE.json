@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-10",
+  "course_id": "PRIX ROLAND FOUGEDOIRE",
+  "hippodrome": "FONTAINEBLEAU",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    11,
+    14,
+    4,
+    10,
+    7
+  ],
+  "predicted_winner": 11,
+  "top5_details": [
+    {
+      "numero": 11,
+      "nom": "ROYALWOOD",
+      "meta_score": 0.499,
+      "win_prob": 0.5474,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "ALPARSLAN",
+      "meta_score": 0.378,
+      "win_prob": 0.1876,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "MISTER CHANG",
+      "meta_score": 0.375,
+      "win_prob": 0.1823,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "LAITH",
+      "meta_score": 0.2,
+      "win_prob": 0.0553,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "PRINCE AUBOIS",
+      "meta_score": 0.076,
+      "win_prob": 0.0136,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-10T16:42:54.195987"
+}
