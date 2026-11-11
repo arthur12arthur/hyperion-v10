@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-11",
+  "course_id": "PRIX DE LA VILLE DE TOULOUSE",
+  "hippodrome": "TOULOUSE",
+  "numero_reunion": null,
+  "numero_course": 3,
+  "is_lonab": true,
+  "predicted_top5": [
+    11,
+    10,
+    7,
+    5,
+    4
+  ],
+  "predicted_winner": 11,
+  "top5_details": [
+    {
+      "numero": 11,
+      "nom": "KING TREZY",
+      "meta_score": 0.757,
+      "win_prob": 0.2005,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "BRITANIA",
+      "meta_score": 0.724,
+      "win_prob": 0.162,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "SIGTUNA",
+      "meta_score": 0.605,
+      "win_prob": 0.0678,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "XILOFONO",
+      "meta_score": 0.386,
+      "win_prob": 0.3304,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "SHARP RISE",
+      "meta_score": 0.275,
+      "win_prob": 0.1636,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Turfomania",
+      "url": "https://www.google.com/goto?url=CAESpQEBxCJF1_iVD6PgB2Fuge6-_tpOzucwvPFD6xOtVzLqBuKu5lbE6Aoyz1wqmia2VbzoJ61Ao1FdfihPxygZx4fHPUgxd0pSQFqIvQtBiERMab1GdR3Pm0_-w2epFybsnPrFg4VSb_MTl5pINtkg94Vyh8iffW3KkIK7B78DQXph4cxFjjuwcfNdbOToxBwEzlOH0Dt2yzrBHqZGQejituTHt25sGZw&gsessionid=KndD7afaIEgl1pf4Lvbdp_yKTui1p3SuZtHUKLCcvNRgbIMST-s8MA",
+      "top5": [
+        10,
+        11,
+        7,
+        8,
+        13
+      ]
+    }
+  ],
+  "consensus_externe": [
+    10,
+    11,
+    7,
+    8,
+    13
+  ],
+  "generated_at": "2026-11-11T16:47:21.343869"
+}
