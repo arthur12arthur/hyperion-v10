@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "course_id": "GRAND PRIX DU VENDREDI 13 (PRIX MIZAR)",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    2,
+    8,
+    1,
+    3,
+    4
+  ],
+  "predicted_winner": 2,
+  "top5_details": [
+    {
+      "numero": 2,
+      "nom": "KATIA DHELPA",
+      "meta_score": 0.521,
+      "win_prob": 0.6922,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "SAVASTANO",
+      "meta_score": 0.337,
+      "win_prob": 0.1257,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "KAISER DES GRANGES",
+      "meta_score": 0.288,
+      "win_prob": 0.0893,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "KAZY MERITE",
+      "meta_score": 0.196,
+      "win_prob": 0.0452,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "KINGSTON DE BLARY",
+      "meta_score": 0.125,
+      "win_prob": 0.0219,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-13T16:52:27.437160"
+}
