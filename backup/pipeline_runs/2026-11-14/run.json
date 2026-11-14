@@ -1,7 +1,7 @@
 {
   "date": "2026-11-14",
-  "run_id": "20261114_093823",
-  "started_at": "2026-11-14T09:38:23.894930",
+  "run_id": "20261114_152457",
+  "started_at": "2026-11-14T15:24:57.216236",
   "nb_courses": 1,
   "nb_pronostics": 1,
   "errors": [],
@@ -24,7 +24,7 @@
             "sexe": "F",
             "poids": null,
             "corde": null,
-            "forme": "0.0.D.8",
+            "forme": "0.0.0.D.8",
             "gains_totaux": 151670,
             "jockey": "P.Y. LESNE",
             "entraineur": "P. HACHIN",
@@ -473,7 +473,7 @@
         ],
         "nb_signaux": 3,
         "mode_test": true,
-        "detected_at": "2026-11-14T09:38:47.800695"
+        "detected_at": "2026-11-14T15:25:35.200196"
       },
       "ev_kelly": {
         "chevaux": {
@@ -582,7 +582,7 @@
         ],
         "nb_value_bets": 5
       },
-      "rapport_gemini": "L'analyse de cette épreuve sur les 2700 mètres de Paris-Vincennes place en tête de notre sélection le numéro 8 Kaline du Locheur, dont la régularité affichée dans sa musique récente [3.1.1.1.2] et son indice Hyperion de 0.391 en font un favori logique malgré une cote de 11/1. Pour pimenter les rapports, le numéro 5 Kassya, séduisante à 18/1, et le numéro 15 Jaifa de l'Iton, remarquée avec une cote plus modeste de 8/1, constituent des outsiders très séduisants capables de venir pimenter l'arrivée. Toutefois, l'indice de confiance modéré de 55 % combiné à une alerte Hades rouge signalant trois facteurs de risque invite à la plus grande prudence dans l'élaboration de vos jeux. Dans ce contexte délicat et potentiellement riche en surprises, nous conseillons de privilégier un couplé plaçant notre favori associé aux outsiders cités, ou de tenter un trio prudent pour optimiser le rapport risques-gains.",
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2700 mètres de Paris-Vincennes place en tête de notre sélection le **N°8 KALINE DU LOCHEUR**, dont la régularité affichée dans sa musique récente (3.1.1.1.2) et sa cote attractive de 11.0 en font un favori logique et solide pour HYPERION V10. Pour pimenter les rapports, le **N°5 KASSYA**, proposée à 18.0, constitue un outsider particulièrement séduisant grâce à une forme correcte, tout comme le **N°15 JAIFA DE L'ITON**, très en vue à 8.0 et armée pour jouer un premier rôle malgré une opposition dense. Cependant, l'indice Hades vire au rouge avec trois signaux d'alerte, traduisant un secteur d'incertitude non négligeable, ce qui ramène notre score de confiance à un niveau modéré de 55%. Dans ce contexte délicat où la méfiance est de mise, nous conseillons de privilégier un couplé plaçé ou un trio combiné incluant nos bases, afin de sécuriser vos jeux face à de potentielles surprises à belle cote.",
       "external_aggregation": {
         "chevaux_stats": {},
         "consensus_externe": [],
@@ -595,12 +595,12 @@
         "stability": 1.0,
         "total_simulations": 50000
       },
-      "generated_at": "2026-11-14T09:38:56.972228"
+      "generated_at": "2026-11-14T15:25:45.295012"
     }
   ],
   "test_mode": false,
-  "duration_sec": 38.7,
-  "finished_at": "2026-11-14T09:39:02.566289",
+  "duration_sec": 53.1,
+  "finished_at": "2026-11-14T15:25:50.344833",
   "quota_status": {
     "KEY1": {
       "calls_today": 4,
