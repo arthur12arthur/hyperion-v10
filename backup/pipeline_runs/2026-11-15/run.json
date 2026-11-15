@@ -1,0 +1,645 @@
+{
+  "date": "2026-11-15",
+  "run_id": "20261115_155822",
+  "started_at": "2026-11-15T15:58:22.936875",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX LA HAYE JOUSSELIN",
+        "hippodrome": "AUTEUIL",
+        "date": "2026-11-15",
+        "heure": "14:15",
+        "distance": 5500,
+        "terrain": null,
+        "discipline": "GALOP",
+        "nb_partants": 15,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "BON GARCON",
+            "age": 6,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "6.5.2.8.J",
+            "gains_totaux": 619210,
+            "jockey": "G.AOUDAI",
+            "entraineur": "CHAILLE-CHAILLE & PAMART",
+            "proprietaire": "G.AOUDAI",
+            "cote": 12.0
+          },
+          {
+            "numero": 2,
+            "nom": "AMY DU KIFF",
+            "age": 7,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "3.3.6.3.3",
+            "gains_totaux": 576960,
+            "jockey": "T.CHEVILLARD",
+            "entraineur": "GAB.LEENDERS",
+            "proprietaire": "EC.NOSAT/EC.KERISEL",
+            "cote": 20.0
+          },
+          {
+            "numero": 3,
+            "nom": "TOSCANA DU BERLAIS",
+            "age": 8,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "7.6.7.2.4",
+            "gains_totaux": 892385,
+            "jockey": "G.RICHARD",
+            "entraineur": "CHAILLE-CHAILLE & PAMART",
+            "proprietaire": "EC.HUB DE MONTMIRAIL",
+            "cote": 17.0
+          },
+          {
+            "numero": 4,
+            "nom": "ROYAL SAGA",
+            "age": 6,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "1.1.4.3.T",
+            "gains_totaux": 307780,
+            "jockey": "G.MEUNIER",
+            "entraineur": "D.BRESSOU",
+            "proprietaire": "EC.SAGARA",
+            "cote": 11.0
+          },
+          {
+            "numero": 5,
+            "nom": "KALIBRE",
+            "age": 6,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "1.2.2.T.4",
+            "gains_totaux": 281475,
+            "jockey": "J.PHELIPPE",
+            "entraineur": "M.SEROR",
+            "proprietaire": "H.COZENOT / A.GRONFIER",
+            "cote": 25.0
+          },
+          {
+            "numero": 6,
+            "nom": "JOJO LAPIN",
+            "age": 7,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "3.0.7.3.5",
+            "gains_totaux": 307925,
+            "jockey": "J.PLOUGANOU",
+            "entraineur": "D.COTTIN",
+            "proprietaire": "HS.DE SAINT-VOIR",
+            "cote": 31.0
+          },
+          {
+            "numero": 7,
+            "nom": "KILOMETRE ILLIMITE",
+            "age": 6,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "2.4.3.1.J",
+            "gains_totaux": 289170,
+            "jockey": "G.MASURE",
+            "entraineur": "CHAILLE-CHAILLE & PAMART",
+            "proprietaire": "HS .DE SAINT-VOIR",
+            "cote": 18.0
+          },
+          {
+            "numero": 8,
+            "nom": "JUNTOS GANAMOS",
+            "age": 7,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "7.4.4.4.5",
+            "gains_totaux": 886975,
+            "jockey": "Q.SAMARIA",
+            "entraineur": "D.COTTIN",
+            "proprietaire": "A.JATHIERE",
+            "cote": 19.0
+          },
+          {
+            "numero": 9,
+            "nom": "KOLOKICO",
+            "age": 6,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "5.2.9.2.D",
+            "gains_totaux": 681520,
+            "jockey": "J.REVELEY",
+            "entraineur": "E.CLAYEUX",
+            "proprietaire": "LORD DARESBURY",
+            "cote": 8.0
+          },
+          {
+            "numero": 10,
+            "nom": "JOHNNY ROQUE",
+            "age": 7,
+            "sexe": "H",
+            "poids": 68.0,
+            "corde": null,
+            "forme": "6.1.4.1.A",
+            "gains_totaux": 248810,
+            "jockey": "L.BRECHET",
+            "entraineur": "D.MELE",
+            "proprietaire": "P.PAPOT",
+            "cote": 26.0
+          },
+          {
+            "numero": 11,
+            "nom": "LE PETIT CHEVAL",
+            "age": 5,
+            "sexe": "H",
+            "poids": 67.0,
+            "corde": null,
+            "forme": "5.8.1.2.1",
+            "gains_totaux": 325640,
+            "jockey": "B.LE CLERC",
+            "entraineur": "F.BELLEMERE",
+            "proprietaire": "G.BLAIN",
+            "cote": 17.0
+          },
+          {
+            "numero": 12,
+            "nom": "FEU DE DIEU",
+            "age": 5,
+            "sexe": "H",
+            "poids": 67.0,
+            "corde": null,
+            "forme": "3.2.8.3.9",
+            "gains_totaux": 179400,
+            "jockey": "L.PHILIPPERON",
+            "entraineur": "D.COTTIN",
+            "proprietaire": "DREAM WITH ME STABLE INC",
+            "cote": 16.0
+          },
+          {
+            "numero": 13,
+            "nom": "KIVALA DU BERLAIS",
+            "age": 5,
+            "sexe": "H",
+            "poids": 67.0,
+            "corde": null,
+            "forme": "6.T.1.6.3",
+            "gains_totaux": 445815,
+            "jockey": "J.CHARRON",
+            "entraineur": "D.COTTIN",
+            "proprietaire": "S.SZWARC",
+            "cote": 9.0
+          },
+          {
+            "numero": 14,
+            "nom": "GINJA DES TAILLONS",
+            "age": 9,
+            "sexe": "F",
+            "poids": 66.0,
+            "corde": null,
+            "forme": "0.5.2.6.1",
+            "gains_totaux": 193640,
+            "jockey": "L.ZULIANI",
+            "entraineur": "E.ANDIGNE D'",
+            "proprietaire": "E.BARICHARD/M.GENDRON",
+            "cote": 58.0
+          },
+          {
+            "numero": 15,
+            "nom": "LACOKOKELDY",
+            "age": 5,
+            "sexe": "F",
+            "poids": 65.0,
+            "corde": null,
+            "forme": "T.6.3.1.A",
+            "gains_totaux": 204450,
+            "jockey": "A.ZULIANI",
+            "entraineur": "F.NICOLLE",
+            "proprietaire": "R.LAVILLENIE",
+            "cote": 24.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 6
+      },
+      "top5_final": [
+        {
+          "numero": 1,
+          "nom": "BON GARCON",
+          "age": 6,
+          "sexe": "H",
+          "poids": 68.0,
+          "corde": null,
+          "forme": "6.5.2.8.J",
+          "gains_totaux": 619210,
+          "jockey": "G.AOUDAI",
+          "entraineur": "CHAILLE-CHAILLE & PAMART",
+          "proprietaire": "G.AOUDAI",
+          "cote": 12.0,
+          "score_historique": 5.63,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 3.5,
+          "score_fraicheur": 7.5,
+          "score_global": 5.86,
+          "win_prob": 0.819,
+          "place_prob": 0.9586,
+          "top3_prob": 0.9913,
+          "confiance_mc": 0.991,
+          "score_pondere": 738022.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.995,
+          "score_mc": 0.991,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 2,
+          "nom": "AMY DU KIFF",
+          "age": 7,
+          "sexe": "H",
+          "poids": 68.0,
+          "corde": null,
+          "forme": "3.3.6.3.3",
+          "gains_totaux": 576960,
+          "jockey": "T.CHEVILLARD",
+          "entraineur": "GAB.LEENDERS",
+          "proprietaire": "EC.NOSAT/EC.KERISEL",
+          "cote": 20.0,
+          "score_historique": 4.9,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 3.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.456,
+          "win_prob": 0.1146,
+          "place_prob": 0.5589,
+          "top3_prob": 0.8173,
+          "confiance_mc": 0.817,
+          "score_pondere": 650627.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": false,
+          "meta_score": 0.449,
+          "score_mc": 0.817,
+          "score_externe": 0.0
+        },
+        {
+          "position": 3,
+          "numero": 13,
+          "nom": "Cheval 13",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 9.0,
+          "forme": "6.T.1.6.3",
+          "age": 5,
+          "poids": 67.0,
+          "jockey": "J.CHARRON"
+        },
+        {
+          "position": 4,
+          "numero": 4,
+          "nom": "Cheval 4",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 11.0,
+          "forme": "1.1.4.3.T",
+          "age": 6,
+          "poids": 68.0,
+          "jockey": "G.MEUNIER"
+        },
+        {
+          "numero": 3,
+          "nom": "TOSCANA DU BERLAIS",
+          "age": 8,
+          "sexe": "H",
+          "poids": 68.0,
+          "corde": null,
+          "forme": "7.6.7.2.4",
+          "gains_totaux": 892385,
+          "jockey": "G.RICHARD",
+          "entraineur": "CHAILLE-CHAILLE & PAMART",
+          "proprietaire": "EC.HUB DE MONTMIRAIL",
+          "cote": 17.0,
+          "score_historique": 5.09,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 3.5,
+          "score_fraicheur": 5.5,
+          "score_global": 5.351,
+          "win_prob": 0.0563,
+          "place_prob": 0.342,
+          "top3_prob": 0.6785,
+          "confiance_mc": 0.679,
+          "score_pondere": 601534.0,
+          "borda_rank": 3,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.373,
+          "score_mc": 0.679,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 1,
+            "cheval_nom": "BON GARCON",
+            "message": "N°1 BON GARCON : écart cote 884% (affichée 12.0, théorique 1.2) — surévalué",
+            "cote_affichee": 12.0,
+            "cote_theorique": 1.22,
+            "ecart_pct": 8.836
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "AMY DU KIFF",
+            "message": "N°2 AMY DU KIFF : écart cote 129% (affichée 20.0, théorique 8.7) — surévalué",
+            "cote_affichee": 20.0,
+            "cote_theorique": 8.73,
+            "ecart_pct": 1.291
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 7,
+            "cheval_nom": "KILOMETRE ILLIMITE",
+            "message": "N°7 KILOMETRE ILLIMITE : écart cote 90% (affichée 18.0, théorique 188.7) — sous-évalué",
+            "cote_affichee": 18.0,
+            "cote_theorique": 188.68,
+            "ecart_pct": 0.905
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 8,
+            "cheval_nom": "JUNTOS GANAMOS",
+            "message": "N°8 JUNTOS GANAMOS : écart cote 96% (affichée 19.0, théorique 500.0) — sous-évalué",
+            "cote_affichee": 19.0,
+            "cote_theorique": 500.0,
+            "ecart_pct": 0.962
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 4,
+            "cheval_nom": "ROYAL SAGA",
+            "message": "N°4 ROYAL SAGA : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 9,
+            "cheval_nom": "KOLOKICO",
+            "message": "N°9 KOLOKICO : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 11,
+            "cheval_nom": "LE PETIT CHEVAL",
+            "message": "N°11 LE PETIT CHEVAL : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "KIVALA DU BERLAIS",
+            "message": "N°13 KIVALA DU BERLAIS : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          1,
+          2,
+          4,
+          7,
+          8,
+          9,
+          11,
+          13
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-11-15T15:58:56.060142"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "1": {
+            "numero": 1,
+            "nom": "BON GARCON",
+            "cote_affichee": 12.0,
+            "cote_theorique": 1.01,
+            "prob_reelle": 0.995,
+            "prob_implicite": 0.071,
+            "ev": 10.94,
+            "ev_pct": 1094.0,
+            "kelly_raw": 0.9945,
+            "kelly_fractionne": 0.2486,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "AMY DU KIFF",
+            "cote_affichee": 20.0,
+            "cote_theorique": 2.23,
+            "prob_reelle": 0.449,
+            "prob_implicite": 0.043,
+            "ev": 7.98,
+            "ev_pct": 798.0,
+            "kelly_raw": 0.42,
+            "kelly_fractionne": 0.105,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "13": {
+            "numero": 13,
+            "nom": "KIVALA DU BERLAIS",
+            "cote_affichee": 9.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.094,
+            "ev": 3.05,
+            "ev_pct": 305.0,
+            "kelly_raw": 0.3812,
+            "kelly_fractionne": 0.0953,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "4": {
+            "numero": 4,
+            "nom": "ROYAL SAGA",
+            "cote_affichee": 11.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.077,
+            "ev": 3.95,
+            "ev_pct": 395.0,
+            "kelly_raw": 0.395,
+            "kelly_fractionne": 0.0988,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "3": {
+            "numero": 3,
+            "nom": "TOSCANA DU BERLAIS",
+            "cote_affichee": 17.0,
+            "cote_theorique": 2.68,
+            "prob_reelle": 0.373,
+            "prob_implicite": 0.05,
+            "ev": 5.341,
+            "ev_pct": 534.1,
+            "kelly_raw": 0.3338,
+            "kelly_fractionne": 0.0835,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          1,
+          2,
+          13,
+          4,
+          3
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette marathonienne épreuve d'Auteuil sur 5500 mètres est totalement dominée par le N°1 BON GARCON, qui s'impose avec un impressionnant score de confiance de 0,995 et une cote séduisante de 12/1. Malgré une cote extérieure, sa régularité récente et sa robustesse en font la base absolue de cette course. Derrière ce monstre d'efficience, l'opposition directe s'articule autour du N°13 et du N°4, affichant des indices techniques très proches, tandis que le N°2 AMY DU KIFF et le N°3 TOSCANA DU BERLAIS viendront pimenter les rapports. Toutefois, le système HADES passe au rouge avec 8 signaux d'alerte, révélant une volatilité extrême inhérente à ce parcours de marathon d'obstacle. Le classement au-delà du favori demeure donc hautement incertain et propice aux grosses surprises. Pour aborder cette épreuve complexe, il est vivement conseillé de privilégier un jeu simple gagnant-placé massif sur le favori, et de construire des couplés et trios élargis en incluant les outsiders mentionnés pour capter la value.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "1": {
+            "numero": 1,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "9": {
+            "numero": 9,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "11": {
+            "numero": 11,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          4,
+          1,
+          13,
+          9,
+          11
+        ],
+        "sources_detail": [
+          {
+            "source": "Google Cache",
+            "url": "https://www.google.com/goto?url=CAESoQEBxCJF163YYqNWb5TQl7w2DJlOTIjAjl1nnCc7qCkI2HltqbKxV-9nYFqXJNsRTq74oshYw-s5LfYNaEwSRYAzct4j1bv0MuK9_GpLzh4GZf29xKwpLOd4raZ4Km39235DCqRcpQf6xLTVIDLYDDIo4qpy3KyqLos4GB5jY_SaNYhwGQ6DfENDedaNfSwmH8VuRfz6ABBfjv73RtS1q8ko8w&gsessionid=CwM1-jviBQztWTEvfxXvwmoVa4SLug5gEAQgPHgHpaFPBreJVHaJ2A",
+            "top5": [
+              4,
+              1,
+              13,
+              9,
+              11
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-11-15T15:59:05.080851"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 46.9,
+  "finished_at": "2026-11-15T15:59:09.850492",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

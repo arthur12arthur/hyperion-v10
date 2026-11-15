@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-15",
+  "course_id": "PRIX LA HAYE JOUSSELIN",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 6,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    2,
+    13,
+    4,
+    3
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "BON GARCON",
+      "meta_score": 0.995,
+      "win_prob": 0.819,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "AMY DU KIFF",
+      "meta_score": 0.449,
+      "win_prob": 0.1146,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "Cheval 13",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 4,
+      "nom": "Cheval 4",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "TOSCANA DU BERLAIS",
+      "meta_score": 0.373,
+      "win_prob": 0.0563,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Google Cache",
+      "url": "https://www.google.com/goto?url=CAESoQEBxCJF163YYqNWb5TQl7w2DJlOTIjAjl1nnCc7qCkI2HltqbKxV-9nYFqXJNsRTq74oshYw-s5LfYNaEwSRYAzct4j1bv0MuK9_GpLzh4GZf29xKwpLOd4raZ4Km39235DCqRcpQf6xLTVIDLYDDIo4qpy3KyqLos4GB5jY_SaNYhwGQ6DfENDedaNfSwmH8VuRfz6ABBfjv73RtS1q8ko8w&gsessionid=CwM1-jviBQztWTEvfxXvwmoVa4SLug5gEAQgPHgHpaFPBreJVHaJ2A",
+      "top5": [
+        4,
+        1,
+        13,
+        9,
+        11
+      ]
+    }
+  ],
+  "consensus_externe": [
+    4,
+    1,
+    13,
+    9,
+    11
+  ],
+  "generated_at": "2026-11-15T15:59:09.849847"
+}
