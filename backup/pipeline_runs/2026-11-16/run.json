@@ -1,0 +1,651 @@
+{
+  "date": "2026-11-16",
+  "run_id": "20261116_190332",
+  "started_at": "2026-11-16T19:03:32.797681",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX D'AIGUES MORTES",
+        "hippodrome": "PARIS-VINCENNES",
+        "date": "2026-11-16",
+        "heure": "12:55",
+        "distance": 2100,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 15,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "ILIANO DES PLAINES",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "5.5.2.0.0",
+            "gains_totaux": 202525,
+            "jockey": "A. BARRIER",
+            "entraineur": "E. BOUYER",
+            "proprietaire": "Jean Louis MILLEREAU",
+            "cote": 29.0
+          },
+          {
+            "numero": 2,
+            "nom": "JAZZ D'OURVILLE",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.6.7.1.3",
+            "gains_totaux": 191255,
+            "jockey": "M. ABRIVARD",
+            "entraineur": "M. ABRIVARD",
+            "proprietaire": "Ec. LD-M. ABRIVARD",
+            "cote": 15.0
+          },
+          {
+            "numero": 3,
+            "nom": "DESTINO D.J.",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "6.4.D.1.3",
+            "gains_totaux": 186329,
+            "jockey": "B. ROCHARD",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Ec. HORSE BREE. IN SWEDEN",
+            "cote": 10.0
+          },
+          {
+            "numero": 4,
+            "nom": "HARPY",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "5.2.2.4.4",
+            "gains_totaux": 199610,
+            "jockey": "R. BERGH",
+            "entraineur": "R. BERGH",
+            "proprietaire": "Stall SEDIN HB",
+            "cote": 7.0
+          },
+          {
+            "numero": 5,
+            "nom": "JAVA DES CAILLONS",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "3.2.9.3.5",
+            "gains_totaux": 198150,
+            "jockey": "F. LAGADEUC",
+            "entraineur": "Sté. Ent. Ch. JARIEL",
+            "proprietaire": "Sté. Ent. Ch. JARIEL",
+            "cote": 21.0
+          },
+          {
+            "numero": 6,
+            "nom": "JEWEL DE BANVILLE",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "2.9.6.D.4",
+            "gains_totaux": 195690,
+            "jockey": "E. RAFFIN",
+            "entraineur": "A. CHAVATTE",
+            "proprietaire": "Ec. Alain et Arnaud CHAVATTE",
+            "cote": 11.0
+          },
+          {
+            "numero": 7,
+            "nom": "IQUEM",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "9.1.D.8.9",
+            "gains_totaux": 199730,
+            "jockey": "A. COLLETTE",
+            "entraineur": "K. LEBLANC",
+            "proprietaire": "ELE. ALWAYS WITH ME",
+            "cote": 54.0
+          },
+          {
+            "numero": 8,
+            "nom": "KAXIG IN",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.3.8.4.3",
+            "gains_totaux": 199272,
+            "jockey": "M. MOTTIER",
+            "entraineur": "David PERSSON",
+            "proprietaire": "INVEXBO AB",
+            "cote": 9.0
+          },
+          {
+            "numero": 9,
+            "nom": "I LOVE JOSSELYN",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "D.4.0.D.1",
+            "gains_totaux": 200230,
+            "jockey": "R. DERIEUX",
+            "entraineur": "R. DERIEUX",
+            "proprietaire": "Ec. SUPREME",
+            "cote": 25.0
+          },
+          {
+            "numero": 10,
+            "nom": "DOMENIK JET",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.1.1.2.4",
+            "gains_totaux": 178501,
+            "jockey": "G. GELORMINI",
+            "entraineur": "W. NIMCZYK",
+            "proprietaire": "TH. TIETZ",
+            "cote": 14.0
+          },
+          {
+            "numero": 11,
+            "nom": "DILVA JET",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.0.4.3.6",
+            "gains_totaux": 178756,
+            "jockey": "A. ANDRE",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Allevamenti TONIATTI",
+            "cote": 37.0
+          },
+          {
+            "numero": 12,
+            "nom": "JUNKIE",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.8.0.0.5",
+            "gains_totaux": 185931,
+            "jockey": "A. ABRIVARD",
+            "entraineur": "P. LEVESQUE",
+            "proprietaire": "Ec. du BERYL",
+            "cote": 59.0
+          },
+          {
+            "numero": 13,
+            "nom": "MAX OCCAGNES",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.0.0.0.1",
+            "gains_totaux": 176092,
+            "jockey": "D. LOCQUENEUX",
+            "entraineur": "D. LOCQUENEUX",
+            "proprietaire": "Nicolas Hend. DEKKER",
+            "cote": 34.0
+          },
+          {
+            "numero": 14,
+            "nom": "ISIS DE POULINE",
+            "age": 8,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "1.D.6.6.5",
+            "gains_totaux": 184575,
+            "jockey": "P.PH. PLOQUIN",
+            "entraineur": "J.L. VERRIERE",
+            "proprietaire": "Tania DALMAS",
+            "cote": 16.0
+          },
+          {
+            "numero": 15,
+            "nom": "JAG HAUFOR",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.D.8.0.2",
+            "gains_totaux": 183245,
+            "jockey": "D. THOMAIN",
+            "entraineur": "CH. BIGEON",
+            "proprietaire": "Ec. Christian BIGEON",
+            "cote": 26.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 1
+      },
+      "top5_final": [
+        {
+          "numero": 4,
+          "nom": "HARPY",
+          "age": 7,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "5.2.2.4.4",
+          "gains_totaux": 199610,
+          "jockey": "R. BERGH",
+          "entraineur": "R. BERGH",
+          "proprietaire": "Stall SEDIN HB",
+          "cote": 7.0,
+          "score_historique": 5.98,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.994,
+          "win_prob": 0.7171,
+          "place_prob": 0.9108,
+          "top3_prob": 0.9739,
+          "confiance_mc": 0.974,
+          "score_pondere": 729170.0,
+          "borda_rank": 1,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.986,
+          "score_mc": 0.974,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 2,
+          "nom": "JAZZ D'OURVILLE",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "2.6.7.1.3",
+          "gains_totaux": 191255,
+          "jockey": "M. ABRIVARD",
+          "entraineur": "M. ABRIVARD",
+          "proprietaire": "Ec. LD-M. ABRIVARD",
+          "cote": 15.0,
+          "score_historique": 4.82,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.706,
+          "win_prob": 0.1739,
+          "place_prob": 0.569,
+          "top3_prob": 0.8003,
+          "confiance_mc": 0.8,
+          "score_pondere": 662140.0,
+          "borda_rank": 2,
+          "position": 2,
+          "robuste": true,
+          "meta_score": 0.89,
+          "score_mc": 0.8,
+          "score_externe": 1.0
+        },
+        {
+          "numero": 8,
+          "nom": "KAXIG IN",
+          "age": 7,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "6.3.8.4.3",
+          "gains_totaux": 199272,
+          "jockey": "M. MOTTIER",
+          "entraineur": "David PERSSON",
+          "proprietaire": "INVEXBO AB",
+          "cote": 9.0,
+          "score_historique": 5.01,
+          "score_forme": 5.0,
+          "score_terrain_distance": 5.9,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 5.535,
+          "win_prob": 0.0603,
+          "place_prob": 0.2609,
+          "top3_prob": 0.545,
+          "confiance_mc": 0.545,
+          "score_pondere": 589206.0,
+          "borda_rank": 3,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.75,
+          "score_mc": 0.545,
+          "score_externe": 1.0
+        },
+        {
+          "position": 4,
+          "numero": 6,
+          "nom": "Cheval 6",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 11.0,
+          "forme": "2.9.6.D.4",
+          "age": 7,
+          "poids": null,
+          "jockey": "E. RAFFIN"
+        },
+        {
+          "numero": 1,
+          "nom": "ILIANO DES PLAINES",
+          "age": 8,
+          "sexe": "H",
+          "poids": null,
+          "corde": null,
+          "forme": "5.5.2.0.0",
+          "gains_totaux": 202525,
+          "jockey": "A. BARRIER",
+          "entraineur": "E. BOUYER",
+          "proprietaire": "Jean Louis MILLEREAU",
+          "cote": 29.0,
+          "score_historique": 4.28,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.1,
+          "score_handicap": 7.5,
+          "score_fraicheur": 5.5,
+          "score_global": 5.47,
+          "win_prob": 0.0367,
+          "place_prob": 0.1762,
+          "top3_prob": 0.4194,
+          "confiance_mc": 0.419,
+          "score_pondere": 547596.0,
+          "borda_rank": 4,
+          "position": 5,
+          "robuste": false,
+          "meta_score": 0.23,
+          "score_mc": 0.419,
+          "score_externe": 0.0
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "JAZZ D'OURVILLE",
+            "message": "N°2 JAZZ D'OURVILLE : écart cote 161% (affichée 15.0, théorique 5.8) — surévalué",
+            "cote_affichee": 15.0,
+            "cote_theorique": 5.75,
+            "ecart_pct": 1.609
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 4,
+            "cheval_nom": "HARPY",
+            "message": "N°4 HARPY : écart cote 404% (affichée 7.0, théorique 1.4) — surévalué",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.39,
+            "ecart_pct": 4.036
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 5,
+            "cheval_nom": "JAVA DES CAILLONS",
+            "message": "N°5 JAVA DES CAILLONS : écart cote 77% (affichée 21.0, théorique 91.7) — sous-évalué",
+            "cote_affichee": 21.0,
+            "cote_theorique": 91.74,
+            "ecart_pct": 0.771
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "yellow",
+            "cheval_numero": 8,
+            "cheval_nom": "KAXIG IN",
+            "message": "N°8 KAXIG IN : écart cote 46% (affichée 9.0, théorique 16.6) — sous-évalué",
+            "cote_affichee": 9.0,
+            "cote_theorique": 16.58,
+            "ecart_pct": 0.457
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 6,
+            "cheval_nom": "JEWEL DE BANVILLE",
+            "message": "N°6 JEWEL DE BANVILLE : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 8,
+            "cheval_nom": "KAXIG IN",
+            "message": "N°8 KAXIG IN : hype artificielle possible — prob. interne 6% mais 100% sources externes",
+            "prob_internal": 0.06,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 10,
+            "cheval_nom": "DOMENIK JET",
+            "message": "N°10 DOMENIK JET : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "nb_signaux": 7,
+        "mode_test": true,
+        "detected_at": "2026-11-16T19:04:47.200048"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "4": {
+            "numero": 4,
+            "nom": "HARPY",
+            "cote_affichee": 7.0,
+            "cote_theorique": 1.01,
+            "prob_reelle": 0.986,
+            "prob_implicite": 0.121,
+            "ev": 5.902,
+            "ev_pct": 590.2,
+            "kelly_raw": 0.9837,
+            "kelly_fractionne": 0.2459,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "JAZZ D'OURVILLE",
+            "cote_affichee": 15.0,
+            "cote_theorique": 1.12,
+            "prob_reelle": 0.89,
+            "prob_implicite": 0.057,
+            "ev": 12.35,
+            "ev_pct": 1235.0,
+            "kelly_raw": 0.8821,
+            "kelly_fractionne": 0.2205,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "8": {
+            "numero": 8,
+            "nom": "KAXIG IN",
+            "cote_affichee": 9.0,
+            "cote_theorique": 1.33,
+            "prob_reelle": 0.75,
+            "prob_implicite": 0.094,
+            "ev": 5.75,
+            "ev_pct": 575.0,
+            "kelly_raw": 0.7188,
+            "kelly_fractionne": 0.1797,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "MODÉRÉ",
+            "is_value_bet": true
+          },
+          "6": {
+            "numero": 6,
+            "nom": "JEWEL DE BANVILLE",
+            "cote_affichee": 11.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.077,
+            "ev": 3.95,
+            "ev_pct": 395.0,
+            "kelly_raw": 0.395,
+            "kelly_fractionne": 0.0988,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "1": {
+            "numero": 1,
+            "nom": "ILIANO DES PLAINES",
+            "cote_affichee": 29.0,
+            "cote_theorique": 4.35,
+            "prob_reelle": 0.23,
+            "prob_implicite": 0.029,
+            "ev": 5.67,
+            "ev_pct": 567.0,
+            "kelly_raw": 0.2025,
+            "kelly_fractionne": 0.0506,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          4,
+          2,
+          8,
+          6,
+          1
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette épreuve disputée sur les 2100 mètres de Paris-Vincennes place nettement le N°4 HARPY en tête avec un score impressionnant de 0.986 et une régularité manifeste dans sa musique récente, ce qui en fait un favori logique à une cote séduisante de 7.0. Pour pimenter les rapports, le N°2 JAZZ D'OURVILLE, affiché à 15.0, présente un profil spéculatif très intéressant en deuxième position, tout comme le N°8 KAXIG IN qui mérite un crédit mérité dans un lot à portée. Toutefois, le système HADES passe au rouge avec sept signaux d'alerte détectés, abaissant le score de confiance global à 69% et qualifiant la hiérarchie d'incertaine. Par conséquent, il conviendra de rester prudent dans les investissements en privilégiant un couplé plaqué ou un jeu simple élargi autour de notre base solide, tout en se méfiant des non-favoris capables de pimenter l'arrivée.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "4": {
+            "numero": 4,
+            "external_frequency": 1.0,
+            "external_score": 1.0,
+            "apparitions": 1,
+            "position_moyenne": 1.0
+          },
+          "6": {
+            "numero": 6,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.6,
+            "apparitions": 1,
+            "position_moyenne": 3.0
+          },
+          "2": {
+            "numero": 2,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "10": {
+            "numero": 10,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          4,
+          6,
+          8,
+          2,
+          10
+        ],
+        "sources_detail": [
+          {
+            "source": "CanalTurf",
+            "url": "https://www.canalturf.com/pronostics-PMU/2026-11-16/paris-vincennes/423717_prix-d-aigues-mortes.html",
+            "top5": [
+              4,
+              6,
+              8,
+              2,
+              10
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-11-16T19:04:56.092920"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 87.6,
+  "finished_at": "2026-11-16T19:05:00.378575",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}

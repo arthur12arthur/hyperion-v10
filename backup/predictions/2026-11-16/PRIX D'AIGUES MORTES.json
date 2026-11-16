@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-16",
+  "course_id": "PRIX D'AIGUES MORTES",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    2,
+    8,
+    6,
+    1
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "HARPY",
+      "meta_score": 0.986,
+      "win_prob": 0.7171,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "JAZZ D'OURVILLE",
+      "meta_score": 0.89,
+      "win_prob": 0.1739,
+      "robuste": true
+    },
+    {
+      "numero": 8,
+      "nom": "KAXIG IN",
+      "meta_score": 0.75,
+      "win_prob": 0.0603,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "Cheval 6",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "ILIANO DES PLAINES",
+      "meta_score": 0.23,
+      "win_prob": 0.0367,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "CanalTurf",
+      "url": "https://www.canalturf.com/pronostics-PMU/2026-11-16/paris-vincennes/423717_prix-d-aigues-mortes.html",
+      "top5": [
+        4,
+        6,
+        8,
+        2,
+        10
+      ]
+    }
+  ],
+  "consensus_externe": [
+    4,
+    6,
+    8,
+    2,
+    10
+  ],
+  "generated_at": "2026-11-16T19:05:00.378020"
+}
