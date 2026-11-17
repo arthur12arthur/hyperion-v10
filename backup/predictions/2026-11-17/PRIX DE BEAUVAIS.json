@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-17",
+  "course_id": "PRIX DE BEAUVAIS",
+  "hippodrome": "CHANTILLY",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    2,
+    8,
+    1,
+    7
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "JUSEARTH FAL",
+      "meta_score": 0.997,
+      "win_prob": 0.9226,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "OLYMPIC MESSAGE",
+      "meta_score": 0.547,
+      "win_prob": 0.0035,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "Cheval 8",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 1,
+      "nom": "FERRARI FEVER",
+      "meta_score": 0.306,
+      "win_prob": 0.0269,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "DUBALAA",
+      "meta_score": 0.303,
+      "win_prob": 0.0266,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "rcbradio83",
+      "url": "https://www.facebook.com/rcbradio83/posts/pronostic-quint%C3%A9-mardi-17-novembre-2026hippodrome-chantillycourse-prix-de-beauva/2000502338007916/",
+      "top5": [
+        2,
+        4,
+        8,
+        14,
+        13
+      ]
+    }
+  ],
+  "consensus_externe": [
+    2,
+    4,
+    8,
+    14,
+    13
+  ],
+  "generated_at": "2026-11-17T18:00:37.640013"
+}
