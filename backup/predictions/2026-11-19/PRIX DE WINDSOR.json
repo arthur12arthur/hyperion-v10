@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-19",
+  "course_id": "PRIX DE WINDSOR",
+  "hippodrome": "SAINT-CLOUD",
+  "numero_reunion": null,
+  "numero_course": 6,
+  "is_lonab": true,
+  "predicted_top5": [
+    16,
+    3,
+    13,
+    14,
+    2
+  ],
+  "predicted_winner": 16,
+  "top5_details": [
+    {
+      "numero": 16,
+      "nom": "JUST JIM",
+      "meta_score": 0.361,
+      "win_prob": 0.2898,
+      "robuste": false
+    },
+    {
+      "numero": 3,
+      "nom": "GET SET",
+      "meta_score": 0.371,
+      "win_prob": 0.3107,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "DOURIANN",
+      "meta_score": 0.274,
+      "win_prob": 0.1676,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "COMME QUOI",
+      "meta_score": 0.155,
+      "win_prob": 0.068,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "BAYAMOON",
+      "meta_score": 0.123,
+      "win_prob": 0.0503,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-19T18:02:08.111816"
+}
