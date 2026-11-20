@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-20",
+  "course_id": "PRIX TRITON",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    4,
+    5,
+    1,
+    13,
+    2
+  ],
+  "predicted_winner": 4,
+  "top5_details": [
+    {
+      "numero": 4,
+      "nom": "KERVELEAN",
+      "meta_score": 0.992,
+      "win_prob": 0.6106,
+      "robuste": true
+    },
+    {
+      "numero": 5,
+      "nom": "KELLER DE L'ITON",
+      "meta_score": 0.977,
+      "win_prob": 0.3575,
+      "robuste": true
+    },
+    {
+      "numero": 1,
+      "nom": "KING FROMENTRO",
+      "meta_score": 0.701,
+      "win_prob": 0.0178,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "KING D'HERMES",
+      "meta_score": 0.528,
+      "win_prob": 0.0022,
+      "robuste": false
+    },
+    {
+      "numero": 2,
+      "nom": "KOQUERY DU BUISSON",
+      "meta_score": 0.191,
+      "win_prob": 0.011,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "Google Cache",
+      "url": "https://www.google.com/goto?url=CAESmAEBxCJF14F5_dWtck94xU_f8xS2yA20QVIRHS0cDcALTHFMV3kCz0ikrSpW9xcSwGf6qBgYbhTihMI43KaaWM2wEW2BE73Kq_lPb1N9G8dvS3oh2Bz0xSWwxCtGqWFrttJ12GLxeaoC3pw77FY-_bCPLvH6-X6cruF_Rqv1W8gU5M8TBu1ggGLCh-mk1RWN2rJd15-qEbMpNw&gsessionid=9NXKJrMNq5QwuEh0k8YBIZ_7zHS5rVg7C-ufsxMkWUI0FrEwyOWg8w",
+      "top5": [
+        5,
+        4,
+        13,
+        1,
+        11
+      ]
+    }
+  ],
+  "consensus_externe": [
+    5,
+    4,
+    13,
+    1,
+    11
+  ],
+  "generated_at": "2026-11-20T17:26:21.330844"
+}
