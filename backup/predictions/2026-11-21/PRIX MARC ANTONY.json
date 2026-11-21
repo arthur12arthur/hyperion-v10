@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-21",
+  "course_id": "PRIX MARC ANTONY",
+  "hippodrome": "AUTEUIL",
+  "numero_reunion": null,
+  "numero_course": 6,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    14,
+    9,
+    8,
+    12
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "SILAWAY",
+      "meta_score": 0.547,
+      "win_prob": 0.8776,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "ALHUNTER",
+      "meta_score": 0.445,
+      "win_prob": 0.094,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "MOUSSE DU CHEF",
+      "meta_score": 0.219,
+      "win_prob": 0.0132,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "PAREIL PAREIL",
+      "meta_score": 0.164,
+      "win_prob": 0.0082,
+      "robuste": false
+    },
+    {
+      "numero": 12,
+      "nom": "BLIDA",
+      "meta_score": 0.091,
+      "win_prob": 0.003,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-21T16:30:21.115802"
+}
