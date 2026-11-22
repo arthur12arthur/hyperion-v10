@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-22",
+  "course_id": "PRIX DE BRETAGNE-AMERIQUE RACES Q1",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    1,
+    16,
+    5,
+    10,
+    15
+  ],
+  "predicted_winner": 1,
+  "top5_details": [
+    {
+      "numero": 1,
+      "nom": "KUIPER",
+      "meta_score": 0.487,
+      "win_prob": 0.523,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "FRANK GIO",
+      "meta_score": 0.418,
+      "win_prob": 0.2762,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "KANTO AVIS",
+      "meta_score": 0.252,
+      "win_prob": 0.0899,
+      "robuste": false
+    },
+    {
+      "numero": 10,
+      "nom": "FREE TIME JEPSON",
+      "meta_score": 0.144,
+      "win_prob": 0.0354,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "BORUPS VICTORY",
+      "meta_score": 0.15,
+      "win_prob": 0.0388,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-22T16:47:55.623098"
+}
