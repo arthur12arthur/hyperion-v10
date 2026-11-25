@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-25",
+  "course_id": "PRIX DE SAINT-CENERI-LE GEREI",
+  "hippodrome": "DEAUVILLE-LA TOUQUES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    10,
+    14,
+    5,
+    9,
+    16
+  ],
+  "predicted_winner": 10,
+  "top5_details": [
+    {
+      "numero": 10,
+      "nom": "FIRE REBEL",
+      "meta_score": 0.549,
+      "win_prob": 0.8934,
+      "robuste": false
+    },
+    {
+      "numero": 14,
+      "nom": "ROYALWOOD",
+      "meta_score": 0.47,
+      "win_prob": 0.083,
+      "robuste": false
+    },
+    {
+      "numero": 5,
+      "nom": "GRAND SCOOP",
+      "meta_score": 0.307,
+      "win_prob": 0.0182,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "OMICRONE",
+      "meta_score": 0.107,
+      "win_prob": 0.0025,
+      "robuste": false
+    },
+    {
+      "numero": 16,
+      "nom": "PAINTELLO",
+      "meta_score": 0.083,
+      "win_prob": 0.0015,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-25T18:55:23.616668"
+}
