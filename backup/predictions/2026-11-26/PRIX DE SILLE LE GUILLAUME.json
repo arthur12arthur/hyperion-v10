@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-26",
+  "course_id": "PRIX DE SILLE LE GUILLAUME",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 1,
+  "is_lonab": true,
+  "predicted_top5": [
+    8,
+    14,
+    2,
+    13,
+    15
+  ],
+  "predicted_winner": 8,
+  "top5_details": [
+    {
+      "numero": 8,
+      "nom": "READY STAR",
+      "meta_score": 0.997,
+      "win_prob": 0.3896,
+      "robuste": true
+    },
+    {
+      "numero": 14,
+      "nom": "Cheval 14",
+      "meta_score": 0.9,
+      "win_prob": null,
+      "robuste": true
+    },
+    {
+      "numero": 2,
+      "nom": "HARPY",
+      "meta_score": 0.549,
+      "win_prob": 0.606,
+      "robuste": false
+    },
+    {
+      "numero": 13,
+      "nom": "Cheval 13",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    },
+    {
+      "numero": 15,
+      "nom": "Cheval 15",
+      "meta_score": 0.45,
+      "win_prob": null,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 5,
+  "external_sources": [
+    {
+      "source": "geny.com",
+      "url": "https://www.geny.com/course/1616948-2025-11-20-vincennes-prix-de-sille-le-guillaume/partants-pronostics",
+      "top5": [
+        14,
+        13,
+        14,
+        15,
+        8
+      ]
+    }
+  ],
+  "consensus_externe": [
+    14,
+    13,
+    15,
+    8
+  ],
+  "generated_at": "2026-11-26T18:44:39.081612"
+}

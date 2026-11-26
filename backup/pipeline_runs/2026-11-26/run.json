@@ -1,0 +1,635 @@
+{
+  "date": "2026-11-26",
+  "run_id": "20261126_184334",
+  "started_at": "2026-11-26T18:43:34.811535",
+  "nb_courses": 1,
+  "nb_pronostics": 1,
+  "errors": [],
+  "results": [
+    {
+      "course": {
+        "id_course": "PRIX DE SILLE LE GUILLAUME",
+        "hippodrome": "PARIS-VINCENNES",
+        "date": "2026-11-26",
+        "heure": "12:55",
+        "distance": 2850,
+        "terrain": null,
+        "discipline": "ATTELE",
+        "nb_partants": 16,
+        "chevaux": [
+          {
+            "numero": 1,
+            "nom": "OSCAR VAN HALBEEK",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.8.2.D.D",
+            "gains_totaux": 210792,
+            "jockey": "S. LAVIGNE",
+            "entraineur": "S. LAVIGNE",
+            "proprietaire": "S. LAVIGNE",
+            "cote": 27.0
+          },
+          {
+            "numero": 2,
+            "nom": "HARPY",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "2.5.2.2.4",
+            "gains_totaux": 213610,
+            "jockey": "R. BERGH",
+            "entraineur": "R. BERGH",
+            "proprietaire": "Stall SEDIN HB",
+            "cote": 8.0
+          },
+          {
+            "numero": 3,
+            "nom": "RUGER",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "9.1.2.1.1",
+            "gains_totaux": 224272,
+            "jockey": "F. DESMIGNEUX",
+            "entraineur": "E. LINDEGREN",
+            "proprietaire": "FJ KONSULT AB",
+            "cote": 34.0
+          },
+          {
+            "numero": 4,
+            "nom": "JUSSEO",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "D.9.6.1.D",
+            "gains_totaux": 226680,
+            "jockey": "E. RAFFIN",
+            "entraineur": "Julien RAFFESTIN",
+            "proprietaire": "PH. GENTIL",
+            "cote": 22.0
+          },
+          {
+            "numero": 5,
+            "nom": "MATEO DI QUATTRO",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "0.9.4.6.0",
+            "gains_totaux": 228130,
+            "jockey": "B. GOOP",
+            "entraineur": "B. GOOP",
+            "proprietaire": "PETER BRONSMAN AB",
+            "cote": 25.0
+          },
+          {
+            "numero": 6,
+            "nom": "DIVA DEL RONCO",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "0.2.8.6.D",
+            "gains_totaux": 245668,
+            "jockey": "V. CIOTOLA",
+            "entraineur": "Vitale CIOTOLA",
+            "proprietaire": "Sc. ALLE. TEAM MINOPOLI",
+            "cote": 97.0
+          },
+          {
+            "numero": 7,
+            "nom": "LAREDO BOKO",
+            "age": 8,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "9.0.7.2.6",
+            "gains_totaux": 256038,
+            "jockey": "G. GELORMINI",
+            "entraineur": "R. BERGH",
+            "proprietaire": "Roland WIKSTEN",
+            "cote": 20.0
+          },
+          {
+            "numero": 8,
+            "nom": "READY STAR",
+            "age": 7,
+            "sexe": "M",
+            "poids": null,
+            "corde": null,
+            "forme": "1.1.2.1.2",
+            "gains_totaux": 264748,
+            "jockey": "MATS DJUSE",
+            "entraineur": "J. WESTHOLM",
+            "proprietaire": "EC. OLOF BRODIN AB",
+            "cote": 5.0
+          },
+          {
+            "numero": 9,
+            "nom": "DIABEL",
+            "age": 7,
+            "sexe": "F",
+            "poids": null,
+            "corde": null,
+            "forme": "7.9.8.5.2",
+            "gains_totaux": 266435,
+            "jockey": "B. ROCHARD",
+            "entraineur": "H.E. BONDO",
+            "proprietaire": "Scu. ZB SPORT SRL",
+            "cote": 16.0
+          },
+          {
+            "numero": 10,
+            "nom": "HALL BLACK MESS",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.D.7.0.0",
+            "gains_totaux": 271290,
+            "jockey": "TH. CHALON",
+            "entraineur": "CH. CHALON",
+            "proprietaire": "F. CHARBIT",
+            "cote": 58.0
+          },
+          {
+            "numero": 11,
+            "nom": "JACK DES ASS",
+            "age": 7,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "D.1.D.3.1",
+            "gains_totaux": 275510,
+            "jockey": "THEO DUVALDESTIN",
+            "entraineur": "TH. DUVALDESTIN",
+            "proprietaire": "EC. HS. DES QUATRE VENTS",
+            "cote": 11.0
+          },
+          {
+            "numero": 12,
+            "nom": "IBIS PETTEVINIERE",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "3.1.2.9.0",
+            "gains_totaux": 278870,
+            "jockey": "A. COLLETTE",
+            "entraineur": "F. TERRY",
+            "proprietaire": "M. MAIGE",
+            "cote": 43.0
+          },
+          {
+            "numero": 13,
+            "nom": "HONEY KING",
+            "age": 9,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "7.5.0.D.0",
+            "gains_totaux": 280750,
+            "jockey": "P.PH. PLOQUIN",
+            "entraineur": "M. IZZO",
+            "proprietaire": "S. BLANCHETIERE",
+            "cote": 68.0
+          },
+          {
+            "numero": 14,
+            "nom": "IRISH NICE ELGE",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "5.5.1.3.D",
+            "gains_totaux": 284370,
+            "jockey": "M. ABRIVARD",
+            "entraineur": "Lucka STAEL",
+            "proprietaire": "Stables ART",
+            "cote": 24.0
+          },
+          {
+            "numero": 15,
+            "nom": "COOL KRONOS",
+            "age": 8,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "6.4.5.3.7",
+            "gains_totaux": 292482,
+            "jockey": "CH. MARTENS",
+            "entraineur": "Sté. Ent. Chr. MARTENS",
+            "proprietaire": "PH. VAN WEEHAEGHE",
+            "cote": 34.0
+          },
+          {
+            "numero": 16,
+            "nom": "GREG DE NIRO",
+            "age": 10,
+            "sexe": "H",
+            "poids": null,
+            "corde": null,
+            "forme": "4.5.2.2.1",
+            "gains_totaux": 294300,
+            "jockey": "CEDRIC TERRY",
+            "entraineur": "F. TERRY",
+            "proprietaire": "EC. SM CRACK",
+            "cote": 63.0
+          }
+        ],
+        "is_lonab": true,
+        "numero_reunion": null,
+        "numero_course": 1
+      },
+      "top5_final": [
+        {
+          "numero": 8,
+          "nom": "READY STAR",
+          "age": 7,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "1.1.2.1.2",
+          "gains_totaux": 264748,
+          "jockey": "MATS DJUSE",
+          "entraineur": "J. WESTHOLM",
+          "proprietaire": "EC. OLOF BRODIN AB",
+          "cote": 5.0,
+          "score_historique": 6.55,
+          "score_forme": 5.0,
+          "score_terrain_distance": 6.5,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 6.191,
+          "win_prob": 0.3896,
+          "place_prob": 0.9622,
+          "top3_prob": 0.9946,
+          "confiance_mc": 0.995,
+          "score_pondere": 767184.0,
+          "borda_rank": 2,
+          "position": 1,
+          "robuste": true,
+          "meta_score": 0.997,
+          "score_mc": 0.995,
+          "score_externe": 1.0
+        },
+        {
+          "position": 2,
+          "numero": 14,
+          "nom": "Cheval 14",
+          "meta_score": 0.9,
+          "robuste": true,
+          "score_mc": 0.0,
+          "score_externe": 2.0,
+          "cote": 24.0,
+          "forme": "5.5.1.3.D",
+          "age": 8,
+          "poids": null,
+          "jockey": "M. ABRIVARD"
+        },
+        {
+          "numero": 2,
+          "nom": "HARPY",
+          "age": 7,
+          "sexe": "M",
+          "poids": null,
+          "corde": null,
+          "forme": "2.5.2.2.4",
+          "gains_totaux": 213610,
+          "jockey": "R. BERGH",
+          "entraineur": "R. BERGH",
+          "proprietaire": "Stall SEDIN HB",
+          "cote": 8.0,
+          "score_historique": 6.13,
+          "score_forme": 5.0,
+          "score_terrain_distance": 7.7,
+          "score_handicap": 7.5,
+          "score_fraicheur": 6.0,
+          "score_global": 6.286,
+          "win_prob": 0.606,
+          "place_prob": 0.9826,
+          "top3_prob": 0.998,
+          "confiance_mc": 0.998,
+          "score_pondere": 779300.0,
+          "borda_rank": 1,
+          "position": 3,
+          "robuste": false,
+          "meta_score": 0.549,
+          "score_mc": 0.998,
+          "score_externe": 0.0
+        },
+        {
+          "position": 4,
+          "numero": 13,
+          "nom": "Cheval 13",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 68.0,
+          "forme": "7.5.0.D.0",
+          "age": 9,
+          "poids": null,
+          "jockey": "P.PH. PLOQUIN"
+        },
+        {
+          "position": 5,
+          "numero": 15,
+          "nom": "Cheval 15",
+          "meta_score": 0.45,
+          "robuste": false,
+          "score_mc": 0.0,
+          "score_externe": 1.0,
+          "cote": 34.0,
+          "forme": "6.4.5.3.7",
+          "age": 8,
+          "poids": null,
+          "jockey": "CH. MARTENS"
+        }
+      ],
+      "elimines": [],
+      "hades": {
+        "niveau_global": "red",
+        "signaux": [
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 2,
+            "cheval_nom": "HARPY",
+            "message": "N°2 HARPY : écart cote 385% (affichée 8.0, théorique 1.6) — surévalué",
+            "cote_affichee": 8.0,
+            "cote_theorique": 1.65,
+            "ecart_pct": 3.848
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 3,
+            "cheval_nom": "RUGER",
+            "message": "N°3 RUGER : écart cote 92% (affichée 34.0, théorique 416.7) — sous-évalué",
+            "cote_affichee": 34.0,
+            "cote_theorique": 416.67,
+            "ecart_pct": 0.918
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 5,
+            "cheval_nom": "MATEO DI QUATTRO",
+            "message": "N°5 MATEO DI QUATTRO : écart cote 96% (affichée 25.0, théorique 555.6) — sous-évalué",
+            "cote_affichee": 25.0,
+            "cote_theorique": 555.56,
+            "ecart_pct": 0.955
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 8,
+            "cheval_nom": "READY STAR",
+            "message": "N°8 READY STAR : écart cote 95% (affichée 5.0, théorique 2.6) — surévalué",
+            "cote_affichee": 5.0,
+            "cote_theorique": 2.57,
+            "ecart_pct": 0.946
+          },
+          {
+            "type": "ECART_COTE",
+            "niveau": "red",
+            "cheval_numero": 9,
+            "cheval_nom": "DIABEL",
+            "message": "N°9 DIABEL : écart cote 100% (affichée 16.0, théorique 5000.0) — sous-évalué",
+            "cote_affichee": 16.0,
+            "cote_theorique": 5000.0,
+            "ecart_pct": 0.997
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 13,
+            "cheval_nom": "HONEY KING",
+            "message": "N°13 HONEY KING : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 14,
+            "cheval_nom": "IRISH NICE ELGE",
+            "message": "N°14 IRISH NICE ELGE : hype artificielle possible — prob. interne 0% mais 200% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 2.0
+          },
+          {
+            "type": "FAVORI_ARTIFICIEL",
+            "niveau": "yellow",
+            "cheval_numero": 15,
+            "cheval_nom": "COOL KRONOS",
+            "message": "N°15 COOL KRONOS : hype artificielle possible — prob. interne 0% mais 100% sources externes",
+            "prob_internal": 0.0,
+            "freq_external": 1.0
+          }
+        ],
+        "chevaux_suspects": [
+          2,
+          3,
+          5,
+          8,
+          9,
+          13,
+          14,
+          15
+        ],
+        "nb_signaux": 8,
+        "mode_test": true,
+        "detected_at": "2026-11-26T18:44:21.789899"
+      },
+      "ev_kelly": {
+        "chevaux": {
+          "8": {
+            "numero": 8,
+            "nom": "READY STAR",
+            "cote_affichee": 5.0,
+            "cote_theorique": 1.0,
+            "prob_reelle": 0.997,
+            "prob_implicite": 0.17,
+            "ev": 3.985,
+            "ev_pct": 398.5,
+            "kelly_raw": 0.9962,
+            "kelly_fractionne": 0.2491,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "14": {
+            "numero": 14,
+            "nom": "IRISH NICE ELGE",
+            "cote_affichee": 24.0,
+            "cote_theorique": 1.11,
+            "prob_reelle": 0.9,
+            "prob_implicite": 0.035,
+            "ev": 20.6,
+            "ev_pct": 2060.0,
+            "kelly_raw": 0.8957,
+            "kelly_fractionne": 0.2239,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "2": {
+            "numero": 2,
+            "nom": "HARPY",
+            "cote_affichee": 8.0,
+            "cote_theorique": 1.82,
+            "prob_reelle": 0.549,
+            "prob_implicite": 0.106,
+            "ev": 3.392,
+            "ev_pct": 339.2,
+            "kelly_raw": 0.4846,
+            "kelly_fractionne": 0.1211,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "FAIBLE",
+            "is_value_bet": true
+          },
+          "13": {
+            "numero": 13,
+            "nom": "HONEY KING",
+            "cote_affichee": 68.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.012,
+            "ev": 29.6,
+            "ev_pct": 2960.0,
+            "kelly_raw": 0.4418,
+            "kelly_fractionne": 0.1104,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          },
+          "15": {
+            "numero": 15,
+            "nom": "COOL KRONOS",
+            "cote_affichee": 34.0,
+            "cote_theorique": 2.22,
+            "prob_reelle": 0.45,
+            "prob_implicite": 0.025,
+            "ev": 14.3,
+            "ev_pct": 1430.0,
+            "kelly_raw": 0.4333,
+            "kelly_fractionne": 0.1083,
+            "kelly_cappe": 0.05,
+            "mises": {
+              "capital_1000": 50.0,
+              "capital_10000": 500.0
+            },
+            "risque": "ÉLEVÉ",
+            "is_value_bet": true
+          }
+        },
+        "value_bets": [
+          8,
+          14,
+          2,
+          13,
+          15
+        ],
+        "nb_value_bets": 5
+      },
+      "rapport_gemini": "L'analyse de cette épreuve sur les 2850 mètres de Paris-Vincennes place nettement le N°8 READY STAR en position de grand favori, fort d'un score de 0.997 et d'une régularité exemplaire matérialisée par sa musique récente. Derrière cette base incontournable, le N°14 s'impose comme un outsider séduisant à belle cote (24.0) capable de pimenter les rapports, tout comme le N°2 HARPY qui bénéficie d'une régularité appréciable à la cote de 8.0. Malgré une domination écrasante du favori, l'indice de confiance s'établit à 69% dans un contexte rendu complexe par l'algorithme HADES qui décèle 8 signaux d'alerte, suggérant une course potentiellement riche en rebondissements. Dans cette configuration, il est conseillé de privilégier un jeu simple gagnant-placé solide avec le favori, et d'élargir ses combinaisons en couplé et en trio en y incluant le N°14 et le N°2 pour optimiser les retours face à la volatilité de la course.",
+      "external_aggregation": {
+        "chevaux_stats": {
+          "14": {
+            "numero": 14,
+            "external_frequency": 2.0,
+            "external_score": 0.8,
+            "apparitions": 2,
+            "position_moyenne": 2.0
+          },
+          "13": {
+            "numero": 13,
+            "external_frequency": 1.0,
+            "external_score": 0.8,
+            "apparitions": 1,
+            "position_moyenne": 2.0
+          },
+          "15": {
+            "numero": 15,
+            "external_frequency": 1.0,
+            "external_score": 0.4,
+            "apparitions": 1,
+            "position_moyenne": 4.0
+          },
+          "8": {
+            "numero": 8,
+            "external_frequency": 1.0,
+            "external_score": 0.2,
+            "apparitions": 1,
+            "position_moyenne": 5.0
+          }
+        },
+        "consensus_externe": [
+          14,
+          13,
+          15,
+          8
+        ],
+        "sources_detail": [
+          {
+            "source": "geny.com",
+            "url": "https://www.geny.com/course/1616948-2025-11-20-vincennes-prix-de-sille-le-guillaume/partants-pronostics",
+            "top5": [
+              14,
+              13,
+              14,
+              15,
+              8
+            ]
+          }
+        ],
+        "qualite": "DISPONIBLE",
+        "nb_sources": 1
+      },
+      "mc_result": {
+        "is_robust": true,
+        "stability": 1.0,
+        "total_simulations": 50000
+      },
+      "generated_at": "2026-11-26T18:44:34.253235"
+    }
+  ],
+  "test_mode": false,
+  "duration_sec": 64.3,
+  "finished_at": "2026-11-26T18:44:39.082178",
+  "quota_status": {
+    "KEY1": {
+      "calls_today": 4,
+      "active": true,
+      "last_error": null
+    },
+    "KEY2": {
+      "calls_today": 0,
+      "active": true,
+      "last_error": null
+    }
+  }
+}
