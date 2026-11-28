@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-28",
+  "course_id": "PRIX D'ORAISON",
+  "hippodrome": "PARIS-VINCENNES",
+  "numero_reunion": null,
+  "numero_course": 4,
+  "is_lonab": true,
+  "predicted_top5": [
+    3,
+    9,
+    6,
+    7,
+    8
+  ],
+  "predicted_winner": 3,
+  "top5_details": [
+    {
+      "numero": 3,
+      "nom": "MUSTANG HAUFOR",
+      "meta_score": 0.487,
+      "win_prob": 0.5753,
+      "robuste": false
+    },
+    {
+      "numero": 9,
+      "nom": "MOSCATO SHOW",
+      "meta_score": 0.314,
+      "win_prob": 0.1569,
+      "robuste": false
+    },
+    {
+      "numero": 6,
+      "nom": "MIRABILIS VRIE",
+      "meta_score": 0.28,
+      "win_prob": 0.1206,
+      "robuste": false
+    },
+    {
+      "numero": 7,
+      "nom": "MOJI DE VANDEL",
+      "meta_score": 0.151,
+      "win_prob": 0.0439,
+      "robuste": false
+    },
+    {
+      "numero": 8,
+      "nom": "MERGINIO",
+      "meta_score": 0.175,
+      "win_prob": 0.0565,
+      "robuste": false
+    }
+  ],
+  "hades_niveau": "red",
+  "nb_value_bets": 4,
+  "external_sources": [],
+  "consensus_externe": [],
+  "generated_at": "2026-11-28T17:16:42.990546"
+}
